@@ -9,7 +9,7 @@
 
 **Everything you need to prepare for the ISACA AAISM (Artificial Intelligence Auditing and Security Management) exam.** 31 chapters covering all three domains, 24 original diagrams, 25-question self-test, glossary, and a six-week study plan — written to build real understanding, not just exam recall. Free and open.
 
-> **📖 [Read the full guide →](https://jayelbotvibe-web.github.io/isaca-aaism-study-guide/)** — works offline, prints to PDF, no dependencies.
+> **📖 [Read the full guide →](https://htmlpreview.github.io/?https://github.com/jayelbotvibe-web/isaca-aaism-study-guide/blob/master/index.html)** — works offline, prints to PDF, no dependencies.
 
 ---
 
@@ -40,7 +40,7 @@ Every chapter explains *why* each control exists — so the material survives th
 
 ## How to Use It
 
-1. **Read online** at [jayelbotvibe-web.github.io/isaca-aaism-study-guide](https://jayelbotvibe-web.github.io/isaca-aaism-study-guide/)
+1. **Read online** at [htmlpreview.github.io](https://htmlpreview.github.io/?https://github.com/jayelbotvibe-web/isaca-aaism-study-guide/blob/master/index.html)
 2. **Download `index.html`** — open it in any browser, works fully offline
 3. **Print to PDF** — the print stylesheet produces a clean, paginated document
 4. **Share with study groups** — free for non-commercial use with attribution
