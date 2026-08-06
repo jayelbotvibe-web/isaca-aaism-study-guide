@@ -1,21 +1,21 @@
-# Securing the Machine
+# ISACA AAISM Study Guide
 
-### An Independent Study Guide to AI Security Management (ISACA AAISM)
+### Free, comprehensive study material for the ISACA AAISM certification in AI Security Management
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Edition 2](https://img.shields.io/badge/Edition-2-v2.1-blue)](https://github.com/jayelbotvibe-web/securing-the-machine)
-[![Chapters](https://img.shields.io/badge/Chapters-31-6E3B7E)](https://github.com/jayelbotvibe-web/securing-the-machine)
-[![Diagrams](https://img.shields.io/badge/Diagrams-24-A85B1B)](https://github.com/jayelbotvibe-web/securing-the-machine)
+[![Edition 2](https://img.shields.io/badge/Edition-2-v2.1-blue)](https://github.com/jayelbotvibe-web/isaca-aaism-study-guide)
+[![Chapters](https://img.shields.io/badge/Chapters-31-6E3B7E)](https://github.com/jayelbotvibe-web/isaca-aaism-study-guide)
+[![Diagrams](https://img.shields.io/badge/Diagrams-24-A85B1B)](https://github.com/jayelbotvibe-web/isaca-aaism-study-guide)
 
-**A free, comprehensive study guide for the ISACA AAISM (Artificial Intelligence Auditing and Security Management) certification.** 31 chapters, 24 original diagrams, and a 25-question self-test — written to build real understanding, not just exam recall.
+**Everything you need to prepare for the ISACA AAISM (Artificial Intelligence Auditing and Security Management) exam.** 31 chapters covering all three domains, 24 original diagrams, 25-question self-test, glossary, and a six-week study plan — written to build real understanding, not just exam recall. Free and open.
 
-> **📖 [Read it now →](https://jayelbotvibe-web.github.io/securing-the-machine/)** — works offline, prints beautifully, no dependencies.
+> **📖 [Read the full guide →](https://jayelbotvibe-web.github.io/isaca-aaism-study-guide/)** — works offline, prints to PDF, no dependencies.
 
 ---
 
 ## What This Is
 
-This guide covers the complete AAISM exam syllabus across its three domains at their stated weightings:
+Complete AAISM exam preparation material covering the full syllabus across three domains:
 
 | Domain | Weight | What It Covers |
 |--------|--------|----------------|
@@ -34,12 +34,14 @@ Every chapter explains *why* each control exists — so the material survives th
 - **18 real-world cases** — from Dutch childcare benefits to the Arup deepfake video call
 - **Single HTML file** — works offline, prints to PDF, no npm install, no build step
 - **Running case study** — one fictional company threads through every chapter
+- **Six-week study plan** — weighted to the exam domains
+- **Glossary & indices** — analogy index, case index, full glossary of exam terms
 - **CC BY-NC-SA** — free to share, adapt, and use in study groups
 
 ## How to Use It
 
-1. **Read online** at [jayelbotvibe-web.github.io/securing-the-machine](https://jayelbotvibe-web.github.io/securing-the-machine/)
-2. **Download** `index.html` — open it in any browser, works fully offline
+1. **Read online** at [jayelbotvibe-web.github.io/isaca-aaism-study-guide](https://jayelbotvibe-web.github.io/isaca-aaism-study-guide/)
+2. **Download `index.html`** — open it in any browser, works fully offline
 3. **Print to PDF** — the print stylesheet produces a clean, paginated document
 4. **Share with study groups** — free for non-commercial use with attribution
 
@@ -49,7 +51,7 @@ Use the **Continuous** toggle at the top of the table of contents to search the 
 
 > ⚠️ **This guide is not affiliated with, endorsed by, licensed by, or produced in cooperation with ISACA.** AAISM, CISM, CISA, CRISC and COBIT are trademarks of ISACA, used here only to identify the certification the guide covers.
 
-- Not a source of exam questions — the self-test is original material
+- Not a source of exam dumps or ISACA's own questions — the self-test is original material
 - Not authoritative on exam logistics — verify fees, scheduling, and eligibility directly with ISACA
 - Not legal advice — verify regulatory timelines against primary sources
 
