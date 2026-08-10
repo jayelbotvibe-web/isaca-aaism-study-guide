@@ -3,7 +3,7 @@
 ### Free, comprehensive study material for the ISACA AAISM certification in AI Security Management
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Edition 2](https://img.shields.io/badge/Edition-2-v2.1-blue)](https://github.com/jayelbotvibe-web/isaca-aaism-study-guide)
+[![Edition 2](https://img.shields.io/badge/Edition-2-v2.2-blue)](https://github.com/jayelbotvibe-web/isaca-aaism-study-guide)
 [![Chapters](https://img.shields.io/badge/Chapters-31-6E3B7E)](https://github.com/jayelbotvibe-web/isaca-aaism-study-guide)
 [![Diagrams](https://img.shields.io/badge/Diagrams-24-A85B1B)](https://github.com/jayelbotvibe-web/isaca-aaism-study-guide)
 
@@ -29,6 +29,7 @@ Every chapter explains *why* each control exists — so the material survives th
 
 - **31 chapters** — complete syllabus coverage, front-loaded with foundations
 - **24 original diagrams** — syllabus map, dependency map, attack taxonomy, architecture layers, oversight model, and more — all clickable to enlarge
+- **Remembers your place** — close the browser, reopen the file, and you land back on the same section and scroll position
 - **25-question self-test** — written in the exam's own style to teach answer patterns
 - **21 analogies** — every difficult concept mapped to something you already understand
 - **18 real-world cases** — from Dutch childcare benefits to the Arup deepfake video call
@@ -46,6 +47,19 @@ Every chapter explains *why* each control exists — so the material survives th
 4. **Share with study groups** — free for non-commercial use with attribution
 
 Use the **Continuous** toggle at the top of the table of contents to search the whole book at once. Save the self-test until you've read the material — it's worth far more as rehearsal than as a diagnostic.
+
+### Picking up where you left off
+
+The guide remembers your reading position, so a 31-chapter book survives being closed. Reopen it and you return to the same section, the same scroll offset, and the same One-at-a-time/Continuous mode, with a small notice naming the section and a **Start over** button if you'd rather begin again.
+
+A few things worth knowing:
+
+- **Nothing leaves your browser.** The position is kept in `localStorage` under a single key, `aaism-book:v1:pos`, holding only a section number, a scroll offset and your reading mode. There is no account, no analytics, no network request — the file makes none, and works entirely offline.
+- **It's per-browser and per-device.** The position lives in the browser you read with, not in the file, so it does not follow a copy you download elsewhere or send to someone. Clearing site data resets it.
+- **Links still win.** Opening a `#chapter` link or bookmark takes you there rather than to your saved spot, so shared links behave as expected.
+- **Private browsing.** Where storage is blocked, the guide reads normally — it simply won't remember.
+
+To clear a saved position, use **Start over** in the notice, or clear site data for wherever you're reading it.
 
 ## What This Is Not
 

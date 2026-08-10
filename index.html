@@ -247,7 +247,26 @@
   .lbb:hover{background:rgba(255,255,255,.12)}
   .lbb.sel{background:var(--signal);border-color:var(--signal);color:#241a04}
   @media(max-width:700px){#lbInner{padding:12px}#lb{padding:60px 8px 30px}}
-  @media print{.page{display:block!important}.pager,.progress,.modebar,.endnote,#lb,#lbBar{display:none}}
+
+  /* ---------- resume notice ---------- */
+  #resume{position:fixed;left:50%;bottom:22px;transform:translate(-50%,14px);z-index:150;
+          display:none;align-items:center;gap:14px;max-width:calc(100vw - 28px);
+          background:rgba(16,23,32,.97);color:#E6EDF3;border:1px solid rgba(255,255,255,.16);
+          border-radius:8px;padding:11px 14px;box-shadow:0 10px 30px rgba(0,0,0,.3);
+          opacity:0;transition:opacity .22s ease,transform .22s ease}
+  #resume.on{display:flex;opacity:1;transform:translate(-50%,0)}
+  #resume b{font-family:var(--sans);font-weight:600;font-size:13px;line-height:1.3;
+            overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  #resume .rsub{font-family:var(--mono);font-size:10px;letter-spacing:.12em;
+                text-transform:uppercase;color:#93A3B3;display:block;margin-bottom:2px}
+  .rbtn{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+        padding:7px 11px;border-radius:5px;border:1px solid rgba(255,255,255,.28);
+        background:transparent;color:#E6EDF3;cursor:pointer;flex:none}
+  .rbtn:hover{background:rgba(255,255,255,.12)}
+  @media(max-width:620px){#resume{left:12px;right:12px;transform:translateY(14px);max-width:none}
+    #resume.on{transform:translateY(0)}}
+
+  @media print{.page{display:block!important}.pager,.progress,.modebar,.endnote,#lb,#lbBar,#resume{display:none}}
   @media print{
     body{background:#fff;font-size:11.5pt} nav.toc{display:none}
     .shell{display:block;padding:0} main{border:0;padding:0}
@@ -267,7 +286,7 @@
       </div>
     </div>
     <div class="mastmeta">
-      <span>Ed 2 · v2.1</span><span>Aug 2026</span><span>31 chapters</span><span>CC BY-NC-SA</span>
+      <span>Ed 2 · v2.2</span><span>Aug 2026</span><span>31 chapters</span><span>CC BY-NC-SA</span>
     </div>
   </div>
   <div class="spine"><i style="background:var(--d1)"></i><i style="background:var(--d2)"></i><i style="background:var(--d3)"></i></div>
@@ -3660,10 +3679,65 @@
   var shell = document.querySelector('.shell');
   var idx = 0, flow = false;
 
+  // ----- reading position memory -----
+  // Namespaced because every file:// page on this machine shares one localStorage origin.
+  var KEY = 'aaism-book:v1:pos';
+  var ready = false;          // suppress saves until the initial restore is done
+  var saveTimer = null;
+
+  function store(){
+    try{ return window.localStorage; }catch(e){ return null; }  // blocked in some private modes
+  }
+  function readPos(){
+    var s = store(); if(!s) return null;
+    try{
+      var raw = s.getItem(KEY);
+      if(!raw) return null;
+      var p = JSON.parse(raw);
+      if(typeof p.idx !== 'number' || p.idx < 0 || p.idx >= pages.length) return null;
+      return p;
+    }catch(e){ return null; }
+  }
+  function save(){
+    if(!ready) return;
+    var s = store(); if(!s) return;
+    try{
+      s.setItem(KEY, JSON.stringify({
+        idx: idx,
+        flow: flow,
+        y: Math.round(window.pageYOffset),
+        id: idOf(idx),
+        at: Date.now()
+      }));
+    }catch(e){ /* quota or disabled — reading still works, just no memory */ }
+  }
+  function saveSoon(){
+    if(saveTimer) return;
+    saveTimer = setTimeout(function(){ saveTimer = null; save(); }, 400);
+  }
+  function forget(){
+    var s = store(); if(!s) return;
+    try{ s.removeItem(KEY); }catch(e){}
+  }
+
   var pageOf = {};
   pages.forEach(function(p,i){
     p.querySelectorAll('[id]').forEach(function(el){ pageOf[el.id] = i; });
   });
+
+  function idOf(i){
+    var el = pages[i] && pages[i].querySelector('[id]');
+    return el ? el.id : null;
+  }
+
+  // html{scroll-behavior:smooth} would turn a restore into a visible animation,
+  // and an interrupted one lands in the wrong place. Force one instant jump.
+  function jumpTo(y){
+    var h = document.documentElement, prev = h.style.scrollBehavior;
+    h.style.scrollBehavior = 'auto';
+    window.scrollTo(0, y);
+    h.style.scrollBehavior = prev;
+  }
 
   function render(){
     pages.forEach(function(p,i){ p.classList.toggle('on', i === idx); });
@@ -3685,6 +3759,11 @@
       var top = (main.getBoundingClientRect().top + window.pageYOffset) - 12;
       window.scrollTo({top: Math.max(0, top), behavior: 'auto'});
     }
+    // Not while restoring: a fragment in the URL makes the browser scroll to that
+    // anchor once loading finishes, overriding the saved offset.
+    var id = idOf(idx);
+    if(ready && id && location.hash.slice(1) !== id) history.replaceState(null, '', '#' + id);
+    save();
   }
   prev.addEventListener('click', function(){ go(idx-1); });
   next.addEventListener('click', function(){ go(idx+1); });
@@ -3715,6 +3794,7 @@
     mPage.classList.toggle('sel', !f);
     mFlow.classList.toggle('sel', f);
     if(!f){ render(); } else { bar.style.width = '100%'; }
+    save();
   }
   mPage.addEventListener('click', function(){ setMode(false); });
   mFlow.addEventListener('click', function(){ setMode(true); });
@@ -3770,8 +3850,65 @@
     if(e.key === 'Escape' && lb.classList.contains('on')) closeFig();
   });
 
+  // ----- resume notice -----
+  var resume = document.createElement('div');
+  resume.id = 'resume';
+  resume.innerHTML = '<b><span class="rsub">Picked up where you left off</span>' +
+    '<span id="rWhere"></span></b>' +
+    '<button class="rbtn" id="rStart" type="button">Start over</button>' +
+    '<button class="rbtn" id="rX" type="button">Dismiss</button>';
+  document.body.appendChild(resume);
+  var hideTimer = null;
+  function hideResume(){ clearTimeout(hideTimer); resume.classList.remove('on'); }
+  document.getElementById('rX').addEventListener('click', hideResume);
+  document.getElementById('rStart').addEventListener('click', function(){
+    hideResume();
+    forget();
+    if(flow) setMode(false);
+    go(0);
+  });
+
+  // ----- restore -----
+  try{ if('scrollRestoration' in history) history.scrollRestoration = 'manual'; }catch(e){}
+
   var start = location.hash.slice(1);
-  go(start && (start in pageOf) ? pageOf[start] : 0, true);
+  var saved = readPos();
+
+  if(start && (start in pageOf)){
+    go(pageOf[start], true);            // an explicit #link or bookmark beats the saved spot
+  } else if(saved){
+    if(saved.flow) setMode(true);
+    go(saved.idx, true);
+    var targetY = Math.max(0, saved.y | 0);
+    if(targetY > 0){
+      jumpTo(targetY);
+      // Re-apply once the document has finished loading, after the browser has
+      // done its own scroll positioning — unless the reader has already moved.
+      var moved = false;
+      var noteMove = function(){ moved = true; };
+      ['wheel','touchstart','keydown','mousedown'].forEach(function(ev){
+        window.addEventListener(ev, noteMove, {passive:true, once:true});
+      });
+      window.addEventListener('load', function(){
+        if(!moved && Math.abs(window.pageYOffset - targetY) > 2) jumpTo(targetY);
+        var rid = idOf(idx);
+        if(rid && location.hash.slice(1) !== rid) history.replaceState(null, '', '#' + rid);
+      });
+    }
+    if(saved.idx > 0 || saved.y > 40){
+      document.getElementById('rWhere').textContent =
+        pages[saved.idx].dataset.label || ('Section ' + (saved.idx + 1));
+      resume.classList.add('on');
+      hideTimer = setTimeout(hideResume, 9000);
+    }
+  } else {
+    go(0, true);
+  }
+
+  ready = true;                          // everything from here on is a real reading action
+  window.addEventListener('scroll', saveSoon, {passive:true});
+  window.addEventListener('pagehide', save);
+  document.addEventListener('visibilitychange', function(){ if(document.hidden) save(); });
 })();
 </script>
 </body>
