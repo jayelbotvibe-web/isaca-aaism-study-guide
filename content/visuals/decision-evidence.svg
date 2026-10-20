@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 655" role="img" aria-labelledby="decision-evidence-title decision-evidence-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="decision-evidence-title">Build an evidence packet a reviewer can use</title>
+<desc id="decision-evidence-desc">Assemble a case packet containing model, data and configuration versions, relevant input context, the decision and supporting evidence, known explanation-fidelity limits, and the human review or override trail. Operators and auditors need evidence that supports reproduction and control testing. An affected person needs a meaningful explanation and an accessible route to review or redress. Review outcomes, corrections and their reasons return to the evidence record. A persuasive model-generated narrative alone does not establish the causes of the decision.</desc>
+<defs><marker id="decision-evidence-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="655" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Build an evidence packet a reviewer can use</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">A fluent model-generated rationale is a claim to validate, not proof of cause.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="123" width="270" height="100" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M40,144 C40,136 70,136 70,144 C70,152 40,152 40,144 v20 C40,172 70,172 70,164 V144" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="152" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Versioned context</text>
+<text x="42" y="181" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Model, data, configuration, input</text>
+<rect x="26" y="278" width="270" height="100" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M42,293 h18 l7,7 v23 h-25 Z M60,293 v8 h7 M47,307 h14 M47,314 h14" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="307" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Decision and basis</text>
+<text x="42" y="336" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Output; relevant evidence;</text>
+<text x="42" y="361" font-size="17" fill="#182633" font-weight="400" text-anchor="start">known fidelity limits</text>
+<rect x="26" y="433" width="270" height="100" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M60,455 a6,6 0 1,0 -12,0 a6,6 0 1,0 12,0 M41,477 v-5 q1,-10 13,-10 q12,0 13,10 v5" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="462" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Human intervention</text>
+<text x="42" y="491" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Who reviewed or overrode;</text>
+<text x="42" y="516" font-size="17" fill="#182633" font-weight="400" text-anchor="start">when and under what authority</text>
+<rect x="392" y="155" width="194" height="327" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M392,193 H586" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="489" y="187" font-size="18" fill="#26557A" font-weight="700" text-anchor="middle">CASE PACKET</text>
+<path d="M415,212 h18 l7,7 v23 h-25 Z M433,212 v8 h7 M420,226 h14 M420,233 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="455" y="233" font-size="16" fill="#182633" font-weight="600" text-anchor="start">Provenance</text>
+<path d="M415,266 h18 l7,7 v23 h-25 Z M433,266 v8 h7 M420,280 h14 M420,287 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="455" y="287" font-size="16" fill="#182633" font-weight="600" text-anchor="start">Decision</text>
+<path d="M415,320 h18 l7,7 v23 h-25 Z M433,320 v8 h7 M420,334 h14 M420,341 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="455" y="341" font-size="16" fill="#182633" font-weight="600" text-anchor="start">Limitations</text>
+<path d="M415,374 h18 l7,7 v23 h-25 Z M433,374 v8 h7 M420,388 h14 M420,395 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="455" y="395" font-size="16" fill="#182633" font-weight="600" text-anchor="start">Review trail</text>
+<path d="M298,173 L386,319" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#decision-evidence-arrow)"/>
+<path d="M298,328 L386,319" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#decision-evidence-arrow)"/>
+<path d="M298,483 L386,319" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#decision-evidence-arrow)"/>
+<rect x="686" y="123" width="248" height="108" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M723,149 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M720,158 l12,12" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="738" y="152" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Operator / auditor</text>
+<text x="702" y="181" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Reproduce and test</text>
+<text x="702" y="206" font-size="17" fill="#182633" font-weight="400" text-anchor="start">control evidence</text>
+<rect x="686" y="324" width="248" height="126" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M720,346 a6,6 0 1,0 -12,0 a6,6 0 1,0 12,0 M701,368 v-5 q1,-10 13,-10 q12,0 13,10 v5" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="738" y="353" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Affected person</text>
+<text x="702" y="382" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Meaningful explanation</text>
+<text x="702" y="407" font-size="17" fill="#182633" font-weight="400" text-anchor="start">and an accessible route</text>
+<text x="702" y="432" font-size="17" fill="#182633" font-weight="400" text-anchor="start">to review or redress</text>
+<path d="M589,262 L680,177" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#decision-evidence-arrow)"/>
+<path d="M589,355 L680,386" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#decision-evidence-arrow)"/>
+<path d="M810,453 V557 H489 V488" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#decision-evidence-arrow)"/>
+<text x="654" y="590" font-size="17" fill="#286151" font-weight="700" text-anchor="middle">Review, correct and record the outcome</text>
+</svg>

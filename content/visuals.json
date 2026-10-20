@@ -1,0 +1,215 @@
+[
+  {
+    "id": "ai-fit",
+    "chapter": "c30",
+    "after": "A decision you can actually defend",
+    "title": "Task fit before automation",
+    "description": [
+      "First define the task, measured success, harm from error, oversight and stop conditions. High-impact or irreversible outcomes need suitable evidence and authority before a method is chosen.",
+      "If explicit rules meet the requirement, use deterministic logic. If the need is answers from permissioned documents, consider retrieval with validation. If a pattern must be learned from examples, consider a model with evaluation. These are starting questions, not mutually exclusive system categories.",
+      "If no approach meets the requirement, reframe the task or retain a human process. An agent adds action across systems only where justified, with delegated authority, approvals, budgets and cancellation."
+    ]
+  },
+  {
+    "id": "build-lifecycle",
+    "chapter": "c4",
+    "after": "Seven stages, and what each one lets in",
+    "title": "The build, operate and retirement path",
+    "description": [
+      "Source data with rights and provenance, prepare and label it with integrity checks, train or tune reproducibly, and evaluate against independent evidence.",
+      "Deploy a signed and versioned release with a fallback. Operate with quality, harm and drift monitoring. Reassess whether to retrain, restrict or retire.",
+      "Retraining uses curated feedback and repeats affected sourcing, preparation, training, evaluation and release evidence. Production output must not become trusted training data automatically.",
+      "Retirement also handles credentials, retained copies, indexes, logs and the process that replaces the AI system."
+    ]
+  },
+  {
+    "id": "deployment-responsibility",
+    "chapter": "c5",
+    "after": "The four modes",
+    "title": "Who operates each layer?",
+    "description": [
+      "These are illustrative arrangements, not a universal legal or contractual allocation. C means customer operation; P means provider operation or origin.",
+      "In the embedded SaaS example, the provider operates the application and serving infrastructure and supplies the base model. With a consumed API, the customer operates its application while the provider supplies serving and the model. Neither example shows fine-tuning for this use case.",
+      "For a provider-hosted fine-tune, the customer operates its application, serving is provider-operated, and the adaptation workflow is shared: customer tuning data and choices combine with provider training infrastructure. The base model has provider origin.",
+      "For a self-hosted unchanged base model, the customer operates the application and serving infrastructure. The base has third-party origin and is not fine-tuned for this use case. Other arrangements are possible; hosting does not determine adaptation.",
+      "Customer access decisions, data handling, local evaluation and verification of supplier evidence remain relevant across all arrangements. Determine hosting, origin, adaptation and legal role separately."
+    ]
+  },
+  {
+    "id": "policy-to-evidence",
+    "chapter": "c7",
+    "after": "Procedures: where policy becomes action",
+    "title": "From appetite to operating evidence",
+    "description": [
+      "The example objective is useful advice without unauthorized disclosure. Appetite and legal constraints define prohibited uses and approval boundaries.",
+      "Policy requires approved services for confidential content. A standard makes this testable with caller-entitlement enforcement and cache isolation. A procedure says how to test, approve, monitor and handle exceptions.",
+      "Denied-access test results and owner decisions provide operating evidence. Findings feed back into the objective, appetite and policy rather than ending at a document.",
+      "Exceptions require a named owner, scope, expiry and compensating controls; legal duties still apply."
+    ]
+  },
+  {
+    "id": "asset-relationships",
+    "chapter": "c8",
+    "after": "What counts as an AI asset",
+    "title": "An inventory follows the system’s relationships",
+    "description": [
+      "The MA-01 use-case record connects the accountable owner, classification, status and reassessment triggers to the system’s component records.",
+      "Source manuals feed a corpus and index, which feed the application. The application can call a work-order tool. Record source rights and versions, chunks, vectors, access-control lists, prompts, policy and permitted actions.",
+      "Connect model and provider versions, terms and dependencies to the application. Connect invoking-user, service and agent identities and permissions to tool access.",
+      "Logs, caches and evaluation records are linked assets with their own protections. A material change to any dependency can reopen the use-case approval and risk evidence."
+    ]
+  },
+  {
+    "id": "program-evidence",
+    "chapter": "c9",
+    "after": "Metrics that mean something",
+    "title": "Coverage, control operation and outcomes",
+    "description": [
+      "Coverage asks whether relevant AI systems are inventoried and assigned owners. Control operation asks whether tests and review logs show the control functioning. Outcomes ask about incidents, harm and affected people.",
+      "These measures complement each other: a system can be in scope while a control fails, and a clean incident count alone does not prove effective control.",
+      "Material findings require a named owner, funded action, a due date, and retesting and reporting. Include denominators, blind spots and unresolved exceptions."
+    ]
+  },
+  {
+    "id": "incident-parallel",
+    "chapter": "c10",
+    "after": "Multiple clocks run at once",
+    "title": "Containment, notification and continuity run together",
+    "description": [
+      "Detection, evidence preservation and triage establish impact, authority, affected systems and known facts. Coordinated tracks then run in parallel rather than waiting for one another to finish.",
+      "Containment restricts unsafe actions, revokes access or isolates affected components, and verifies the result.",
+      "Notification identifies all applicable legal, sector and contractual duties, tracks their separate triggers and deadlines, and communicates facts and updates as required. The diagram supplies no universal notification deadline.",
+      "Continuity activates a safe fallback, validates service quality, and reconciles state before returning to the AI-assisted process. New facts update all tracks; restoration needs evidence and authorization."
+    ]
+  },
+  {
+    "id": "risk-bow-tie",
+    "chapter": "c11",
+    "after": "A complete risk record: R-07 unauthorized contract disclosure",
+    "title": "Causes, event, consequences and residual risk",
+    "description": [
+      "The scoped event is restricted contract terms reaching an unauthorized audience. Causes include a broad retrieval identity that fails to enforce caller rights and a response cache shared across audiences.",
+      "Preventive controls include caller-entitlement checks and cache isolation. Consequences include privacy or contract harm and business response, claims and trust impacts.",
+      "Controls on the consequence side restrict access, investigate, notify where required and provide redress. They can limit harm and support recovery without undoing the original disclosure.",
+      "Assess inherent exposure, implement and test treatment, assess residual exposure, then decide and monitor. Acceptance requires evidence, expiry and lawful residual exposure within delegated limits."
+    ]
+  },
+  {
+    "id": "risk-economics",
+    "chapter": "c29",
+    "after": "A small quantitative risk decision: assumptions are not observed facts",
+    "title": "A control can reduce loss and still have a cost",
+    "description": [
+      "This fictional example uses mean estimates rather than observed annual results. Baseline frequency of 0.2 events per year times $500,000 mean loss per event gives roughly $100,000 annual expected loss.",
+      "The treatment scenario assumes 0.05 events per year at unchanged mean severity: roughly $25,000 residual annual expected loss. Adding $40,000 annual treatment cost gives a $65,000 total and $35,000 simple net mean benefit relative to the baseline.",
+      "The bars compare these means only; they do not represent a confidence interval or a guarantee. Investigate uncertainty, correlated events, severe tails and legal or safety constraints before deciding."
+    ]
+  },
+  {
+    "id": "supplier-chain",
+    "chapter": "c13",
+    "after": "Five dimensions, and the chain beyond your vendor",
+    "title": "Map direct suppliers and upstream dependencies",
+    "description": [
+      "The illustrative primary chain runs from Calder’s application to an orchestration supplier, a model service and hosting infrastructure. Their roles and data-processing facts need verification.",
+      "Data and labelling sources, retrieval services, tools and plugins introduce further dependencies. Follow provenance, access, isolation, action scope and component versions beyond the direct contract.",
+      "Calder still owns its local access decisions, evaluation and integration choices. Supplier operation does not automatically determine statutory provider or deployer roles.",
+      "Seek evidence and remedies for subprocessors, change notice, incident cooperation, deletion and export, and a tested exit. A direct contract does not describe the whole chain."
+    ]
+  },
+  {
+    "id": "agent-transaction",
+    "chapter": "c24",
+    "after": "Agent transaction envelope: WO-17",
+    "title": "From agent proposal to authorized side effect",
+    "description": [
+      "The agent proposes a target, action, parameters and budget. A policy check precedes supervisor approval that binds the specific scope and expiry.",
+      "The execution gate rechecks identity, delegated authority and the exact request. A changed or expired request returns for approval; approval of an earlier proposal is insufficient.",
+      "A matching authorized request reaches the tool with an idempotency key and recorded outcome. If the API result is uncertain, query status and reconcile side effects before retrying.",
+      "The whole workflow needs a short-lived identity, step and spend limits, cancellation and protected logs. Cancellation stops queued work and verifies already-performed actions."
+    ]
+  },
+  {
+    "id": "release-gates",
+    "chapter": "c15",
+    "after": "Validation",
+    "title": "Separate learning from independent release evidence",
+    "description": [
+      "Training data fits model parameters. Development data supports comparison and tuning. A held-out test supports final evaluation and must remain independent of those choices.",
+      "Freeze the candidate version, acceptance criteria and thresholds before final testing. Evaluate the system with independent evidence, including its deterministic safeguards and relevant populations.",
+      "A real release gate combines predefined criteria, recorded results and approval authority. Failure or insufficient evidence means reject or restrict scope and rework with fresh valid evidence as needed.",
+      "Passing permits an authorized staged release with monitoring and fallback. Changes to model, corpus, prompts, permissions or tools can reopen affected evidence and the gate."
+    ]
+  },
+  {
+    "id": "data-lineage",
+    "chapter": "c16",
+    "after": "Backup, integrity and destruction",
+    "title": "Follow derived data and trained influence separately",
+    "description": [
+      "The retrieval path can leave source documents, chunks, embeddings, index metadata, prompt context, generated responses, caches, logs and backups. Trace the actual architecture rather than assuming every listed store exists.",
+      "A training path can retain a versioned data snapshot and produce weights that retain influence or information from the source. Source deletion does not prove this influence has been removed.",
+      "A deletion or correction request follows both branches. Check rights, lawful retention, propagation and verification for each actual copy and derived store.",
+      "Separately assess trained-model influence and evidence for suitable remedies, which may include model-specific unlearning, retraining, restriction or another lawful action. Output filtering alone is not evidence of deletion."
+    ]
+  },
+  {
+    "id": "fairness-rates",
+    "chapter": "c17",
+    "after": "Bias, by type",
+    "title": "Why one fairness rate is not the whole picture",
+    "description": [
+      "The counts are a fictional teaching example, not a real dataset. Each group has 100 actual positives and 100 actual negatives.",
+      "Group A has 80 true positives, 20 false negatives, 10 false positives and 90 true negatives. Group B has 80 true positives, 20 false negatives, 30 false positives and 70 true negatives.",
+      "Both groups have a true-positive rate of 80 out of 100, or 80 percent. Equal opportunity is satisfied in this example. Their false-positive rates differ: 10 percent versus 30 percent, so equalized odds is not satisfied.",
+      "Equalized odds requires parity of both rates and therefore satisfies equal opportunity. This example does not establish a universal conflict among fairness measures. Select relevant harms, definitions, uncertainty and legal constraints before interpreting a metric."
+    ]
+  },
+  {
+    "id": "decision-evidence",
+    "chapter": "c25",
+    "after": "What explainability is actually for",
+    "title": "From an explanation to a reviewable decision",
+    "description": [
+      "Assemble a case packet containing model, data and configuration versions, relevant input context, the decision and supporting evidence, known explanation-fidelity limits, and the human review or override trail.",
+      "Operators and auditors need evidence that supports reproduction and control testing. An affected person needs a meaningful explanation and an accessible route to review or redress.",
+      "Review outcomes, corrections and their reasons return to the evidence record. A persuasive model-generated narrative alone does not establish the causes of the decision."
+    ]
+  },
+  {
+    "id": "monitoring-loop",
+    "chapter": "c18",
+    "after": "Thresholds that trigger something",
+    "title": "A monitoring signal enters a controlled response loop",
+    "description": [
+      "The chart is schematic, not observed performance. It shows quality falling below an illustrative action threshold across evaluation windows.",
+      "Verify ground truth, sample size, subgroup coverage and uncertainty. A signal alone does not identify drift, an attack or the correct remedy.",
+      "A named owner responds; impact may require restriction or a safe fallback. Investigate data, model, configuration, possible attack and changes in the world.",
+      "Review the proposed change, curate any retraining data, test and authorize promotion, preserve evidence and rollback, and continue monitoring. Do not retrain automatically on potentially poisoned or unsuitable data."
+    ]
+  },
+  {
+    "id": "tool-evaluation",
+    "chapter": "c26",
+    "after": "How to review a tool before buying it",
+    "title": "A controlled tool comparison",
+    "description": [
+      "Create a versioned test pack containing allowed requests, attack attempts, bypass paths and failure or outage cases.",
+      "Run the same task and cases through the baseline architecture and the proposed protected architecture. Keep other relevant conditions comparable and document the scope.",
+      "Compare harmful outputs, false blocks, latency, cost, data exposure, coverage gaps and failure behavior. A vendor demonstration alone does not show local effectiveness.",
+      "Use agreed criteria to approve a bounded use, request remediation or reject the tool. Record residual gaps and ownership."
+    ]
+  },
+  {
+    "id": "practice-cycle",
+    "chapter": "c21",
+    "after": null,
+    "title": "Practice, feedback and transfer",
+    "description": [
+      "Attempt the question before revealing its explanation. State the decisive assumption and explain why the alternatives are weaker.",
+      "Check reasoning even when the selected answer is correct: a correct guess can hide a gap. Use the coverage map, linked chapter and Calder case to repair that gap.",
+      "Change a fact such as active harm, authority or a completed prerequisite and explain whether the decision changes. Retrieve the explanation from memory after a delay.",
+      "Repeated scores describe performance on this author-created practice form; they do not predict certification results."
+    ]
+  }
+]

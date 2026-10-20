@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" role="img" aria-labelledby="release-gates-title release-gates-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="release-gates-title">Protect the evidence behind a release</title>
+<desc id="release-gates-desc">Training data fits model parameters. Development data supports comparison and tuning. A held-out test supports final evaluation and must remain independent of those choices. Freeze the candidate version, acceptance criteria and thresholds before final testing. Evaluate the system with independent evidence, including its deterministic safeguards and relevant populations. A real release gate combines predefined criteria, recorded results and approval authority. Failure or insufficient evidence means reject or restrict scope and rework with fresh valid evidence as needed. Passing permits an authorized staged release with monitoring and fallback. Changes to model, corpus, prompts, permissions or tools can reopen affected evidence and the gate.</desc>
+<defs><marker id="release-gates-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="700" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Protect the evidence behind a release</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">A final test loses its independence if you repeatedly tune against its result.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="120" width="284" height="104" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M40,141 C40,133 70,133 70,141 C70,149 40,149 40,141 v20 C40,169 70,169 70,161 V141" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="149" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Training set</text>
+<text x="42" y="178" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Fit parameters</text>
+<rect x="338" y="120" width="284" height="104" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M352,141 C352,133 382,133 382,141 C382,149 352,149 352,141 v20 C352,169 382,169 382,161 V141" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="390" y="149" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Development set</text>
+<text x="354" y="178" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Compare and tune</text>
+<rect x="650" y="120" width="284" height="104" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M679,135 l14,6 v10 q-1,10 -14,17 q-13,-7 -14,-17 V141 Z M672,151 l5,5 l10,-12" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="702" y="149" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Held-out test</text>
+<text x="666" y="178" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Final evaluation</text>
+<path d="M168,227 V260 H480 V302" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#release-gates-arrow)"/>
+<path d="M480,227 L480,302" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#release-gates-arrow)"/>
+<rect x="338" y="307" width="284" height="90" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M356,325 L376,326 L367,348 Z M356,325 L367,348 M356,325 L379,342 L376,326 M379,342 L367,348" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="390" y="336" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Candidate + criteria</text>
+<text x="354" y="365" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Freeze version and thresholds</text>
+<path d="M792,227 V354 H628" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#release-gates-arrow)"/>
+<text x="655" y="285" font-size="16" fill="#955017" font-weight="600" text-anchor="start">Independent evidence</text>
+<path d="M480,399 L480,446" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#release-gates-arrow)"/>
+<rect x="337" y="450" width="286" height="90" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="480" y="484" font-size="23" fill="#286151" font-weight="700" text-anchor="middle">Release gate</text>
+<text x="480" y="516" font-size="17" fill="#286151" font-weight="400" text-anchor="middle">Criteria + results + authority</text>
+<rect x="26" y="450" width="242" height="90" rx="12" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<path d="M49,465 h14 l9,9 v14 l-9,9 h-14 l-9,-9 V474 Z M56,472 v12 M56,489 v2" fill="none" stroke="#9C3226" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="479" font-size="19" fill="#9C3226" font-weight="700" text-anchor="start">Fail / unknown</text>
+<text x="42" y="508" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Reject or restrict scope</text>
+<path d="M334,495 L274,495" fill="none" stroke="#9C3226" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#release-gates-arrow)"/>
+<path d="M147,448 V354 H332" fill="none" stroke="#9C3226" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#release-gates-arrow)" stroke-dasharray="6 5"/>
+<text x="29" y="306" font-size="17" fill="#9C3226" font-weight="400" text-anchor="start">Rework and</text>
+<text x="29" y="332" font-size="17" fill="#9C3226" font-weight="400" text-anchor="start">fresh valid evidence</text>
+<rect x="690" y="450" width="244" height="90" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M706,481 l8,9 l20,-23" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="742" y="479" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Pass</text>
+<text x="706" y="508" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Authorized staged release</text>
+<path d="M626,495 L684,495" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#release-gates-arrow)"/>
+<rect x="338" y="584" width="596" height="82" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="354" y="613" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Monitor, fallback and revalidate changes</text>
+<text x="354" y="642" font-size="17" fill="#182633" font-weight="400" text-anchor="start">A model, corpus, prompt, permission or tool change can reopen the gate.</text>
+<path d="M812,543 V578" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#release-gates-arrow)"/>
+</svg>

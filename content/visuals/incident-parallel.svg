@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 685" role="img" aria-labelledby="incident-parallel-title incident-parallel-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="incident-parallel-title">Run coordinated response tracks in parallel</title>
+<desc id="incident-parallel-desc">Detection, evidence preservation and triage establish impact, authority, affected systems and known facts. Coordinated tracks then run in parallel rather than waiting for one another to finish. Containment restricts unsafe actions, revokes access or isolates affected components, and verifies the result. Notification identifies all applicable legal, sector and contractual duties, tracks their separate triggers and deadlines, and communicates facts and updates as required. The diagram supplies no universal notification deadline. Continuity activates a safe fallback, validates service quality, and reconciles state before returning to the AI-assisted process. New facts update all tracks; restoration needs evidence and authorization.</desc>
+<defs><marker id="incident-parallel-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="685" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Run coordinated response tracks in parallel</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Illustrative response structure; duties and deadlines depend on the incident.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="111" width="906" height="70" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M63,137 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M60,146 l12,12" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="140" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Detect, preserve evidence and triage</text>
+<text x="42" y="169" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Establish impact, authority, affected systems and the facts known so far.</text>
+<path d="M73,183 L73,548" fill="none" stroke="#526273" stroke-width="2"/>
+<circle cx="73" cy="257" r="8" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<path d="M82,257 L176,257" fill="none" stroke="#9C3226" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<text x="26" y="312" font-size="18" fill="#9C3226" font-weight="700" text-anchor="start">Contain</text>
+<rect x="182" y="219" width="238" height="76" rx="12" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="198" y="248" font-size="19" fill="#9C3226" font-weight="700" text-anchor="start">Restrict unsafe actions</text>
+<rect x="438" y="219" width="238" height="76" rx="12" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="454" y="248" font-size="19" fill="#9C3226" font-weight="700" text-anchor="start">Revoke access / isolate</text>
+<rect x="694" y="219" width="238" height="76" rx="12" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="710" y="248" font-size="19" fill="#9C3226" font-weight="700" text-anchor="start">Verify containment</text>
+<path d="M422,257 L432,257" fill="none" stroke="#9C3226" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<path d="M678,257 L688,257" fill="none" stroke="#9C3226" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<circle cx="73" cy="387" r="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M82,387 L176,387" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<text x="26" y="442" font-size="18" fill="#6E3B7E" font-weight="700" text-anchor="start">Notify</text>
+<rect x="182" y="349" width="238" height="76" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="198" y="378" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Determine duties</text>
+<rect x="438" y="349" width="238" height="76" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="454" y="378" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Track each deadline</text>
+<rect x="694" y="349" width="238" height="76" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="710" y="378" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Notify; update facts</text>
+<path d="M422,387 L432,387" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<path d="M678,387 L688,387" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<circle cx="73" cy="517" r="8" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M82,517 L176,517" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<text x="26" y="572" font-size="18" fill="#26557A" font-weight="700" text-anchor="start">Continue</text>
+<rect x="182" y="479" width="238" height="76" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="198" y="508" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Activate safe fallback</text>
+<rect x="438" y="479" width="238" height="76" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="454" y="508" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Validate service quality</text>
+<rect x="694" y="479" width="238" height="76" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="710" y="508" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Reconcile before return</text>
+<path d="M422,517 L432,517" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<path d="M678,517 L688,517" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+<rect x="182" y="596" width="750" height="57" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="204" y="632" font-size="17" fill="#286151" font-weight="700" text-anchor="start">New facts update every track; restoration needs evidence and authorization.</text>
+<path d="M930,559 V578 H555 V592" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#incident-parallel-arrow)"/>
+</svg>

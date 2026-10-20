@@ -1,0 +1,2759 @@
+[
+  {
+    "id": "q01",
+    "domain": 1,
+    "subtopic": "1A",
+    "chapter": "c6",
+    "tasks": [
+      1
+    ],
+    "stem": "A manufacturer’s AI committee can recommend suspension but has no approved decision rights. A customer-facing agent will enter production next week. What should the sponsor resolve before approval?",
+    "options": [
+      {
+        "text": "Ask internal audit to operate the release gate.",
+        "explanation": "Audit should independently assure controls rather than own their operation."
+      },
+      {
+        "text": "Let the model supplier choose approval thresholds.",
+        "explanation": "The supplier cannot set the customer’s risk authority or business limits."
+      },
+      {
+        "text": "Approve the charter’s authority, owners and escalation paths.",
+        "explanation": "A committee needs a mandate and accountable decisions before it can govern release."
+      },
+      {
+        "text": "Increase the committee’s meeting frequency.",
+        "explanation": "More meetings do not establish decision authority."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": true
+  },
+  {
+    "id": "q02",
+    "domain": 1,
+    "subtopic": "1A",
+    "chapter": "c6",
+    "tasks": [
+      1,
+      20
+    ],
+    "stem": "An occupational-safety AI pilot has a technical owner, but no one can approve the consequences of missed hazards. Which gap most directly prevents a defensible use decision?",
+    "options": [
+      {
+        "text": "An accountable business/safety risk owner with defined authority.",
+        "explanation": "Technical ownership does not establish authority over the consequences."
+      },
+      {
+        "text": "An annual policy acknowledgement from users.",
+        "explanation": "Acknowledgement does not assign decision rights."
+      },
+      {
+        "text": "A vendor indemnity covering false negatives.",
+        "explanation": "Financial terms do not establish local safety accountability."
+      },
+      {
+        "text": "A second model architecture for comparison.",
+        "explanation": "A model comparison may help evaluation but does not close accountability."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q03",
+    "domain": 1,
+    "subtopic": "1A",
+    "chapter": "c19",
+    "tasks": [
+      3
+    ],
+    "stem": "A supplier presents ISO/IEC 42001 certification for its AI management system. Procurement asks whether this proves the proposed customer-credit application is lawful and accurate. Which answer is best supported?",
+    "options": [
+      {
+        "text": "Replace local testing with the supplier’s management review.",
+        "explanation": "A management review does not establish performance for this population."
+      },
+      {
+        "text": "Check certificate scope and separately assess the application and legal duties.",
+        "explanation": "A scoped management-system certificate is evidence, not blanket product approval."
+      },
+      {
+        "text": "Treat the certificate as the system’s conformity assessment.",
+        "explanation": "Management-system certification and statutory conformity are distinct instruments."
+      },
+      {
+        "text": "Approve the use if the certification body is accredited.",
+        "explanation": "Accreditation does not remove use-specific evaluation and duties."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q04",
+    "domain": 1,
+    "subtopic": "1A",
+    "chapter": "c19",
+    "tasks": [
+      3,
+      8
+    ],
+    "stem": "An organization hosts an unchanged third-party model internally. A reviewer labels it the model’s developer solely because it operates the server. What should the reviewer do?",
+    "options": [
+      {
+        "text": "Ask the cloud provider to accept the organization’s deployer duties.",
+        "explanation": "Its own applicable obligations cannot simply be reassigned by request."
+      },
+      {
+        "text": "Determine the actual model/system role from development, supply, intended use and law.",
+        "explanation": "Hosting alone does not establish every statutory or development role."
+      },
+      {
+        "text": "Apply provider obligations to every hosted model automatically.",
+        "explanation": "The conclusion needs the actual definitions and facts."
+      },
+      {
+        "text": "Exclude legal-role analysis because no data leaves the premises.",
+        "explanation": "Local processing does not remove legal duties."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q05",
+    "domain": 1,
+    "subtopic": "1A",
+    "chapter": "c17",
+    "tasks": [
+      3,
+      8
+    ],
+    "stem": "A factory’s internal assistant processes personal information. A manager requires a FRIA merely because the system uses AI. What is the most appropriate correction?",
+    "options": [
+      {
+        "text": "Require every employee to consent to avoid assessment.",
+        "explanation": "Consent is not a universal substitute for assessment or lawful processing."
+      },
+      {
+        "text": "Assume internal systems are outside all AI obligations.",
+        "explanation": "Internal operation alone does not establish exemption."
+      },
+      {
+        "text": "Replace the FRIA with a supplier’s model card in every case.",
+        "explanation": "A model card does not discharge a statutory assessment obligation."
+      },
+      {
+        "text": "Check the qualifying deployer, high-risk use and applicable legal trigger.",
+        "explanation": "A FRIA has defined scope; other risk/privacy reviews may still be required."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q06",
+    "domain": 1,
+    "subtopic": "1A",
+    "chapter": "c6",
+    "tasks": [
+      1,
+      3
+    ],
+    "stem": "A multinational proposes employee performance scoring. Legal, security and HR have reviewed it, but affected workers have had no route to raise contextual concerns. What should governance add?",
+    "options": [
+      {
+        "text": "A larger held-out technical benchmark without process changes.",
+        "explanation": "Benchmarking cannot alone resolve stakeholder participation and redress."
+      },
+      {
+        "text": "A disclaimer stating that AI recommendations may be wrong.",
+        "explanation": "Disclosure alone does not provide participation or recourse."
+      },
+      {
+        "text": "Proportionate engagement and a documented review/redress mechanism.",
+        "explanation": "Affected stakeholders can identify harms and need a usable contest route."
+      },
+      {
+        "text": "Supplier approval of the organization’s workforce policy.",
+        "explanation": "The supplier does not replace local employment and governance decisions."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q07",
+    "domain": 1,
+    "subtopic": "1B",
+    "chapter": "c7",
+    "tasks": [
+      2,
+      21
+    ],
+    "stem": "A policy says “use AI responsibly” but does not define allowed data or approval requirements. Which change most directly makes the policy usable?",
+    "options": [
+      {
+        "text": "Add a longer preamble describing AI innovation.",
+        "explanation": "Background does not specify required behaviour."
+      },
+      {
+        "text": "State scope, permitted/prohibited uses, data rules, owners and escalation.",
+        "explanation": "These decisions turn general intent into actionable expectations."
+      },
+      {
+        "text": "Purchase a gateway before defining enforcement rules.",
+        "explanation": "A tool needs an authorized policy to implement."
+      },
+      {
+        "text": "Require staff to sign the existing wording twice yearly.",
+        "explanation": "Acknowledging ambiguity does not remove it."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": true
+  },
+  {
+    "id": "q08",
+    "domain": 1,
+    "subtopic": "1B",
+    "chapter": "c7",
+    "tasks": [
+      2,
+      12
+    ],
+    "stem": "A board permits AI maintenance recommendations but no autonomous safety-critical changes. Which requirement is an operational control threshold?",
+    "options": [
+      {
+        "text": "Reject safety-setting tool calls without a valid supervisor approval.",
+        "explanation": "The rule creates an enforceable boundary tied to the appetite decision."
+      },
+      {
+        "text": "The AI strategy supports efficient maintenance.",
+        "explanation": "This is an objective, not an enforceable threshold."
+      },
+      {
+        "text": "The organization has a cautious approach to safety risk.",
+        "explanation": "This is broad appetite language rather than a specific operating check."
+      },
+      {
+        "text": "The supplier is committed to responsible automation.",
+        "explanation": "A supplier assertion does not implement the local limit."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q09",
+    "domain": 1,
+    "subtopic": "1B",
+    "chapter": "c7",
+    "tasks": [
+      2,
+      12
+    ],
+    "stem": "An approved pilot requests a 30-day exception to a nonmandatory documentation standard. Which record best supports the decision?",
+    "options": [
+      {
+        "text": "Scope, reason, residual risk, approver, compensating controls and expiry.",
+        "explanation": "A time-bound exception needs ownership and a reviewable risk decision."
+      },
+      {
+        "text": "A waiver of all related regulatory duties for the pilot.",
+        "explanation": "An internal exception cannot waive mandatory obligations."
+      },
+      {
+        "text": "A permanent exemption signed by the project developer.",
+        "explanation": "This exceeds the request and may lack authority."
+      },
+      {
+        "text": "A verbal agreement to finish documentation after production.",
+        "explanation": "It lacks scope, evidence, expiry and accountable approval."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q10",
+    "domain": 1,
+    "subtopic": "1B",
+    "chapter": "c7",
+    "tasks": [
+      2,
+      21
+    ],
+    "stem": "Monitoring confirms staff are exporting confidential plans to an unsanctioned assistant. The response plan authorizes restriction of such export. What is the best combined action?",
+    "options": [
+      {
+        "text": "Wait for a usability survey before restricting any export.",
+        "explanation": "Known exposure already justifies the authorized response."
+      },
+      {
+        "text": "Restrict the known exposure while investigating unmet workflow needs.",
+        "explanation": "Containment and cause-based improvement can proceed together."
+      },
+      {
+        "text": "Apply sanctions without examining how the work is performed.",
+        "explanation": "Enforcement alone may leave the cause and discovery gaps unresolved."
+      },
+      {
+        "text": "Publish the same policy again without changing controls.",
+        "explanation": "Repetition does not contain the observed disclosure."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q11",
+    "domain": 1,
+    "subtopic": "1B",
+    "chapter": "c7",
+    "tasks": [
+      2
+    ],
+    "stem": "An AI strategy and risk appetite are already approved. Teams need a repeatable review process. What is the most appropriate next deliverable?",
+    "options": [
+      {
+        "text": "Another executive appetite statement before any workflow work.",
+        "explanation": "The scenario says the prerequisite decision already exists."
+      },
+      {
+        "text": "A list of preferred model brands without use requirements.",
+        "explanation": "Brand choices do not define a repeatable review process."
+      },
+      {
+        "text": "A new committee with no relationship to existing governance.",
+        "explanation": "Duplicating governance does not establish the missing procedure."
+      },
+      {
+        "text": "A procedure defining intake evidence, checks, decisions and records.",
+        "explanation": "The missing operational layer translates approved intent into practice."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q12",
+    "domain": 1,
+    "subtopic": "1B",
+    "chapter": "c30",
+    "tasks": [
+      2,
+      4
+    ],
+    "stem": "A proposed LLM invoice approver has higher review costs and more false approvals than the current rules engine. Which recommendation is most defensible?",
+    "options": [
+      {
+        "text": "Proceed because adopting AI is an explicit strategic goal.",
+        "explanation": "A broad strategy does not establish value or acceptable error here."
+      },
+      {
+        "text": "Increase the model’s autonomy to offset review costs.",
+        "explanation": "Removing review can increase harmful approvals."
+      },
+      {
+        "text": "Retain the rules baseline and investigate narrower AI uses with measurable benefit.",
+        "explanation": "The evidence supports the simpler approval method while allowing justified alternatives."
+      },
+      {
+        "text": "Exclude error consequences from the cost-benefit comparison.",
+        "explanation": "Failure costs are material to the use decision."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q13",
+    "domain": 1,
+    "subtopic": "1C",
+    "chapter": "c8",
+    "tasks": [
+      13
+    ],
+    "stem": "A new support assistant is in the asset register as “AI chatbot.” Responders cannot identify its model version or data dependencies. What is the most useful improvement?",
+    "options": [
+      {
+        "text": "Link the use to versioned models, corpora, tools, owners and approval evidence.",
+        "explanation": "Dependency and version information enables scoping and accountable decisions."
+      },
+      {
+        "text": "Rename it “enterprise AI chatbot” for consistency.",
+        "explanation": "A name change does not add the missing evidence."
+      },
+      {
+        "text": "Record only the hostname because all data is external.",
+        "explanation": "Endpoints alone omit relevant model and data dependencies."
+      },
+      {
+        "text": "Leave details with the vendor until an incident occurs.",
+        "explanation": "Delayed discovery undermines response and governance."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": true
+  },
+  {
+    "id": "q14",
+    "domain": 1,
+    "subtopic": "1C",
+    "chapter": "c8",
+    "tasks": [
+      13,
+      6
+    ],
+    "stem": "A SaaS vendor enables an AI summarizer between annual inventory reviews. Which process best reduces the resulting visibility gap?",
+    "options": [
+      {
+        "text": "An inventory limited to systems that procurement bought as AI.",
+        "explanation": "AI can enter existing services or development dependencies."
+      },
+      {
+        "text": "A more detailed annual questionnaire without interim monitoring.",
+        "explanation": "Annual-only collection can still miss months of changed exposure."
+      },
+      {
+        "text": "Event-driven change discovery with periodic independent reconciliation.",
+        "explanation": "Capability changes require timely updates as well as completeness checks."
+      },
+      {
+        "text": "A policy forbidding vendors from changing software without verification.",
+        "explanation": "A policy needs monitoring and contractual/technical enforcement."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q15",
+    "domain": 1,
+    "subtopic": "1C",
+    "chapter": "c16",
+    "tasks": [
+      13,
+      14
+    ],
+    "stem": "A dataset is classified internal but contains material licensed for retrieval only. A team proposes fine-tuning on it. Which determination is needed?",
+    "options": [
+      {
+        "text": "Approve because the dataset is not marked confidential.",
+        "explanation": "A sensitivity label is not a licence or lawful-use decision."
+      },
+      {
+        "text": "Obtain a faster training environment before reviewing rights.",
+        "explanation": "Infrastructure capacity does not establish permission to train."
+      },
+      {
+        "text": "Remove the classification label after tokenization.",
+        "explanation": "Tokenization does not remove rights or sensitivity."
+      },
+      {
+        "text": "Assess permitted use and rights separately from sensitivity.",
+        "explanation": "Internal classification does not authorize every processing purpose."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q16",
+    "domain": 1,
+    "subtopic": "1C",
+    "chapter": "c16",
+    "tasks": [
+      13,
+      14
+    ],
+    "stem": "A retired assistant’s source documents are deleted, but its vector store and cached answers remain available. Which finding is most direct?",
+    "options": [
+      {
+        "text": "No further action is needed if the original owner left the company.",
+        "explanation": "Ownership transfer and retention duties remain."
+      },
+      {
+        "text": "The model necessarily learned the documents during every query.",
+        "explanation": "RAG inference does not necessarily update weights."
+      },
+      {
+        "text": "Retirement did not trace and handle the derived data estate.",
+        "explanation": "Deletion must reach relevant derivatives under the approved retention rules."
+      },
+      {
+        "text": "The vector entries are anonymous because they are numeric.",
+        "explanation": "Vectors and stored chunks can reveal sensitive content."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q17",
+    "domain": 1,
+    "subtopic": "1C",
+    "chapter": "c8",
+    "tasks": [
+      13
+    ],
+    "stem": "Employees fear reporting unapproved AI use because the discovery email promises automatic discipline. What improves the inventory’s reliability?",
+    "options": [
+      {
+        "text": "Remove user surveys because technical discovery is complete by definition.",
+        "explanation": "Technical tooling may miss personal accounts, embedded use or offline models."
+      },
+      {
+        "text": "Publish a clear, proportionate disclosure process and any scoped amnesty.",
+        "explanation": "Reducing avoidable reporting barriers improves discovery without promising unlimited immunity."
+      },
+      {
+        "text": "Promise that deliberate misconduct can never have consequences.",
+        "explanation": "Unconditional immunity may be inappropriate and not credible."
+      },
+      {
+        "text": "Rely solely on staff who voluntarily admitted use already.",
+        "explanation": "This leaves the same discovery bias in place."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q18",
+    "domain": 1,
+    "subtopic": "1D",
+    "chapter": "c9",
+    "tasks": [
+      18
+    ],
+    "stem": "A board dashboard reports 98% of known AI uses have current approvals. Which conclusion is justified?",
+    "options": [
+      {
+        "text": "Coverage is high within the discovered estate; effectiveness needs additional evidence.",
+        "explanation": "The denominator and metric describe coverage, not all unknown uses or control outcomes."
+      },
+      {
+        "text": "The organization has reduced harmful AI outcomes by 98%.",
+        "explanation": "The metric does not measure harm reduction."
+      },
+      {
+        "text": "Every approved system’s controls operate effectively.",
+        "explanation": "Approval status alone does not test operation."
+      },
+      {
+        "text": "Undiscovered AI use is immaterial because approvals are current.",
+        "explanation": "Unknown uses are absent from the denominator."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": true
+  },
+  {
+    "id": "q19",
+    "domain": 1,
+    "subtopic": "1D",
+    "chapter": "c9",
+    "tasks": [
+      18,
+      12
+    ],
+    "stem": "A gateway’s policy is approved. Which measure most directly tests whether it prevents unauthorized model traffic?",
+    "options": [
+      {
+        "text": "Success/failure on representative prohibited flows, including bypass paths.",
+        "explanation": "This directly evaluates the claimed enforcement behaviour."
+      },
+      {
+        "text": "Percentage of staff who recognize the gateway’s name.",
+        "explanation": "Name recognition does not establish prevention effectiveness."
+      },
+      {
+        "text": "Number of policy pages published this quarter.",
+        "explanation": "Publication measures activity, not enforcement."
+      },
+      {
+        "text": "Count of gateway vendor demonstrations attended.",
+        "explanation": "Demonstrations do not test the actual deployment."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q20",
+    "domain": 1,
+    "subtopic": "1D",
+    "chapter": "c22",
+    "tasks": [
+      4,
+      6
+    ],
+    "stem": "Eight low-tier assistants share one inference provider. Separate assessments do not consider simultaneous outage. What should enterprise risk review add?",
+    "options": [
+      {
+        "text": "Combined dependency impact and correlated-failure treatment.",
+        "explanation": "Individually tolerable uses can create material aggregated exposure."
+      },
+      {
+        "text": "Eight independent supplier certifications for the same service.",
+        "explanation": "Duplicated evidence does not resolve concentration."
+      },
+      {
+        "text": "A separate risk colour for each assistant without dependency analysis.",
+        "explanation": "Different colours do not reveal the common cause."
+      },
+      {
+        "text": "Remove the assistants from local registers once aggregated.",
+        "explanation": "Local ownership and controls are still needed."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q21",
+    "domain": 1,
+    "subtopic": "1D",
+    "chapter": "c9",
+    "tasks": [
+      19,
+      21
+    ],
+    "stem": "An AI security roadmap lists useful controls but no funding, owners or milestones. What is the primary program-management weakness?",
+    "options": [
+      {
+        "text": "The roadmap uses existing security processes.",
+        "explanation": "Integration is generally useful, not the weakness described."
+      },
+      {
+        "text": "Implementation is not assigned, resourced or reviewable.",
+        "explanation": "A roadmap needs accountable delivery and progress evidence."
+      },
+      {
+        "text": "Every control must be replaced by one consolidated product.",
+        "explanation": "Consolidation does not substitute for planning."
+      },
+      {
+        "text": "The roadmap lacks a separate AI-only identity platform.",
+        "explanation": "A parallel stack is not inherently necessary."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q22",
+    "domain": 1,
+    "subtopic": "1D",
+    "chapter": "c22",
+    "tasks": [
+      4,
+      12
+    ],
+    "stem": "The security team operates a production AI filter and also signs its only assurance report. Which change best improves independent challenge?",
+    "options": [
+      {
+        "text": "Declare security always second line, regardless of its activities.",
+        "explanation": "Labels do not remove the conflict in responsibilities."
+      },
+      {
+        "text": "Arrange risk-proportionate assurance separate from the filter’s operators.",
+        "explanation": "Independence concerns the operated control, not simply department names."
+      },
+      {
+        "text": "Assign internal audit daily filter tuning.",
+        "explanation": "Operating the control would compromise audit assurance."
+      },
+      {
+        "text": "Eliminate operational logs to avoid review bias.",
+        "explanation": "Removing evidence weakens rather than strengthens assurance."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q23",
+    "domain": 1,
+    "subtopic": "1E",
+    "chapter": "c10",
+    "tasks": [
+      16
+    ],
+    "stem": "An agent is actively sending customer records to an unapproved destination. The incident plan authorizes the commander to revoke its credentials. What should happen first operationally?",
+    "options": [
+      {
+        "text": "Revoke or restrict the export path while preserving evidence and coordinating response.",
+        "explanation": "Known active disclosure warrants authorized containment alongside investigation."
+      },
+      {
+        "text": "Retrain the model before restricting its credentials.",
+        "explanation": "Retraining delays an available containment action."
+      },
+      {
+        "text": "Ask all customers to consent to the current exports.",
+        "explanation": "Consent does not retrospectively authorize an incident."
+      },
+      {
+        "text": "Wait for the next AI committee meeting to assign a risk tier.",
+        "explanation": "Routine governance timing does not fit ongoing harm."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": true
+  },
+  {
+    "id": "q24",
+    "domain": 1,
+    "subtopic": "1E",
+    "chapter": "c10",
+    "tasks": [
+      15,
+      16
+    ],
+    "stem": "Containment of a breach is incomplete, but a legally applicable initial-notification deadline is approaching. Which response is appropriate?",
+    "options": [
+      {
+        "text": "Have the model decide whether notification is legally necessary.",
+        "explanation": "Legal applicability requires accountable review rather than unverified model judgment."
+      },
+      {
+        "text": "Wait until all uncertainty is eliminated before notifying.",
+        "explanation": "Investigation uncertainty does not suspend an applicable deadline."
+      },
+      {
+        "text": "Replace required notification with an internal incident log.",
+        "explanation": "Internal documentation does not discharge external duties."
+      },
+      {
+        "text": "Submit the required initial report and update it as facts develop.",
+        "explanation": "Reporting obligations can run in parallel with containment and investigation."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q25",
+    "domain": 1,
+    "subtopic": "1E",
+    "chapter": "c10",
+    "tasks": [
+      15,
+      16
+    ],
+    "stem": "Responders need traces containing personal data while a normal deletion schedule is due. What is the best evidence-preservation action?",
+    "options": [
+      {
+        "text": "Delete all traces immediately because schedules can never change.",
+        "explanation": "A lawful justified hold may require preservation."
+      },
+      {
+        "text": "Suspend every retention rule indefinitely across the organization.",
+        "explanation": "A blanket indefinite hold is not justified by the described need."
+      },
+      {
+        "text": "Apply an authorized, scoped hold with basis, access limits and review date.",
+        "explanation": "Preserve relevant evidence proportionately and document why."
+      },
+      {
+        "text": "Copy the traces to personal storage for investigator convenience.",
+        "explanation": "This introduces unnecessary access and retention risk."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q26",
+    "domain": 1,
+    "subtopic": "1E",
+    "chapter": "c10",
+    "tasks": [
+      17
+    ],
+    "stem": "A maintenance model remains available but its missed-failure rate crosses an approved safety trigger. Which continuity response is most appropriate?",
+    "options": [
+      {
+        "text": "Invoke the tested safe fallback under the defined authority.",
+        "explanation": "Continuity must address trustworthy operation, not availability alone."
+      },
+      {
+        "text": "Keep using it until the service becomes unavailable.",
+        "explanation": "The safety trigger already indicates unacceptable operation."
+      },
+      {
+        "text": "Remove the monitoring threshold during retraining.",
+        "explanation": "Suppressing the trigger hides the risk."
+      },
+      {
+        "text": "Increase server capacity to restore confidence.",
+        "explanation": "Capacity does not address the measured decision failure."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q27",
+    "domain": 1,
+    "subtopic": "1E",
+    "chapter": "c10",
+    "tasks": [
+      17
+    ],
+    "stem": "A procurement process can tolerate two hours of interruption, but its fallback queue clears only half the daily workload. What must the exercise resolve?",
+    "options": [
+      {
+        "text": "Whether the fallback has the same brand as the primary model.",
+        "explanation": "Brand identity does not determine continuity capability."
+      },
+      {
+        "text": "Whether the business can omit recovery objectives for AI.",
+        "explanation": "AI dependence still needs impact-based objectives."
+      },
+      {
+        "text": "Fallback capacity, prioritization and recovery objectives under realistic load.",
+        "explanation": "A documented fallback is insufficient if it cannot sustain required service."
+      },
+      {
+        "text": "Whether a longer model context window is available.",
+        "explanation": "Context size does not establish fallback capacity."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q28",
+    "domain": 1,
+    "subtopic": "1E",
+    "chapter": "c10",
+    "tasks": [
+      16,
+      17
+    ],
+    "stem": "A poisoned model has been replaced. Which evidence best supports return to service?",
+    "options": [
+      {
+        "text": "A supplier promise that retraining usually works.",
+        "explanation": "A general assurance does not verify this release."
+      },
+      {
+        "text": "Clean provenance, attack-path/regression tests, staged recovery and authorized sign-off.",
+        "explanation": "Recovery needs evidence that the cause and affected controls were addressed."
+      },
+      {
+        "text": "A quiet monitoring dashboard for ten minutes without validation.",
+        "explanation": "Absence of visible symptoms is insufficient."
+      },
+      {
+        "text": "A stronger system prompt with the same compromised artifact.",
+        "explanation": "Instructions do not establish that poisoning was removed."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q29",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c11",
+    "tasks": [
+      4
+    ],
+    "stem": "A risk register entry says only “AI hallucination: high.” Which revision best supports a treatment decision?",
+    "options": [
+      {
+        "text": "Replace “high” with a red icon.",
+        "explanation": "Presentation does not improve the underlying analysis."
+      },
+      {
+        "text": "Assign the entry to “everyone using AI.”",
+        "explanation": "Collective concern does not establish accountable ownership."
+      },
+      {
+        "text": "Describe the use, affected parties, failure event, consequences, assumptions and owner.",
+        "explanation": "A scoped scenario connects uncertainty to a decision and accountable treatment."
+      },
+      {
+        "text": "Add every attack name to the same entry.",
+        "explanation": "Unscoped lists obscure distinct mechanisms and consequences."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": true
+  },
+  {
+    "id": "q30",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c11",
+    "tasks": [
+      4,
+      12
+    ],
+    "stem": "A supplier assistant’s risk was assessed before entitlement controls. It is assessed again after verified enforcement. What does the second assessment primarily describe?",
+    "options": [
+      {
+        "text": "The organization’s overall risk appetite.",
+        "explanation": "Appetite is a governance decision rather than this assessment result."
+      },
+      {
+        "text": "A guarantee that the risk is eliminated.",
+        "explanation": "Controls reduce or constrain exposure without establishing zero risk."
+      },
+      {
+        "text": "Residual risk under the evidenced controls and stated assumptions.",
+        "explanation": "Residual exposure considers implemented controls rather than assumed perfect protection."
+      },
+      {
+        "text": "Inherent risk with no reference to controls.",
+        "explanation": "That describes the defined pre-control view."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q31",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c29",
+    "tasks": [
+      4
+    ],
+    "stem": "A scenario assumes a mean 0.2 loss events annually and $500,000 mean loss per event, with that severity applicable to the events. What is the rough annual expected loss?",
+    "options": [
+      {
+        "text": "$100,000, while retaining uncertainty and severe-tail analysis.",
+        "explanation": "Multiplying the stated means gives this simplified expectation; it is not a worst case."
+      },
+      {
+        "text": "$500,000, because frequency does not affect annual exposure.",
+        "explanation": "Frequency is part of the annual expectation."
+      },
+      {
+        "text": "$0, because fewer than one event per year means no events.",
+        "explanation": "A fractional annual mean represents events over time, not impossibility."
+      },
+      {
+        "text": "$2,500,000, by dividing loss by frequency.",
+        "explanation": "Division does not calculate the stated expected annual loss."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q32",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c29",
+    "tasks": [
+      4,
+      12
+    ],
+    "stem": "Two treatments have the same mean annual loss reduction. One leaves a rare catastrophic safety failure above tolerance. What should the risk owner consider?",
+    "options": [
+      {
+        "text": "Ignore severe outcomes because they are infrequent.",
+        "explanation": "Low probability does not remove material impact or obligations."
+      },
+      {
+        "text": "Only choose the lower purchase price.",
+        "explanation": "Price alone ignores the intolerable outcome."
+      },
+      {
+        "text": "Distribution tails, safety limits and legal constraints in addition to the mean.",
+        "explanation": "Expected value alone does not establish acceptable risk."
+      },
+      {
+        "text": "Accept the risk if the supplier offers a model card.",
+        "explanation": "Documentation does not authorize exposure beyond limits."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q33",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c11",
+    "tasks": [
+      12
+    ],
+    "stem": "A business executive requests acceptance of a legally prohibited AI use because anticipated savings exceed expected fines. Which advice is appropriate?",
+    "options": [
+      {
+        "text": "Transfer the legal obligation through an indemnity.",
+        "explanation": "An indemnity does not remove the organization’s duty."
+      },
+      {
+        "text": "Record a lower risk score to align with the savings.",
+        "explanation": "Changing the score does not change the exposure or legal limit."
+      },
+      {
+        "text": "Approve if the executive owns the operating budget.",
+        "explanation": "Budget authority is not authority to permit unlawful activity."
+      },
+      {
+        "text": "Reject that acceptance route and seek a lawful redesign or alternative.",
+        "explanation": "Risk acceptance cannot waive a prohibition."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q34",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c11",
+    "tasks": [
+      8,
+      20
+    ],
+    "stem": "An internal risk assessment measures only company revenue loss from hiring errors. What should an AI impact review add?",
+    "options": [
+      {
+        "text": "A statement that privacy belongs exclusively to the supplier.",
+        "explanation": "Local data use and effects remain relevant."
+      },
+      {
+        "text": "Only the model’s GPU utilization.",
+        "explanation": "Infrastructure utilization does not address the missing harms."
+      },
+      {
+        "text": "A prohibition on interviewing affected stakeholders.",
+        "explanation": "Excluding stakeholders can conceal the missing context."
+      },
+      {
+        "text": "Effects on applicants, affected groups, oversight and meaningful recourse.",
+        "explanation": "Stakeholder consequences need explicit assessment alongside enterprise loss."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q35",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c29",
+    "tasks": [
+      8
+    ],
+    "stem": "A provider supplies a conformity assessment for a qualifying high-risk application. The qualifying deployer assumes its own FRIA is therefore unnecessary. What is the best correction?",
+    "options": [
+      {
+        "text": "Treat a procurement approval as a statutory exemption.",
+        "explanation": "An internal decision does not establish exemption."
+      },
+      {
+        "text": "Determine and perform the deployer’s applicable assessment using relevant shared evidence.",
+        "explanation": "Product conformity and deployment impacts are distinct responsibilities."
+      },
+      {
+        "text": "Require the provider to accept all complaints instead of assessing use.",
+        "explanation": "Complaint routing cannot replace applicable assessment duties."
+      },
+      {
+        "text": "Repeat the provider’s assessment under the deployer’s logo only.",
+        "explanation": "Rebranding evidence does not assess local use and impacts."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q36",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c6",
+    "tasks": [
+      6
+    ],
+    "stem": "A model’s approved use expands from maintenance engineers to external customers in a new jurisdiction. Which response is most appropriate?",
+    "options": [
+      {
+        "text": "Keep approval unchanged because the weights are identical.",
+        "explanation": "System context can change risk without changing weights."
+      },
+      {
+        "text": "Reassess purpose, data, impacts, obligations and approval conditions before expansion.",
+        "explanation": "Users and jurisdiction are material changes to the assessed use."
+      },
+      {
+        "text": "Wait for an incident to establish whether reassessment was necessary.",
+        "explanation": "The known material change already supplies a review trigger."
+      },
+      {
+        "text": "Change only the inventory’s user count.",
+        "explanation": "Recording the change does not evaluate its consequences."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q37",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c29",
+    "tasks": [
+      4
+    ],
+    "stem": "A board asks why a quantified AI-risk estimate is a range rather than one precise dollar value. Which explanation is most accurate?",
+    "options": [
+      {
+        "text": "A wide range proves the worst case will occur.",
+        "explanation": "Uncertainty is not certainty of the extreme."
+      },
+      {
+        "text": "Frequency and severity estimates are uncertain; the range exposes assumptions for decisions.",
+        "explanation": "Expressing uncertainty avoids implying unsupported precision."
+      },
+      {
+        "text": "Ranges are used because financial consequences are irrelevant.",
+        "explanation": "The analysis is specifically about consequences for a decision."
+      },
+      {
+        "text": "The range removes the need to state the scenario.",
+        "explanation": "Scope and assumptions remain essential."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q38",
+    "domain": 2,
+    "subtopic": "2A",
+    "chapter": "c11",
+    "tasks": [
+      12
+    ],
+    "stem": "Residual risk remains within delegated tolerance after verified controls. What makes acceptance defensible over time?",
+    "options": [
+      {
+        "text": "Disabling metrics so small failures do not reopen the decision.",
+        "explanation": "Removing visibility undermines the conditions of acceptance."
+      },
+      {
+        "text": "A developer’s private note that errors are expected.",
+        "explanation": "This lacks acceptance authority and shared evidence."
+      },
+      {
+        "text": "A permanent approval with no expiry or triggers.",
+        "explanation": "Risk and context can change."
+      },
+      {
+        "text": "A named authorized owner, conditions, review date and monitored reassessment triggers.",
+        "explanation": "Acceptance is an accountable continuing decision."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q39",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      5
+    ],
+    "stem": "An attacker repeatedly queries a pricing model to reproduce useful predictions in a competing service. What is the primary objective?",
+    "options": [
+      {
+        "text": "Membership inference about one customer.",
+        "explanation": "The scenario does not seek training-set inclusion of a record."
+      },
+      {
+        "text": "Training-data label flipping.",
+        "explanation": "There is no alteration of training labels."
+      },
+      {
+        "text": "A lawful-basis assessment.",
+        "explanation": "This is not the attacker’s described objective."
+      },
+      {
+        "text": "Model extraction of useful functionality.",
+        "explanation": "The described target is the model’s capability."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": true
+  },
+  {
+    "id": "q40",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      5,
+      14
+    ],
+    "stem": "An attacker tests whether a named person appeared in a sensitive medical training set. Which threat is most direct?",
+    "options": [
+      {
+        "text": "Dependency confusion.",
+        "explanation": "No package-resolution attack is described."
+      },
+      {
+        "text": "Concept drift.",
+        "explanation": "A change in input/outcome relationships is not the attack objective."
+      },
+      {
+        "text": "Model extraction.",
+        "explanation": "Copying predictive functionality is a different goal."
+      },
+      {
+        "text": "Membership inference.",
+        "explanation": "The disclosure sought is inclusion of a particular record or individual."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q41",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      5,
+      7
+    ],
+    "stem": "A classifier is tested with crafted production inputs that cause misclassification. Which build-time technique may reduce that inference-time risk?",
+    "options": [
+      {
+        "text": "Rate limiting alone, guaranteeing correct classifications.",
+        "explanation": "Rate limits do not guarantee robustness to a crafted individual input."
+      },
+      {
+        "text": "Evaluated adversarial training for the relevant threat model.",
+        "explanation": "A training activity can improve resistance to inference-time evasion."
+      },
+      {
+        "text": "Deleting deployment logs to hide the decision boundary.",
+        "explanation": "Removing evidence does not repair model robustness."
+      },
+      {
+        "text": "Reclassifying the attack as poisoning solely because training is a defence.",
+        "explanation": "Attack stage and defence implementation stage differ."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q42",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      5,
+      7
+    ],
+    "stem": "A model behaves normally except when a rare phrase triggers unauthorized output. The organization acquired it from a public hub. What should investigation consider?",
+    "options": [
+      {
+        "text": "A backdoor introduced through data, modified weights or a supplied artifact.",
+        "explanation": "A trigger-dependent failure can originate at multiple supply-chain points."
+      },
+      {
+        "text": "An instruction to approve the model if the file has a familiar name.",
+        "explanation": "Names do not establish provenance or behaviour."
+      },
+      {
+        "text": "A purely availability incident with no need for model analysis.",
+        "explanation": "The described failure changes behaviour and authority."
+      },
+      {
+        "text": "A guarantee of harmlessness because average accuracy is high.",
+        "explanation": "Ordinary aggregate evaluation can miss rare triggers."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q43",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      5,
+      7
+    ],
+    "stem": "A recruiter’s assistant reads a resume containing instructions to export other applicants’ data. The sender never uses the assistant’s interface. What is the main application threat?",
+    "options": [
+      {
+        "text": "Direct administrator configuration.",
+        "explanation": "The sender has not supplied an authorized system instruction."
+      },
+      {
+        "text": "A privacy guarantee from RAG.",
+        "explanation": "Retrieval does not make malicious content trustworthy."
+      },
+      {
+        "text": "Authorized model retraining from user feedback.",
+        "explanation": "Reading the resume need not update weights or be authorized training."
+      },
+      {
+        "text": "Indirect prompt injection through untrusted content.",
+        "explanation": "The instruction enters material read on another user’s behalf."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q44",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      7
+    ],
+    "stem": "A model file is safe to parse but the serving library has a remote-code-execution vulnerability. What should vulnerability management do?",
+    "options": [
+      {
+        "text": "Patch or mitigate the serving stack and retest the affected system.",
+        "explanation": "Ordinary software vulnerabilities remain in scope for AI deployments."
+      },
+      {
+        "text": "Rely on the model card instead of verifying deployment exposure.",
+        "explanation": "Documentation does not patch the library."
+      },
+      {
+        "text": "Fine-tune the model to refuse exploit requests as the only control.",
+        "explanation": "Instructions do not fix the vulnerable execution environment."
+      },
+      {
+        "text": "Exclude the issue because AI has no patch cycle.",
+        "explanation": "The claim confuses model remediation with software patching."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q45",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      5,
+      7
+    ],
+    "stem": "A poisoning incident is contained by disabling high-impact tool actions. The model passes a small normal-use sample afterward. Which conclusion is justified?",
+    "options": [
+      {
+        "text": "The training data is clean because tools are disabled.",
+        "explanation": "Tool permissions do not establish data integrity."
+      },
+      {
+        "text": "Containment reduced impact, but underlying remediation still needs validation.",
+        "explanation": "A runtime restriction and ordinary sample do not prove the poisoning removed."
+      },
+      {
+        "text": "The normal sample proves all trigger behaviour impossible.",
+        "explanation": "A small nonadversarial sample cannot support that guarantee."
+      },
+      {
+        "text": "Every runtime restriction is irrelevant to poisoning response.",
+        "explanation": "Such restrictions can contain consequences even without curing the cause."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q46",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c23",
+    "tasks": [
+      5,
+      21
+    ],
+    "stem": "An employee receives a convincing video request to change bank details. Which control most directly reduces reliance on the video’s apparent identity?",
+    "options": [
+      {
+        "text": "Independent verification using an established channel and separate change approval.",
+        "explanation": "Verification and authorization should not depend on the suspect media alone."
+      },
+      {
+        "text": "Checking whether the speaker uses the correct accent.",
+        "explanation": "Audio and visual familiarity are vulnerable cues."
+      },
+      {
+        "text": "Allowing urgent changes without approval when the face is familiar.",
+        "explanation": "Urgency and recognition do not establish authority."
+      },
+      {
+        "text": "Disabling all account-change logs to protect privacy.",
+        "explanation": "Proportionate logging supports fraud detection and investigation."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q47",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      5,
+      7
+    ],
+    "stem": "A red team tests only direct jailbreak prompts against an agent. Which scope addition is most valuable?",
+    "options": [
+      {
+        "text": "Only the public vendor benchmark score.",
+        "explanation": "A benchmark does not test the local integrations."
+      },
+      {
+        "text": "Retrieved content, tools, memory, identities, egress and surrounding infrastructure.",
+        "explanation": "The deployed system has trust boundaries beyond direct user prompts."
+      },
+      {
+        "text": "Excluding nontechnical harm because no exploit is required.",
+        "explanation": "Impact and safety failures remain relevant to the risk assessment."
+      },
+      {
+        "text": "More direct prompts with no system-boundary analysis.",
+        "explanation": "Volume alone does not close the omitted attack surfaces."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q48",
+    "domain": 2,
+    "subtopic": "2B",
+    "chapter": "c12",
+    "tasks": [
+      5,
+      7
+    ],
+    "stem": "A threat model has a diagram and a list of attacks, but no control owners or verification. Which next step most directly makes it actionable?",
+    "options": [
+      {
+        "text": "Map prioritized threats to owned controls, test evidence and residual-risk decisions.",
+        "explanation": "A threat model must inform treatment and be validated."
+      },
+      {
+        "text": "Add every available attack name without prioritization.",
+        "explanation": "An unprioritized catalogue is not an implementation plan."
+      },
+      {
+        "text": "Publish the diagram without reviewing system changes.",
+        "explanation": "Static publication does not maintain relevance or verify controls."
+      },
+      {
+        "text": "Treat all risks as transferred because a vendor is involved.",
+        "explanation": "Supplier involvement does not eliminate local responsibilities."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q49",
+    "domain": 2,
+    "subtopic": "2C",
+    "chapter": "c13",
+    "tasks": [
+      9
+    ],
+    "stem": "An AI supplier gives a security attestation covering its office IT, but not the hosted inference service. What should procurement do?",
+    "options": [
+      {
+        "text": "Ask the supplier to rename the office service in the report.",
+        "explanation": "Relabeling does not change what was assessed."
+      },
+      {
+        "text": "Obtain relevant scoped evidence and evaluate remaining assurance gaps.",
+        "explanation": "Evidence must address the service and controls being relied on."
+      },
+      {
+        "text": "Assume all supplier services share the attested scope.",
+        "explanation": "Scope cannot be inferred from the company name."
+      },
+      {
+        "text": "Reject every alternative form of assurance automatically.",
+        "explanation": "Risk-based evidence can include more than one instrument."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": true
+  },
+  {
+    "id": "q50",
+    "domain": 2,
+    "subtopic": "2C",
+    "chapter": "c13",
+    "tasks": [
+      9,
+      6
+    ],
+    "stem": "A fraud-service supplier can change its model without notice. Customer acceptance thresholds were validated against one version. Which contract provision most directly helps?",
+    "options": [
+      {
+        "text": "Only a service-availability percentage.",
+        "explanation": "Availability does not establish unchanged decision behaviour."
+      },
+      {
+        "text": "A larger indemnity with no operational notification.",
+        "explanation": "Money alone does not permit timely revalidation."
+      },
+      {
+        "text": "Defined change notice, impact evidence and workable version/revalidation or exit options.",
+        "explanation": "The customer needs a way to assess and manage changed behaviour."
+      },
+      {
+        "text": "A guarantee that the supplier will never update any software.",
+        "explanation": "An absolute freeze is often unworkable and does not address managed change."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q51",
+    "domain": 2,
+    "subtopic": "2C",
+    "chapter": "c13",
+    "tasks": [
+      9,
+      13
+    ],
+    "stem": "A company contracts with an AI SaaS provider, which subcontracts inference hosting. Relative to the company, what is the hosting subcontractor?",
+    "options": [
+      {
+        "text": "The company’s direct third party solely because it runs inference.",
+        "explanation": "The chain’s relationship, not the technical function, defines this tier."
+      },
+      {
+        "text": "A fourth-party dependency in the stated chain.",
+        "explanation": "The SaaS supplier is the direct third party; its subcontractor is the next tier."
+      },
+      {
+        "text": "Outside supply-chain review because no direct contract exists.",
+        "explanation": "Indirect dependencies can materially affect risk and continuity."
+      },
+      {
+        "text": "An internal first-line employee.",
+        "explanation": "It is an external subcontractor, not company personnel."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q52",
+    "domain": 2,
+    "subtopic": "2C",
+    "chapter": "c13",
+    "tasks": [
+      9
+    ],
+    "stem": "A supplier offers broad indemnity for erroneous output. Which risk does this most directly address?",
+    "options": [
+      {
+        "text": "All regulatory accountability of the customer.",
+        "explanation": "Applicable duties do not disappear through indemnity."
+      },
+      {
+        "text": "Guaranteed continuity if the supplier fails.",
+        "explanation": "A payment obligation does not supply operational capacity."
+      },
+      {
+        "text": "Some financial exposure, subject to exclusions, limits and collectability.",
+        "explanation": "Indemnity provides a potential financial recovery route, not complete transfer."
+      },
+      {
+        "text": "Automatic restoration of customer trust after harm.",
+        "explanation": "Reputation is not restored by a contract clause alone."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q53",
+    "domain": 2,
+    "subtopic": "2C",
+    "chapter": "c13",
+    "tasks": [
+      9,
+      14
+    ],
+    "stem": "A service says customer prompts are not used for training, but retains them for support. What must the customer still assess?",
+    "options": [
+      {
+        "text": "Whether the prompts are converted to numbers before storage.",
+        "explanation": "Representation does not remove sensitivity."
+      },
+      {
+        "text": "Only how many parameters the model has.",
+        "explanation": "Model size does not establish the data-handling conditions."
+      },
+      {
+        "text": "Nothing, because no-training means the model sees no data.",
+        "explanation": "Inference and support still process the prompts."
+      },
+      {
+        "text": "Retention, access, locations, subprocessors and deletion for the retained data.",
+        "explanation": "No-training terms do not mean no processing or storage."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q54",
+    "domain": 2,
+    "subtopic": "2C",
+    "chapter": "c13",
+    "tasks": [
+      9,
+      17
+    ],
+    "stem": "A critical AI supplier’s exit clause promises deletion but provides no portability, transition period or verification. What should the customer negotiate?",
+    "options": [
+      {
+        "text": "Usable exports, transition support, dependency handover and deletion evidence.",
+        "explanation": "Exit must support continuity and verify remaining data handling."
+      },
+      {
+        "text": "A statement that moving providers always preserves model behaviour.",
+        "explanation": "Equivalent behaviour requires evaluation rather than assumption."
+      },
+      {
+        "text": "A lower renewal price instead of an exit plan.",
+        "explanation": "Price does not close continuity and deletion gaps."
+      },
+      {
+        "text": "Deletion of all customer evidence before migration starts.",
+        "explanation": "Premature deletion can undermine recovery and assurance."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q55",
+    "domain": 2,
+    "subtopic": "2C",
+    "chapter": "c13",
+    "tasks": [
+      9,
+      7
+    ],
+    "stem": "Two departments independently test the same supplier’s model. Both assume the other verifies tenant isolation and incident notification. What is missing?",
+    "options": [
+      {
+        "text": "A third identical accuracy test with unchanged assumptions.",
+        "explanation": "More duplicate testing does not assign the omitted duties."
+      },
+      {
+        "text": "An explicit responsibility matrix tied to contract and verification evidence.",
+        "explanation": "Unassigned obligations fall between teams despite duplicated tests."
+      },
+      {
+        "text": "A separate governance committee for each test team.",
+        "explanation": "Additional committees do not necessarily close ownership."
+      },
+      {
+        "text": "A blanket statement that all supplier risks are low.",
+        "explanation": "A label does not resolve responsibilities."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q56",
+    "domain": 2,
+    "subtopic": "2C",
+    "chapter": "c5",
+    "tasks": [
+      9,
+      10
+    ],
+    "stem": "A provider-hosted fine-tune and a self-hosted unchanged model are shortlisted. What comparison is most informative?",
+    "options": [
+      {
+        "text": "Assume local hosting eliminates all supplier provenance risks.",
+        "explanation": "Upstream data, licences and artifacts remain relevant."
+      },
+      {
+        "text": "Assume the hosted fine-tune requires no local use-case validation.",
+        "explanation": "The customer must evaluate its intended use."
+      },
+      {
+        "text": "Separate model origin, adaptation, hosting, data flows and change responsibilities.",
+        "explanation": "These independent dimensions determine actual control options and duties."
+      },
+      {
+        "text": "Rank fine-tuning and self-hosting as mutually exclusive categories.",
+        "explanation": "A fine-tuned model can also be self-hosted."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q57",
+    "domain": 3,
+    "subtopic": "3A",
+    "chapter": "c14",
+    "tasks": [
+      10,
+      11
+    ],
+    "stem": "An authenticated user asks an assistant about restricted board papers. Retrieval uses a service identity that can read everything. Which change most directly prevents unauthorized context disclosure?",
+    "options": [
+      {
+        "text": "Encrypt the store while leaving retrieval permissions unchanged.",
+        "explanation": "At-rest encryption does not stop authorized service queries returning forbidden content."
+      },
+      {
+        "text": "Enforce the requesting user’s source entitlements before context reaches the model.",
+        "explanation": "Authentication at the interface does not limit a broadly privileged retriever."
+      },
+      {
+        "text": "Remove the user’s name from the audit log.",
+        "explanation": "Removing attribution does not restrict retrieval."
+      },
+      {
+        "text": "Ask the system prompt not to mention board papers.",
+        "explanation": "Instructions are not an enforceable document-access boundary."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": true
+  },
+  {
+    "id": "q58",
+    "domain": 3,
+    "subtopic": "3A",
+    "chapter": "c14",
+    "tasks": [
+      10,
+      12
+    ],
+    "stem": "A document contains an instruction to send a summary to an attacker’s URL. The model needs to read the document for a legitimate task. Which defence best bounds the action?",
+    "options": [
+      {
+        "text": "Allow only authorized destinations and validate export actions outside the model.",
+        "explanation": "Independent egress and action checks limit consequences of malicious instructions."
+      },
+      {
+        "text": "Delete all prompts before the model reads any document.",
+        "explanation": "This removes legitimate operation without addressing the required boundary."
+      },
+      {
+        "text": "Treat retrieved instructions as administrator policy.",
+        "explanation": "Reading content does not grant it authority."
+      },
+      {
+        "text": "Allow export if the model says the URL is trustworthy.",
+        "explanation": "Self-reported trust is not authorization."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q59",
+    "domain": 3,
+    "subtopic": "3A",
+    "chapter": "c24",
+    "tasks": [
+      10,
+      20
+    ],
+    "stem": "A user approves an agent sending a purchase order to supplier A. Before execution, the agent substitutes supplier B. Which check should prevent execution?",
+    "options": [
+      {
+        "text": "Bind approval to the actual target, action, parameters and expiry.",
+        "explanation": "An approval for one transaction must not authorize a changed one."
+      },
+      {
+        "text": "Use a longer system prompt asking for careful behaviour.",
+        "explanation": "Prompt wording does not enforce transaction identity."
+      },
+      {
+        "text": "Log the substitution and send anyway.",
+        "explanation": "A detective record does not prevent the unauthorized transaction."
+      },
+      {
+        "text": "Check only whether the agent has ever received any approval.",
+        "explanation": "Historical approval is not authorization of this action."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q60",
+    "domain": 3,
+    "subtopic": "3A",
+    "chapter": "c24",
+    "tasks": [
+      10,
+      12
+    ],
+    "stem": "A low-privilege agent asks a privileged agent to delete records. The privileged agent trusts all internal agent requests. What is the core weakness?",
+    "options": [
+      {
+        "text": "The use of short-lived credentials.",
+        "explanation": "Short lifetimes are helpful but do not establish request authority."
+      },
+      {
+        "text": "A confused deputy fails to re-authorize delegated authority at the boundary.",
+        "explanation": "The privileged service lends authority the caller does not possess."
+      },
+      {
+        "text": "A requirement that every agent share one identity.",
+        "explanation": "Shared identity is not a valid corrective requirement."
+      },
+      {
+        "text": "An unavoidable consequence of any multi-agent system.",
+        "explanation": "Authorization design can constrain the risk."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q61",
+    "domain": 3,
+    "subtopic": "3A",
+    "chapter": "c14",
+    "tasks": [
+      10,
+      11
+    ],
+    "stem": "Retrieval entitlements are correct, but generated answers are cached globally and reused across users. What must the design address?",
+    "options": [
+      {
+        "text": "Faster caching to reduce requests to the model.",
+        "explanation": "Performance does not repair unauthorized reuse."
+      },
+      {
+        "text": "Audience-aware cache authorization, invalidation and source-version changes.",
+        "explanation": "The cache can disclose content outside the original retrieval boundary."
+      },
+      {
+        "text": "A policy calling cached answers public by default.",
+        "explanation": "A label cannot lawfully remove source sensitivity or permissions."
+      },
+      {
+        "text": "Only the vector similarity threshold.",
+        "explanation": "Similarity does not establish the cache audience’s rights."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q62",
+    "domain": 3,
+    "subtopic": "3A",
+    "chapter": "c14",
+    "tasks": [
+      10
+    ],
+    "stem": "A team calls “ability, integrity and benevolence” the defining NIST zero-trust architecture components. Which correction is appropriate?",
+    "options": [
+      {
+        "text": "Trust all outputs originating inside the corporate network.",
+        "explanation": "Network location alone should not establish trust."
+      },
+      {
+        "text": "Grant tools full authority once the user authenticates.",
+        "explanation": "Authentication does not authorize every resource or action."
+      },
+      {
+        "text": "Use explicit verification, least privilege and policy/context-based resource access.",
+        "explanation": "The interpersonal trust lens is distinct from NIST zero-trust principles."
+      },
+      {
+        "text": "Remove all policy enforcement points in favor of model confidence.",
+        "explanation": "Confidence is not a replacement for access enforcement."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q63",
+    "domain": 3,
+    "subtopic": "3A",
+    "chapter": "c24",
+    "tasks": [
+      10,
+      12
+    ],
+    "stem": "An agent retries a payment API call after a timeout and may issue the same payment twice. What additional safeguard is most direct?",
+    "options": [
+      {
+        "text": "A reminder that the agent should never make mistakes.",
+        "explanation": "An instruction does not enforce duplicate prevention."
+      },
+      {
+        "text": "A shared credential with a higher spending limit.",
+        "explanation": "This increases exposure and does not resolve retries."
+      },
+      {
+        "text": "A larger language model context window.",
+        "explanation": "Context capacity does not make the API retry-safe."
+      },
+      {
+        "text": "An idempotency key and verification of the transaction outcome.",
+        "explanation": "Retry-safe execution prevents duplicate side effects when status is uncertain."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q64",
+    "domain": 3,
+    "subtopic": "3A",
+    "chapter": "c14",
+    "tasks": [
+      11,
+      12
+    ],
+    "stem": "A team proposes a separate identity and logging stack for AI because existing enterprise controls are inconvenient. Which review question is most useful?",
+    "options": [
+      {
+        "text": "Must every AI service copy the existing architecture without assessment?",
+        "explanation": "Existing controls may need adaptation to actual requirements."
+      },
+      {
+        "text": "Can AI be exempted from identity governance permanently?",
+        "explanation": "AI integrations still require permission and accountability."
+      },
+      {
+        "text": "Can the architecture meet AI requirements through integrated identity, evidence and change controls?",
+        "explanation": "Integration preserves coherent accountability while addressing specific gaps."
+      },
+      {
+        "text": "Will a vendor logo establish the missing trust boundary?",
+        "explanation": "Branding is not a control."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q65",
+    "domain": 3,
+    "subtopic": "3B",
+    "chapter": "c15",
+    "tasks": [
+      7,
+      22
+    ],
+    "stem": "Developers repeatedly tune a model after viewing final test results. They then report that test accuracy as an unbiased estimate. What is the main issue?",
+    "options": [
+      {
+        "text": "Test information has influenced selection; use a new independent final evaluation.",
+        "explanation": "Repeated tuning on test results leaks information into development decisions."
+      },
+      {
+        "text": "The test contains too many realistic cases.",
+        "explanation": "Realistic coverage is valuable; contamination is the problem described."
+      },
+      {
+        "text": "The model uses a probabilistic output.",
+        "explanation": "Probabilistic outputs can still be evaluated with independent data."
+      },
+      {
+        "text": "Training and test files have different names.",
+        "explanation": "File names do not determine independence."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": true
+  },
+  {
+    "id": "q66",
+    "domain": 3,
+    "subtopic": "3B",
+    "chapter": "c15",
+    "tasks": [
+      7,
+      22
+    ],
+    "stem": "A pump predictor is intended to forecast future failures. Random splitting puts near-identical time-adjacent records from the same machines into training and test data. What should validation examine?",
+    "options": [
+      {
+        "text": "Whether using every record for both sets raises reported accuracy.",
+        "explanation": "That would worsen contamination."
+      },
+      {
+        "text": "Whether the final test can be omitted if training accuracy is high.",
+        "explanation": "Training fit is not independent performance evidence."
+      },
+      {
+        "text": "Whether labels are sorted alphabetically.",
+        "explanation": "Alphabetic order does not address leakage."
+      },
+      {
+        "text": "Temporal/entity leakage and a split reflecting deployment on future or unseen cases.",
+        "explanation": "The evaluation must represent the intended generalization problem."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q67",
+    "domain": 3,
+    "subtopic": "3B",
+    "chapter": "c15",
+    "tasks": [
+      7,
+      12
+    ],
+    "stem": "A release requires recall above a defined limit, subgroup checks, denied unauthorized tool calls and a tested rollback. Can this be a pass/fail gate for a probabilistic model?",
+    "options": [
+      {
+        "text": "Only if the model always generates identical words.",
+        "explanation": "Repeatability of wording is not required for all acceptance criteria."
+      },
+      {
+        "text": "Only if every possible input is enumerated first.",
+        "explanation": "Risk-based evidence does not require exhaustive enumeration."
+      },
+      {
+        "text": "Yes; statistical criteria and deterministic safeguards can define acceptance together.",
+        "explanation": "Probabilistic behaviour does not prevent explicit release decisions."
+      },
+      {
+        "text": "No; all AI behaviour is inherently untestable.",
+        "explanation": "AI can be evaluated with appropriately designed tests."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q68",
+    "domain": 3,
+    "subtopic": "3B",
+    "chapter": "c15",
+    "tasks": [
+      7,
+      20
+    ],
+    "stem": "A model’s overall accuracy is 96%, but a small subgroup has too few cases to support the fairness conclusion. What should the reviewer require?",
+    "options": [
+      {
+        "text": "Assume equal opportunity follows from any high accuracy score.",
+        "explanation": "Accuracy does not establish that fairness criterion."
+      },
+      {
+        "text": "Remove the subgroup from monitoring to stabilize the metric.",
+        "explanation": "Exclusion hides rather than addresses the gap."
+      },
+      {
+        "text": "Declare the subgroup safe because the global score is high.",
+        "explanation": "The sample does not support that inference."
+      },
+      {
+        "text": "Adequate subgroup evidence, uncertainty reporting and a risk-appropriate decision on release.",
+        "explanation": "An aggregate number cannot establish performance for an undersampled group."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q69",
+    "domain": 3,
+    "subtopic": "3B",
+    "chapter": "c15",
+    "tasks": [
+      22,
+      6
+    ],
+    "stem": "The model weights are unchanged, but a release modifies retrieval ranking and adds a new tool. Which review is justified?",
+    "options": [
+      {
+        "text": "Perform only a file hash check of the old weights.",
+        "explanation": "Hashing weights does not evaluate changed components."
+      },
+      {
+        "text": "Skip review because only model changes count.",
+        "explanation": "Retrieval and tool changes are material system changes."
+      },
+      {
+        "text": "Assess affected threats and rerun relevant integration, permission and behaviour tests.",
+        "explanation": "System behaviour and authority can change without weight updates."
+      },
+      {
+        "text": "Automatically approve because the new tool has public documentation.",
+        "explanation": "Documentation is not local integration validation."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q70",
+    "domain": 3,
+    "subtopic": "3B",
+    "chapter": "c4",
+    "tasks": [
+      22
+    ],
+    "stem": "A team records seeds, dataset versions and configuration. It claims this guarantees byte-identical retraining on any hardware. What is the most accurate response?",
+    "options": [
+      {
+        "text": "Version records are useless unless exact identity is guaranteed.",
+        "explanation": "Traceability remains valuable even with bounded variation."
+      },
+      {
+        "text": "Seeds alone make every training operation deterministic.",
+        "explanation": "A seed does not control every source of variation."
+      },
+      {
+        "text": "All models must instead be retrained manually.",
+        "explanation": "Manual operation does not solve the stated issue."
+      },
+      {
+        "text": "The records support traceability; exact reproducibility also depends on algorithms and environment.",
+        "explanation": "Hardware and nondeterministic operations can affect exact results."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q71",
+    "domain": 3,
+    "subtopic": "3B",
+    "chapter": "c15",
+    "tasks": [
+      12,
+      22
+    ],
+    "stem": "A pilot’s outcome deteriorates, and a newer model is available. What best supports choosing retraining, replacement or retirement?",
+    "options": [
+      {
+        "text": "Reassess fitness, risk, obligations and alternatives against current acceptance criteria.",
+        "explanation": "Retirement is a governed lifecycle decision, not merely an age rule."
+      },
+      {
+        "text": "Delete evaluation evidence before selecting an alternative.",
+        "explanation": "Evidence is needed for learning, assurance and justified retention."
+      },
+      {
+        "text": "Always deploy the newest model without validation.",
+        "explanation": "Novelty does not prove suitability."
+      },
+      {
+        "text": "Always keep the existing model if it still responds.",
+        "explanation": "Availability does not establish acceptable performance."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q72",
+    "domain": 3,
+    "subtopic": "3C",
+    "chapter": "c16",
+    "tasks": [
+      14
+    ],
+    "stem": "Sensitive source text is represented as embeddings and chunks in a vector database. Which default classification is most defensible?",
+    "options": [
+      {
+        "text": "Based only on the database vendor’s brand.",
+        "explanation": "Sensitivity derives from information and exposure, not branding."
+      },
+      {
+        "text": "Unclassified, because only model developers understand the format.",
+        "explanation": "Obscurity is not data protection."
+      },
+      {
+        "text": "Public, because all vectors are numbers.",
+        "explanation": "Numbers are not an anonymization guarantee."
+      },
+      {
+        "text": "Preserve the source sensitivity unless a justified assessment supports a change.",
+        "explanation": "Numeric representation and retrieval metadata can retain sensitive information."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": true
+  },
+  {
+    "id": "q73",
+    "domain": 3,
+    "subtopic": "3C",
+    "chapter": "c16",
+    "tasks": [
+      14
+    ],
+    "stem": "A team uses federated learning and claims no privacy review is needed because raw data stays local. What should the review consider?",
+    "options": [
+      {
+        "text": "Treat federated learning as equivalent to encrypted backups.",
+        "explanation": "The techniques address different operations and threats."
+      },
+      {
+        "text": "Only the number of participating devices.",
+        "explanation": "Scale does not establish privacy protection."
+      },
+      {
+        "text": "Assume model updates can never encode personal information.",
+        "explanation": "Updates may leak information."
+      },
+      {
+        "text": "Update leakage, participant integrity and any actual privacy mechanism and budget.",
+        "explanation": "Keeping raw data local does not itself guarantee privacy."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q74",
+    "domain": 3,
+    "subtopic": "3C",
+    "chapter": "c16",
+    "tasks": [
+      14
+    ],
+    "stem": "A supplier offers synthetic training data derived from real customer records. Which verification is most important before reuse?",
+    "options": [
+      {
+        "text": "Declare it anonymous solely because it was generated.",
+        "explanation": "Generation is not an anonymity guarantee."
+      },
+      {
+        "text": "Remove lineage because synthetic data has no source.",
+        "explanation": "Provenance is still relevant."
+      },
+      {
+        "text": "Assess disclosure/memorization risk, rights, quality and subgroup effects for the intended use.",
+        "explanation": "Synthetic origin alone does not remove information exposure or inherited bias."
+      },
+      {
+        "text": "Skip validation because no record was copied intentionally.",
+        "explanation": "Unintended leakage and distribution errors still matter."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q75",
+    "domain": 3,
+    "subtopic": "3C",
+    "chapter": "c3",
+    "tasks": [
+      14
+    ],
+    "stem": "A privacy request concerns data used in training. The team deletes the source record and blocks its name in outputs. Which conclusion is justified?",
+    "options": [
+      {
+        "text": "Privacy rights automatically cease after training.",
+        "explanation": "Training difficulty does not by itself remove legal obligations."
+      },
+      {
+        "text": "Unlearning is mathematically impossible for every model.",
+        "explanation": "Specialized approaches exist with assumptions and limits."
+      },
+      {
+        "text": "The model is necessarily free of all related information.",
+        "explanation": "The actions do not establish that guarantee."
+      },
+      {
+        "text": "Influence may remain; assess verified retraining/unlearning and applicable rights obligations.",
+        "explanation": "Source deletion and filtering do not prove removal from parameters or all derivatives."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q76",
+    "domain": 3,
+    "subtopic": "3C",
+    "chapter": "c16",
+    "tasks": [
+      14,
+      17
+    ],
+    "stem": "A public training corpus may be replaced at its source. The organization needs to reproduce an approved model. What should retention planning establish?",
+    "options": [
+      {
+        "text": "A permitted versioned recoverable copy or sufficient authorized reconstruction evidence.",
+        "explanation": "External availability does not ensure the original data can be recovered later."
+      },
+      {
+        "text": "An unlimited copy of all personal data regardless of lawful purpose.",
+        "explanation": "Recoverability does not justify unlimited retention."
+      },
+      {
+        "text": "No preservation, because public URLs never change.",
+        "explanation": "Sources can change or disappear."
+      },
+      {
+        "text": "Only the final model filename.",
+        "explanation": "A filename cannot recreate data and configuration."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q77",
+    "domain": 3,
+    "subtopic": "3C",
+    "chapter": "c16",
+    "tasks": [
+      14
+    ],
+    "stem": "A lending predictor develops concept drift. A manager proposes adding current news to an unrelated chatbot’s RAG store as the general fix. What is the best response?",
+    "options": [
+      {
+        "text": "Retain the old acceptance decision without monitoring.",
+        "explanation": "The measured change requires review."
+      },
+      {
+        "text": "Convert the feature values to binary files to remove drift.",
+        "explanation": "Encoding does not repair the relationship."
+      },
+      {
+        "text": "Investigate the changed predictive relationship and validate a task-appropriate treatment.",
+        "explanation": "Fresh text context does not generally repair the predictor’s learned relationship."
+      },
+      {
+        "text": "Approve because RAG solves all historical-data problems.",
+        "explanation": "RAG has a narrower role in suitable applications."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q78",
+    "domain": 3,
+    "subtopic": "3D",
+    "chapter": "c17",
+    "tasks": [
+      3,
+      8
+    ],
+    "stem": "Customer data collected to deliver a service is proposed for a new training purpose. Which privacy action is most appropriate?",
+    "options": [
+      {
+        "text": "Begin training and select a basis only if challenged.",
+        "explanation": "Lawfulness needs assessment before processing."
+      },
+      {
+        "text": "Assess lawful basis, purpose compatibility, conditions and transparency before reuse.",
+        "explanation": "Existing possession is not authority for any new purpose, and consent is not the only possible basis."
+      },
+      {
+        "text": "Assume service collection authorizes every future training use.",
+        "explanation": "Purpose and legal basis must be assessed."
+      },
+      {
+        "text": "Require explicit consent as the only possible basis in every jurisdiction.",
+        "explanation": "Applicable regimes can permit other bases and require additional conditions."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": true
+  },
+  {
+    "id": "q79",
+    "domain": 3,
+    "subtopic": "3D",
+    "chapter": "c17",
+    "tasks": [
+      20
+    ],
+    "stem": "A binary classifier satisfies equalized odds across two groups. Which statement about equal opportunity is correct?",
+    "options": [
+      {
+        "text": "Its accuracy and legal compliance are therefore guaranteed.",
+        "explanation": "A fairness condition does not establish every performance or legal requirement."
+      },
+      {
+        "text": "It also satisfies equal opportunity because that requires only the true-positive component.",
+        "explanation": "Equal opportunity is a relaxation of equalized odds."
+      },
+      {
+        "text": "It can never satisfy equal opportunity at the same time.",
+        "explanation": "The criteria are not mutually incompatible in that direction."
+      },
+      {
+        "text": "It must also satisfy every possible fairness definition.",
+        "explanation": "Other criteria can conflict under stated conditions."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q80",
+    "domain": 3,
+    "subtopic": "3D",
+    "chapter": "c17",
+    "tasks": [
+      20
+    ],
+    "stem": "Human reviewers approve almost every AI decision in two seconds. Which evidence would best establish whether oversight actually works?",
+    "options": [
+      {
+        "text": "Challenge-case testing, adequate context/time and demonstrated authority to correct or stop.",
+        "explanation": "Presence or approval counts alone do not establish meaningful review."
+      },
+      {
+        "text": "A rule requiring reviewers to override exactly 10% of live decisions.",
+        "explanation": "An arbitrary quota can create inappropriate changes and does not prove judgment."
+      },
+      {
+        "text": "A longer terms acknowledgement instead of reviewer testing.",
+        "explanation": "Acknowledgement does not demonstrate intervention capability."
+      },
+      {
+        "text": "A dashboard showing every item has a reviewer’s name.",
+        "explanation": "Attribution alone does not show competent review."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q81",
+    "domain": 3,
+    "subtopic": "3D",
+    "chapter": "c25",
+    "tasks": [
+      20
+    ],
+    "stem": "An LLM generates a fluent account of why a loan application was rejected. Why is this insufficient as sole explanation evidence?",
+    "options": [
+      {
+        "text": "No automated decision can ever be explained meaningfully.",
+        "explanation": "Appropriate models and methods can support meaningful explanation."
+      },
+      {
+        "text": "Only a global accuracy percentage is needed for an individual appeal.",
+        "explanation": "An individual needs relevant decision information and a review route."
+      },
+      {
+        "text": "The generated rationale may not faithfully reflect the actual computation or verified inputs.",
+        "explanation": "Fluency does not establish explanatory fidelity."
+      },
+      {
+        "text": "A longer rationale always creates a legally compliant explanation.",
+        "explanation": "Length does not establish fidelity or meet duties."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q82",
+    "domain": 3,
+    "subtopic": "3D",
+    "chapter": "c25",
+    "tasks": [
+      20
+    ],
+    "stem": "A counterfactual says an applicant would qualify if they had lived at the same address for eight more years. What should explanation review question?",
+    "options": [
+      {
+        "text": "Whether the applicant can be prohibited from contesting the data.",
+        "explanation": "Contest and correction can be necessary parts of redress."
+      },
+      {
+        "text": "Whether all counterfactual explanations should replace appeals.",
+        "explanation": "An explanation does not substitute for meaningful review."
+      },
+      {
+        "text": "Whether the proposed change is feasible, actionable, lawful and useful for redress.",
+        "explanation": "A mathematically changing feature is not automatically a practical remedy."
+      },
+      {
+        "text": "Whether the sentence sounds confident enough.",
+        "explanation": "Confidence does not establish actionability."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  },
+  {
+    "id": "q83",
+    "domain": 3,
+    "subtopic": "3D",
+    "chapter": "c17",
+    "tasks": [
+      3,
+      20
+    ],
+    "stem": "A high-impact use has an interpretable candidate and a more opaque candidate with similar measured performance. Which selection approach is most defensible?",
+    "options": [
+      {
+        "text": "Choose the opaque candidate because deeper models are always more accurate.",
+        "explanation": "Depth does not guarantee task superiority."
+      },
+      {
+        "text": "Document opacity and treat that documentation as proof of safety.",
+        "explanation": "Recording uncertainty is not itself adequate treatment."
+      },
+      {
+        "text": "Choose solely by the number of model parameters.",
+        "explanation": "Size does not establish fitness or required explanation."
+      },
+      {
+        "text": "Evaluate required explanation, robustness, risks and operating costs rather than assuming opacity is necessary.",
+        "explanation": "The actual evidence, not a universal accuracy/opacity trade-off, should govern."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q84",
+    "domain": 3,
+    "subtopic": "3D",
+    "chapter": "c17",
+    "tasks": [
+      3,
+      20
+    ],
+    "stem": "A model makes a harmful safety recommendation despite meeting average quality thresholds. What should the control design provide?",
+    "options": [
+      {
+        "text": "Impact-based triggers, escalation and an approved safe response for such events.",
+        "explanation": "A serious individual event can require action even when aggregate scores remain acceptable."
+      },
+      {
+        "text": "No reporting unless every subgroup metric also fails.",
+        "explanation": "Other triggers may independently require response."
+      },
+      {
+        "text": "Automatic dismissal because some model errors are expected.",
+        "explanation": "Expected error rates do not excuse all harms."
+      },
+      {
+        "text": "A disclaimer as the only safety safeguard.",
+        "explanation": "Disclosure alone does not contain or correct the harm."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q85",
+    "domain": 3,
+    "subtopic": "3E",
+    "chapter": "c18",
+    "tasks": [
+      18
+    ],
+    "stem": "A monitoring specification says “track hallucinations” but defines no reference labels or review sample. What is the main gap?",
+    "options": [
+      {
+        "text": "Automatic trust in the model’s self-confidence.",
+        "explanation": "Self-confidence is not a calibrated truth label."
+      },
+      {
+        "text": "A requirement to log every secret indefinitely.",
+        "explanation": "Excessive sensitive logging is not the missing measurement method."
+      },
+      {
+        "text": "A larger chart title for the dashboard.",
+        "explanation": "Presentation cannot establish ground truth."
+      },
+      {
+        "text": "A defensible measurement process, population, uncertainty and response rule.",
+        "explanation": "Factual error needs evidence and an operational interpretation."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": true
+  },
+  {
+    "id": "q86",
+    "domain": 3,
+    "subtopic": "3E",
+    "chapter": "c18",
+    "tasks": [
+      6,
+      18
+    ],
+    "stem": "A refusal-rate spike follows a model update. What is the most appropriate initial interpretation?",
+    "options": [
+      {
+        "text": "Proof that a jailbreak attack succeeded.",
+        "explanation": "Refusals alone do not establish success or cause."
+      },
+      {
+        "text": "A signal requiring investigation of attacks, policy behaviour and changed normal requests.",
+        "explanation": "One metric can have several causes and should be compared with context."
+      },
+      {
+        "text": "A reason to remove all guardrails immediately.",
+        "explanation": "Unreviewed removal could increase risk."
+      },
+      {
+        "text": "Proof that the new model is safer in every use.",
+        "explanation": "More refusals can include inappropriate blocking."
+      }
+    ],
+    "answer": 1,
+    "diagnostic": false
+  },
+  {
+    "id": "q87",
+    "domain": 3,
+    "subtopic": "3E",
+    "chapter": "c26",
+    "tasks": [
+      19
+    ],
+    "stem": "A gateway blocks all demonstration attacks but is bypassed through an alternate model endpoint. What should the evaluation report emphasize?",
+    "options": [
+      {
+        "text": "A 100% organization-wide prevention rate from the demonstrations.",
+        "explanation": "The claim ignores a demonstrated bypass."
+      },
+      {
+        "text": "Only average latency of the successful demonstrations.",
+        "explanation": "Performance does not close the prevention gap."
+      },
+      {
+        "text": "The vendor’s roadmap as proof that the gap is already fixed.",
+        "explanation": "Future plans are not current operating evidence."
+      },
+      {
+        "text": "The enforcement coverage gap and tested restriction of bypass paths.",
+        "explanation": "A control only governs traffic that actually traverses its boundary."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q88",
+    "domain": 3,
+    "subtopic": "3E",
+    "chapter": "c18",
+    "tasks": [
+      18,
+      12
+    ],
+    "stem": "A model reports 0.95 confidence on a response. Which conclusion needs additional evidence?",
+    "options": [
+      {
+        "text": "That the response has a calibrated 95% probability of being correct in this task.",
+        "explanation": "Raw scores or self-reports need task-specific calibration and validation."
+      },
+      {
+        "text": "That the value can be retained under a justified logging design.",
+        "explanation": "Retention is a separate policy decision; the score itself makes no truth guarantee."
+      },
+      {
+        "text": "That reviewers can examine its relation to observed outcomes.",
+        "explanation": "Such evaluation is appropriate rather than an unsupported conclusion."
+      },
+      {
+        "text": "That the system emitted a numeric confidence value.",
+        "explanation": "This is the directly observed output."
+      }
+    ],
+    "answer": 0,
+    "diagnostic": false
+  },
+  {
+    "id": "q89",
+    "domain": 3,
+    "subtopic": "3E",
+    "chapter": "c18",
+    "tasks": [
+      18,
+      14
+    ],
+    "stem": "A tracing platform stores complete confidential prompts in a broadly accessible log indefinitely. Which change best balances evidence and protection?",
+    "options": [
+      {
+        "text": "Disable every security event regardless of investigation needs.",
+        "explanation": "Proportionate evidence is still needed."
+      },
+      {
+        "text": "Encrypt disks but retain unrestricted application access forever.",
+        "explanation": "At-rest encryption does not fix access and retention."
+      },
+      {
+        "text": "Treat traces as public operational metadata.",
+        "explanation": "Their content can be sensitive."
+      },
+      {
+        "text": "Purpose-limited collection, redaction, restricted access, retention and scoped holds.",
+        "explanation": "Observability stores inherit data-protection obligations."
+      }
+    ],
+    "answer": 3,
+    "diagnostic": false
+  },
+  {
+    "id": "q90",
+    "domain": 3,
+    "subtopic": "3E",
+    "chapter": "c26",
+    "tasks": [
+      19,
+      12
+    ],
+    "stem": "Two AI filtering products are shortlisted. What is the most useful proof-of-value design?",
+    "options": [
+      {
+        "text": "Accept whichever blocks the largest number of supplied demonstrations.",
+        "explanation": "Vendor-chosen demonstrations can misrepresent real performance."
+      },
+      {
+        "text": "Avoid recording misses because they complicate procurement.",
+        "explanation": "Missed detections are material decision evidence."
+      },
+      {
+        "text": "Representative held-out allowed/prohibited flows, false decisions, bypasses, latency and failure-mode tests.",
+        "explanation": "These measurements test operational suitability and residual gaps."
+      },
+      {
+        "text": "Select solely on the total number of dashboard features.",
+        "explanation": "Feature count does not establish effective coverage."
+      }
+    ],
+    "answer": 2,
+    "diagnostic": false
+  }
+]

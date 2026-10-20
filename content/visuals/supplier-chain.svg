@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" role="img" aria-labelledby="supplier-chain-title supplier-chain-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="supplier-chain-title">Follow the dependency beyond your direct vendor</title>
+<desc id="supplier-chain-desc">The illustrative primary chain runs from Calder’s application to an orchestration supplier, a model service and hosting infrastructure. Their roles and data-processing facts need verification. Data and labelling sources, retrieval services, tools and plugins introduce further dependencies. Follow provenance, access, isolation, action scope and component versions beyond the direct contract. Calder still owns its local access decisions, evaluation and integration choices. Supplier operation does not automatically determine statutory provider or deployer roles. Seek evidence and remedies for subprocessors, change notice, incident cooperation, deletion and export, and a tested exit. A direct contract does not describe the whole chain.</desc>
+<defs><marker id="supplier-chain-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="650" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Follow the dependency beyond your direct vendor</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Illustrative service chain: verify actual processing, terms and evidence at each link.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="128" width="200" height="115" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M40,143 h30 v12 h-30 Z M40,160 h30 v12 h-30 Z M45,149 h5 M45,166 h5" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="157" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Calder</text>
+<text x="42" y="186" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Application, users,</text>
+<text x="42" y="211" font-size="17" fill="#182633" font-weight="400" text-anchor="start">access and local tests</text>
+<rect x="270" y="128" width="200" height="115" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M286,143 h18 l7,7 v23 h-25 Z M304,143 v8 h7 M291,157 h14 M291,164 h14" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="322" y="157" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Direct supplier</text>
+<text x="286" y="186" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Orchestration and</text>
+<text x="286" y="211" font-size="17" fill="#182633" font-weight="400" text-anchor="start">integration service</text>
+<rect x="514" y="128" width="200" height="115" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M532,146 L552,147 L543,169 Z M532,146 L543,169 M532,146 L555,163 L552,147 M555,163 L543,169" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="566" y="157" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Model service</text>
+<text x="530" y="186" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Model version,</text>
+<text x="530" y="211" font-size="17" fill="#182633" font-weight="400" text-anchor="start">retention and changes</text>
+<rect x="758" y="128" width="176" height="115" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M772,143 h30 v12 h-30 Z M772,160 h30 v12 h-30 Z M777,149 h5 M777,166 h5" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="810" y="157" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Hosting</text>
+<text x="774" y="186" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Infrastructure</text>
+<text x="774" y="211" font-size="17" fill="#182633" font-weight="400" text-anchor="start">and regions</text>
+<path d="M228,185 L264,185" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#supplier-chain-arrow)"/>
+<path d="M472,185 L508,185" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#supplier-chain-arrow)"/>
+<path d="M716,185 L752,185" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#supplier-chain-arrow)"/>
+<rect x="26" y="375" width="254" height="110" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M40,396 C40,388 70,388 70,396 C70,404 40,404 40,396 v20 C40,424 70,424 70,416 V396" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="404" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Data / label source</text>
+<text x="42" y="433" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Rights, provenance, integrity</text>
+<rect x="354" y="375" width="254" height="110" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M391,401 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M388,410 l12,12" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="406" y="404" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Retrieval service</text>
+<text x="370" y="433" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Index access and isolation</text>
+<rect x="682" y="375" width="252" height="110" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M714,396 a8,8 0 1,0 0,1 M709,402 l-13,14 l4,4 l5,-5 l-3,-3" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="734" y="404" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Tool / plugin</text>
+<text x="698" y="433" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Scope, actions, dependencies</text>
+<path d="M151,372 V299 H370 V247" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#supplier-chain-arrow)"/>
+<path d="M481,372 V299 H612 V247" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#supplier-chain-arrow)"/>
+<path d="M807,372 V299 H405 V247" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#supplier-chain-arrow)"/>
+<path d="M270,265 V280 H934 V265" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="508" y="319" font-size="18" fill="#6E3B7E" font-weight="700" text-anchor="start">Direct contract ≠ the whole supply chain</text>
+<rect x="26" y="531" width="908" height="88" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="46" y="561" font-size="20" fill="#286151" font-weight="700" text-anchor="start">Ask for evidence and usable remedies</text>
+<text x="46" y="590" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Subprocessors · change notice · incident cooperation · deletion / export · tested exit</text>
+</svg>

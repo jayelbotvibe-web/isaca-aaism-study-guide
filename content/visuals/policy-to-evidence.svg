@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 685" role="img" aria-labelledby="policy-to-evidence-title policy-to-evidence-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="policy-to-evidence-title">Turn intent into an enforceable rule</title>
+<desc id="policy-to-evidence-desc">The example objective is useful advice without unauthorized disclosure. Appetite and legal constraints define prohibited uses and approval boundaries. Policy requires approved services for confidential content. A standard makes this testable with caller-entitlement enforcement and cache isolation. A procedure says how to test, approve, monitor and handle exceptions. Denied-access test results and owner decisions provide operating evidence. Findings feed back into the objective, appetite and policy rather than ending at a document. Exceptions require a named owner, scope, expiry and compensating controls; legal duties still apply.</desc>
+<defs><marker id="policy-to-evidence-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="685" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Turn intent into an enforceable rule</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Calder example: confidential maintenance and contract information.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="30" y="108" width="660" height="65" rx="8" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="46" y="135" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Business objective</text>
+<text x="46" y="159" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Useful advice without unauthorized disclosure</text>
+<path d="M360,175 L386,189" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy-to-evidence-arrow)"/>
+<rect x="56" y="191" width="660" height="65" rx="8" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="72" y="218" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Appetite / constraints</text>
+<text x="72" y="242" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Name prohibited uses and approval boundaries</text>
+<path d="M386,258 L412,272" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy-to-evidence-arrow)"/>
+<rect x="82" y="274" width="660" height="65" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="98" y="301" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Policy</text>
+<text x="98" y="325" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Use approved services for confidential content</text>
+<path d="M412,341 L438,355" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy-to-evidence-arrow)"/>
+<rect x="108" y="357" width="660" height="65" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="124" y="384" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Standard</text>
+<text x="124" y="408" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Enforce caller entitlements; isolate caches</text>
+<path d="M438,424 L464,438" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy-to-evidence-arrow)"/>
+<rect x="134" y="440" width="660" height="65" rx="8" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="150" y="467" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Procedure</text>
+<text x="150" y="491" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Test, approve, monitor and handle exceptions</text>
+<path d="M464,507 L490,521" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy-to-evidence-arrow)"/>
+<rect x="160" y="523" width="660" height="65" rx="8" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="176" y="550" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Evidence</text>
+<text x="176" y="574" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Record denied-access tests and owner decisions</text>
+<path d="M825,550 H906 V137 H695" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#policy-to-evidence-arrow)" stroke-dasharray="6 5"/>
+<text x="807" y="287" font-size="17" fill="#286151" font-weight="700" text-anchor="start">Evidence</text>
+<text x="807" y="313" font-size="17" fill="#286151" font-weight="400" text-anchor="start">reopens</text>
+<text x="807" y="339" font-size="17" fill="#286151" font-weight="400" text-anchor="start">decisions</text>
+<text x="30" y="642" font-size="18" fill="#182633" font-weight="700" text-anchor="start">An exception needs an owner, scope, expiry and compensating controls.</text>
+</svg>

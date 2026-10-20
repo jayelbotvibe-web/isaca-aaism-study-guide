@@ -1,0 +1,860 @@
+[
+  {
+    "id": "c1",
+    "subtopics": [
+      "1D",
+      "2A",
+      "3B"
+    ],
+    "tasks": [
+      4,
+      22
+    ],
+    "objective": "Use the public outline and a diagnostic to plan study without converting scaled scores into percentages.",
+    "case": "Calder’s study group initially allocates half its time to familiar governance reading. The diagnostic shows weak release-gate and supplier-risk decisions. It reserves study blocks for those gaps while maintaining all three domains; it records reasons for errors, rather than chasing an assumed raw pass mark.",
+    "questions": [
+      "Why is 450 not a percentage target?",
+      "How should a strong governance diagnostic change the plan?",
+      "Which source controls booking requirements?"
+    ],
+    "answers": [
+      "A scaled score is not a fixed fraction correct; forms and scoring are not inferred from this guide.",
+      "Keep governance retrieval practice but move additional hours to demonstrated gaps; revisit the diagnostic after a delay.",
+      "ISACA’s current candidate guidance and certification page; this guide’s dated logistics are a starting point."
+    ],
+    "sources": [
+      "isaca-outline",
+      "isaca-cert",
+      "candidate"
+    ]
+  },
+  {
+    "id": "c2",
+    "subtopics": [
+      "1D",
+      "2A"
+    ],
+    "tasks": [
+      4,
+      12,
+      16
+    ],
+    "objective": "Choose the next action from harm, authority, obligations and completed work.",
+    "case": "Calder discovers an unassessed summarizer with no known disclosure: it establishes purpose and data. A separate alert confirms active export of restricted contracts: the incident commander restricts the connector while responders preserve evidence. A proposed prohibited use is rejected. The correct sequence changes with the facts.",
+    "questions": [
+      "When does containment precede discovery?",
+      "Can an owner accept unlawful use?",
+      "Does an inference-time attack require only runtime controls?"
+    ],
+    "answers": [
+      "When active or imminent harm warrants action under the response plan, contain and assess together.",
+      "No. Authority, appetite and law constrain acceptance; a business benefit cannot waive a prohibition.",
+      "No. For example, adversarial training is implemented before deployment to resist inference-time evasion."
+    ],
+    "sources": [
+      "isaca-outline",
+      "nist-ir"
+    ]
+  },
+  {
+    "id": "c31",
+    "subtopics": [
+      "3A",
+      "3B"
+    ],
+    "tasks": [
+      10,
+      20
+    ],
+    "objective": "Use the office analogy to locate permission checks while recognizing its limits.",
+    "case": "Calder’s assistant reads maintenance manuals and can create work orders. The librarian checks the technician’s document permissions; a separate work-order API checks machine scope and the supervisor’s approval. A prompt asks the model to avoid restricted actions, but neither permission check relies on its obedience.",
+    "questions": [
+      "What does the handbook represent?",
+      "What can a vector database retain?",
+      "Where does the employee analogy break?"
+    ],
+    "answers": [
+      "The system prompt: useful instructions, not independent authorization.",
+      "Vectors, source chunks, metadata and permissions; inspect the actual storage and classify it accordingly.",
+      "Models are not accountable people, may lack persistent state, and may fail role distinctions; human organizations retain responsibility."
+    ],
+    "sources": [
+      "owasp-injection",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "c28",
+    "subtopics": [
+      "3A",
+      "3B"
+    ],
+    "tasks": [
+      10,
+      22
+    ],
+    "objective": "Distinguish learning methods and overlapping system patterns without inferring safety from labels.",
+    "case": "Calder’s pump predictor uses supervised learning. Its generative maintenance assistant retrieves manuals, and the agent version calls a work-order tool. The latter is both generative and agentic. Governance records demonstrated functions and risks instead of accepting the vendor’s “general intelligence” label.",
+    "questions": [
+      "Can one system be predictive and agentic?",
+      "Why test fitting errors by subgroup?",
+      "Does low generalization error establish privacy?"
+    ],
+    "answers": [
+      "Yes. An agent may use a predictive score to select an action and a generator to explain it.",
+      "Underfitting or overfitting may disproportionately harm a small group while average performance hides the failure.",
+      "No. Evaluate memorization, membership signals and other privacy exposure separately."
+    ],
+    "sources": [
+      "nist-rmf",
+      "nist-aml"
+    ]
+  },
+  {
+    "id": "c30",
+    "subtopics": [
+      "1B",
+      "2A"
+    ],
+    "tasks": [
+      4,
+      12,
+      22
+    ],
+    "objective": "Compare AI with simpler alternatives using task errors, costs and explainability.",
+    "case": "Calder tests invoice routing on 1,000 representative cases. A rules engine meets the exact-match requirement; an LLM needs manual correction on 40 cases and adds review costs. Calder retains rules for approval and tests AI only for extracting ambiguous descriptions, with exceptions routed to people.",
+    "questions": [
+      "What makes an AI proposal testable?",
+      "Why compare false positives and negatives?",
+      "When is avoidance justified?"
+    ],
+    "answers": [
+      "A defined task, baseline, population, success criteria, cost and failure consequences.",
+      "Their impacts differ; a false payment and an unnecessary manual review need different tolerances.",
+      "Where the use is unlawful, offers insufficient value or cannot meet authorized safety/risk limits."
+    ],
+    "sources": [
+      "nist-rmf",
+      "isaca-outline"
+    ]
+  },
+  {
+    "id": "c3",
+    "subtopics": [
+      "3A",
+      "3C"
+    ],
+    "tasks": [
+      10,
+      14,
+      20
+    ],
+    "objective": "Separate learned influence, retrieval persistence, statistical performance and enforceable safeguards.",
+    "case": "A Calder employee requests deletion of a record used in a fine-tune. The data owner traces affected models, retrieval chunks, logs and copies. The team compares clean retraining and a suitable unlearning method, evaluates residual exposure and records privacy approval; hiding a matching output is not accepted as proof of erasure.",
+    "questions": [
+      "Why is source deletion insufficient?",
+      "Can a probabilistic model pass a release gate?",
+      "Does RAG mean the provider retains nothing?"
+    ],
+    "answers": [
+      "Existing parameters and derivatives may retain information; trace and evaluate the affected estate.",
+      "Yes. A gate can require statistical thresholds and deterministic permission or schema checks with documented evidence.",
+      "No. Check actual training, retention, caching, logging and memory terms and configuration."
+    ],
+    "sources": [
+      "unlearning",
+      "ico-rights",
+      "hierarchy"
+    ]
+  },
+  {
+    "id": "c4",
+    "subtopics": [
+      "1C",
+      "3B"
+    ],
+    "tasks": [
+      13,
+      22
+    ],
+    "objective": "Trace data and model changes through consistent lifecycle gates.",
+    "case": "Calder freezes a pump-model dataset, training configuration and test set. A data engineer owns provenance; an independent reviewer challenges validation; the maintenance owner approves deployment against stated costs of false alarms and missed failures. A new sensor type reopens input validation and performance evaluation.",
+    "questions": [
+      "Why distinguish data and concept drift?",
+      "What makes a release decision auditable?",
+      "What does retirement include?"
+    ],
+    "answers": [
+      "Changed inputs and changed input/outcome relationships need different investigations; drift alone does not identify the cause.",
+      "Named versions, independent test evidence, criteria, uncertainty, authority and a dated decision.",
+      "Dependencies, credentials, retained evidence and governed derivatives, with tested handover to the remaining process."
+    ],
+    "sources": [
+      "nist-rmf",
+      "iso-lifecycle",
+      "zillow"
+    ]
+  },
+  {
+    "id": "c5",
+    "subtopics": [
+      "2C",
+      "3A"
+    ],
+    "tasks": [
+      9,
+      10,
+      13
+    ],
+    "objective": "Separate hosting, model origin, adaptation and operational responsibility.",
+    "case": "Calder compares a self-hosted unchanged open-weight model with a provider-hosted fine-tune. The first retains upstream licence/provenance duties plus local serving risk. The second depends on provider infrastructure and data terms. A matrix records which party can change each component; neither hosting label is treated as a legal role test.",
+    "questions": [
+      "Can a fine-tune be self-hosted?",
+      "Why monitor approved SaaS changes?",
+      "Does local inference remove egress risk?"
+    ],
+    "answers": [
+      "Yes. Adaptation and hosting are independent dimensions.",
+      "New features, subprocessors or model versions may change the assessed use without a new purchase.",
+      "No. Tools, telemetry, updates and compromised hosts can still transmit data."
+    ],
+    "sources": [
+      "isaca-outline",
+      "fed-vendors",
+      "ai25"
+    ]
+  },
+  {
+    "id": "c6",
+    "subtopics": [
+      "1A",
+      "1D"
+    ],
+    "tasks": [
+      1,
+      3
+    ],
+    "objective": "Define decision rights, accountable owners and proportionate independent challenge.",
+    "case": "Calder’s enterprise charter delegates high-impact approvals to a review board, use-case ownership to the maintenance director and immediate suspension to the incident commander under specified triggers. Audit assures the evidence. A separate project charter records the pump pilot’s schedule, budget and measurable results.",
+    "questions": [
+      "What separates the two charters?",
+      "Who may halt an unsafe agent?",
+      "What forces re-review?"
+    ],
+    "answers": [
+      "The enterprise charter establishes governance authority; the project charter establishes one initiative’s delivery commitments.",
+      "The named role with delegated authority under the response plan; define it before deployment.",
+      "Material changes to purpose, model, data, jurisdiction, users, suppliers, outcomes, obligations or approval conditions."
+    ],
+    "sources": [
+      "isaca-outline",
+      "nist-rmf"
+    ]
+  },
+  {
+    "id": "c7",
+    "subtopics": [
+      "1B"
+    ],
+    "tasks": [
+      2,
+      21
+    ],
+    "objective": "Translate appetite into tolerances, operating thresholds and controlled exceptions.",
+    "case": "Calder allows AI to recommend maintenance but not authorize safety-critical shutdown changes. Its standard requires tested approval gates; its procedure names the reviewer and escalation path. A 30-day pilot exception limits users and data, has an owner and expiry, and cannot waive mandatory safety obligations.",
+    "questions": [
+      "How do appetite and a threshold differ?",
+      "What belongs in an exception?",
+      "How should widespread leakage be handled?"
+    ],
+    "answers": [
+      "Appetite states broad willingness; an operational threshold specifies a measured limit and response under relevant tolerance.",
+      "Scope, reason, residual risk, authorized approval, compensating controls, expiry and re-review conditions.",
+      "Contain known exposure under authority while investigating needs, training, workflow and enforcement; do both."
+    ],
+    "sources": [
+      "nist-rmf",
+      "isaca-outline"
+    ]
+  },
+  {
+    "id": "c8",
+    "subtopics": [
+      "1C"
+    ],
+    "tasks": [
+      13,
+      14
+    ],
+    "objective": "Maintain an event-driven inventory connecting use cases, assets and evidence.",
+    "case": "Calder registers the maintenance assistant, its base-model version, retrieval corpus, vector store, prompt template and tool identity as linked assets. The maintenance director owns the use, data owners approve permitted uses and the platform team reports component changes. Reconciliation discovers a forgotten test vector store.",
+    "questions": [
+      "Which fields support incident scoping?",
+      "How often should entries change?",
+      "How can discovery encourage honesty?"
+    ],
+    "answers": [
+      "Owner, purpose, dependencies, versions, data/permissions, location, approval, risk tier and evidence.",
+      "At material events and periodically through independent reconciliation; annual-only refresh is inadequate.",
+      "Use a clearly scoped safe-disclosure process with stated amnesty limits rather than promising unconditional immunity."
+    ],
+    "sources": [
+      "isaca-outline",
+      "nist-rmf"
+    ]
+  },
+  {
+    "id": "c9",
+    "subtopics": [
+      "1D",
+      "3E"
+    ],
+    "tasks": [
+      18,
+      19,
+      21
+    ],
+    "objective": "Distinguish coverage, control operation and outcomes in program reporting.",
+    "case": "Calder reports 18 of 20 discovered high-impact uses with current approvals, and separately reports 3 failures in 200 permission tests. It labels the first as known-estate coverage and the second as tested control effectiveness; unknown shadow use remains a limitation. The roadmap funds discovery and remediation with named owners.",
+    "questions": [
+      "Does an assessment completion rate prove effectiveness?",
+      "What makes a metric actionable?",
+      "Why are training completion counts insufficient?"
+    ],
+    "answers": [
+      "No. It measures coverage/process execution; pair it with tested controls and outcome evidence.",
+      "A defined population, denominator, baseline, threshold, accountable responder and stated action.",
+      "Completion does not establish behaviour change; use realistic exercises and observed policy outcomes."
+    ],
+    "sources": [
+      "isaca-outline",
+      "nist-rmf"
+    ]
+  },
+  {
+    "id": "c22",
+    "subtopics": [
+      "1D",
+      "2A"
+    ],
+    "tasks": [
+      4,
+      6
+    ],
+    "objective": "Aggregate AI dependencies into enterprise exposure without losing local ownership.",
+    "case": "Calder’s six assistants each meet local limits but rely on one inference provider. A simulated outage stalls procurement and support together. The enterprise register records the combined business impact and recovery dependency, while individual use records retain their owners and treatment tasks.",
+    "questions": [
+      "Can an AI-specific register be appropriate?",
+      "What can correlated risks hide?",
+      "Does the security function always belong in one line?"
+    ],
+    "answers": [
+      "Yes, when it reconciles and reports into enterprise risk with clear owners and controls.",
+      "Common providers, datasets, models or assumptions can cause simultaneous failures overlooked in separate assessments.",
+      "No. Operating and assurance responsibilities determine the arrangement; independently assure controls security operates."
+    ],
+    "sources": [
+      "nist-rmf",
+      "fed-vendors"
+    ]
+  },
+  {
+    "id": "c10",
+    "subtopics": [
+      "1E"
+    ],
+    "tasks": [
+      15,
+      16,
+      17
+    ],
+    "objective": "Coordinate containment, reporting and a tested fallback using impact-based authority.",
+    "case": "Calder’s assistant exports a restricted contract. The incident commander revokes its export credential and preserves scoped traces; privacy/legal tracks notification deadlines in parallel. Procurement switches to a tested manual queue. Recovery requires a reproduced exploit test, repaired permissions and signed restoration evidence.",
+    "questions": [
+      "Must notification await completed containment?",
+      "What if the service is available but unsafe?",
+      "Which evidence should be preserved?"
+    ],
+    "answers": [
+      "No. Track applicable clocks and provide required initial reports while containment and analysis continue.",
+      "Invoke the approved safe fallback or suspend the affected process according to impact and authority.",
+      "Relevant versioned inputs, outputs, retrieval/tool events, identities, timestamps and response actions under a scoped lawful hold."
+    ],
+    "sources": [
+      "nist-ir",
+      "isaca-outline",
+      "outage"
+    ]
+  },
+  {
+    "id": "c11",
+    "subtopics": [
+      "2A"
+    ],
+    "tasks": [
+      4,
+      12
+    ],
+    "objective": "Write a scoped risk scenario with inherent exposure, treatment and residual acceptance.",
+    "case": "Calder records a scenario in which a shared service identity retrieves confidential contract clauses for unauthorized users. The procurement director owns the risk, the platform team implements entitlement checks, and a held-out permission test estimates remaining exposure. Acceptance is conditional on passing tests and meeting legal obligations.",
+    "questions": [
+      "What separates inherent and residual risk?",
+      "Why include stakeholder impact?",
+      "What reopens acceptance?"
+    ],
+    "answers": [
+      "Inherent risk is assessed before the defined controls; residual risk remains after their evidenced effect, under stated assumptions.",
+      "People can suffer privacy, safety or discriminatory harm even when the company’s systems remain available.",
+      "Material change, failed control evidence, expired approval or limits exceeded; acceptance is monitored rather than permanent."
+    ],
+    "sources": [
+      "nist-rmf",
+      "iso-impact"
+    ]
+  },
+  {
+    "id": "c29",
+    "subtopics": [
+      "2A",
+      "1A"
+    ],
+    "tasks": [
+      4,
+      8
+    ],
+    "objective": "Determine assessment applicability and use quantitative estimates with uncertainty.",
+    "case": "Calder’s factory assistant needs risk and impact review; legal checks whether a statutory DPIA or FRIA trigger applies instead of ordering every assessment automatically. A separate loss scenario estimates 0.2 events/year at $500,000 mean loss per event, giving a rough $100,000 annual mean under explicit assumptions, with a severe-tail sensitivity analysis.",
+    "questions": [
+      "Which party owns a conformity demonstration versus FRIA?",
+      "What are FAIR’s main factors?",
+      "Can economic benefit waive a legal duty?"
+    ],
+    "answers": [
+      "The applicable provider demonstrates conformity; the qualifying deployer performs its FRIA. Confirm triggers and scope.",
+      "Loss-event frequency and loss magnitude, including uncertainty and relevant primary/secondary losses.",
+      "No. Financial analysis informs permissible choices within legal duties and delegated limits."
+    ],
+    "sources": [
+      "ai27",
+      "ai25",
+      "fair",
+      "ico-law"
+    ]
+  },
+  {
+    "id": "c12",
+    "subtopics": [
+      "2B"
+    ],
+    "tasks": [
+      5,
+      7
+    ],
+    "objective": "Map attack objectives and stages to preventive, detective and recovery controls.",
+    "case": "Calder models both a poisoned public model artifact and an inference-time extraction attempt. Signed provenance and an approved registry address acquisition; query monitoring addresses probing; privacy testing and training choices reduce data exposure. A clean-looking content filter is not accepted as proof that a poisoned model has been repaired.",
+    "questions": [
+      "How does model extraction differ from training-data extraction?",
+      "Can build-time controls protect runtime behaviour?",
+      "What still needs patching?"
+    ],
+    "answers": [
+      "The first targets useful functionality or parameters; the second targets specific memorized material.",
+      "Yes: adversarial training and differential privacy are examples with different targets and limits.",
+      "Applications, libraries, serving stacks, tools and infrastructure alongside model/data remediation."
+    ],
+    "sources": [
+      "nist-aml",
+      "owasp-injection",
+      "atlas",
+      "pytorch"
+    ]
+  },
+  {
+    "id": "c23",
+    "subtopics": [
+      "2B"
+    ],
+    "tasks": [
+      5,
+      21
+    ],
+    "objective": "Redesign identity verification and payment controls for convincing synthetic requests.",
+    "case": "A voice call asks Calder’s finance team to change a supplier account urgently. Staff verify through an independently sourced directory channel and a separate approval system, then apply a second approver and change delay. They preserve the request for fraud analysis even though it sounds like a familiar executive.",
+    "questions": [
+      "Why is recognition insufficient?",
+      "What makes a callback independent?",
+      "Should useful awareness training stop?"
+    ],
+    "answers": [
+      "Voice and video can be imitated, and legitimate accounts may be compromised.",
+      "Obtain the endpoint from an established trusted source, not the suspicious request, and consider compromise of that channel.",
+      "No. Teach pressure and workflow anomalies, while using enforceable verification and transaction controls."
+    ],
+    "sources": [
+      "nist-rmf",
+      "arup"
+    ]
+  },
+  {
+    "id": "c13",
+    "subtopics": [
+      "2C"
+    ],
+    "tasks": [
+      9,
+      6
+    ],
+    "objective": "Verify supplier evidence, component responsibilities and usable exit conditions.",
+    "case": "Calder’s AI supplier is its third party; that supplier’s inference subcontractor is Calder’s fourth party. The contract specifies data use, change notice, incident coordination, evidence access and verified exit. A certificate covering only corporate IT is insufficient evidence for the AI service’s control scope.",
+    "questions": [
+      "Does self-hosting make Calder the model developer?",
+      "What must a change clause enable?",
+      "What does indemnity leave behind?"
+    ],
+    "answers": [
+      "No. Determine base-model origin, local deployment duties and statutory roles separately.",
+      "Notice, impact review, appropriate version options and revalidation/fallback before unacceptable changes take effect.",
+      "The customer retains applicable duties and operational/reputational exposure; financial recovery also depends on limits and collectability."
+    ],
+    "sources": [
+      "fed-vendors",
+      "ai25",
+      "slack"
+    ]
+  },
+  {
+    "id": "c14",
+    "subtopics": [
+      "3A"
+    ],
+    "tasks": [
+      10,
+      11
+    ],
+    "objective": "Enforce permission and export policy throughout an end-to-end data flow.",
+    "case": "Calder authenticates a technician, filters retrieval by source entitlements before context assembly, validates tool scope and blocks unapproved external destinations. Cached answers carry audience and source-version information. A malicious manual page cannot authorize export merely because the assistant can read it.",
+    "questions": [
+      "Is an instruction a permission boundary?",
+      "Where else can retrieval rights be lost?",
+      "Which zero-trust principles apply?"
+    ],
+    "answers": [
+      "No. It can reduce misuse but consequential access decisions need independently enforced checks.",
+      "Caches, shared memory, logs, generated exports and downstream tools can bypass the original boundary.",
+      "Explicit verification, least privilege and context-informed ongoing access decisions; do not infer trust from location alone."
+    ],
+    "sources": [
+      "zero-trust",
+      "owasp-injection",
+      "echoleak"
+    ]
+  },
+  {
+    "id": "c24",
+    "subtopics": [
+      "3A",
+      "3E"
+    ],
+    "tasks": [
+      10,
+      12,
+      20
+    ],
+    "objective": "Bind agent identity, approval and budgets to the real transaction.",
+    "case": "Calder’s work-order agent uses a short-lived identity bounded by the technician’s authority. Supervisor approval records the machine ID, action and parameters; a changed target requires reapproval. An idempotency key prevents duplicate orders, and a cancellation path and action budget bound a failed loop.",
+    "questions": [
+      "What must an approval bind?",
+      "What prevents a confused deputy?",
+      "How should shared memory be governed?"
+    ],
+    "answers": [
+      "The actual target, action, parameters, scope and expiry, checked again at execution.",
+      "Re-authorize the caller’s delegated request at each privilege boundary; do not lend standing privilege to a lower-trust agent.",
+      "Isolate audiences, retain provenance, restrict writes, avoid secrets and support correction/deletion under a retention policy."
+    ],
+    "sources": [
+      "owasp-injection",
+      "worm",
+      "zero-trust"
+    ]
+  },
+  {
+    "id": "c15",
+    "subtopics": [
+      "3B"
+    ],
+    "tasks": [
+      7,
+      12,
+      22
+    ],
+    "objective": "Evaluate with independent data and evidence-based release/change gates.",
+    "case": "Calder trains its pump model on older data, tunes on a validation period and evaluates once on a later held-out test period. Reviewer-selected safety cases test deterministic safeguards. A deployment requires approved uncertainty bounds, subgroup checks, signed artifact provenance and a demonstrated rollback; test-set reuse for tuning requires a new final test.",
+    "questions": [
+      "Why separate validation and final testing?",
+      "What should a gate retain?",
+      "Does a changed retriever require review?"
+    ],
+    "answers": [
+      "Using test results to tune contaminates the estimate of future performance. Keep a genuinely independent final evaluation.",
+      "Criteria, versions, data lineage, results/uncertainty, failed cases, reviewer and approval or rejection.",
+      "Yes. Scope the impact of model, prompt, retrieval, tool or data changes and rerun affected tests."
+    ],
+    "sources": [
+      "nist-rmf",
+      "iso-lifecycle",
+      "nist-aml"
+    ]
+  },
+  {
+    "id": "c16",
+    "subtopics": [
+      "3C"
+    ],
+    "tasks": [
+      13,
+      14
+    ],
+    "objective": "Trace permitted use, access, retention and recovery across derived data.",
+    "case": "Calder removes a contract at source, then invalidates matching chunks, vector entries and response caches and schedules permitted backup expiry. A scoped investigation hold preserves only required traces. The data owner verifies access and deletion results and retains evidence, rather than claiming a numeric embedding is anonymous.",
+    "questions": [
+      "What is the backup decision based on?",
+      "Does federated learning guarantee privacy?",
+      "What does a legal hold change?"
+    ],
+    "answers": [
+      "Rights, purpose, source/version stability, reproducibility, recovery objectives and permitted retention.",
+      "No. Updates can leak and participation can be attacked; assess privacy mechanisms and their actual bounds.",
+      "Only the authorized evidence scope and duration; record basis, access, review and return to normal retention."
+    ],
+    "sources": [
+      "ico-rights",
+      "nist-rmf",
+      "unlearning"
+    ]
+  },
+  {
+    "id": "c17",
+    "subtopics": [
+      "3D"
+    ],
+    "tasks": [
+      3,
+      8,
+      20
+    ],
+    "objective": "Make lawful-basis, fairness and oversight choices testable and contestable.",
+    "case": "Calder’s proposed hiring screen is paused for jurisdictional and privacy review. The team documents affected groups, tests selection/error rates with uncertainty and gives candidates a human appeal. Equal opportunity is selected as one relevant measure; compatible checks and applicable legal obligations remain, rather than treating one metric as universal fairness.",
+    "questions": [
+      "Is explicit consent always the only basis?",
+      "How are equal opportunity and equalized odds related?",
+      "How can oversight be verified?"
+    ],
+    "answers": [
+      "No. Determine an appropriate lawful basis and conditions for the purpose/data under the applicable regime.",
+      "Equal opportunity requires true-positive parity; equalized odds additionally requires false-positive parity, so it implies equal opportunity.",
+      "Use representative challenge cases, adequate time/context, competence, authority and evidence that reviewers intervene when needed."
+    ],
+    "sources": [
+      "ico-law",
+      "fairness",
+      "rudin",
+      "ai27"
+    ]
+  },
+  {
+    "id": "c25",
+    "subtopics": [
+      "3D"
+    ],
+    "tasks": [
+      20
+    ],
+    "objective": "Provide an explanation packet with fidelity limits and a usable review route.",
+    "case": "A Calder supplier disputes a risk score. The packet records model version, relevant verified inputs, a local explanation method and its sensitivity limits. Staff correct a wrong payment-history field and reassess. A generated rationale is not treated as proof of the computation; any counterfactual must be feasible and lawful.",
+    "questions": [
+      "How do local and global explanations differ?",
+      "What limits SHAP or LIME evidence?",
+      "Does documenting opacity make use acceptable?"
+    ],
+    "answers": [
+      "Local explains a particular output; global characterizes overall behaviour, with different evidence needs.",
+      "Attributions or local approximations depend on data, assumptions and method; test fidelity/stability and avoid claiming causality.",
+      "No. Treatment, required explainability, legal constraints and authorized acceptance still apply."
+    ],
+    "sources": [
+      "rudin",
+      "apple",
+      "nist-rmf"
+    ]
+  },
+  {
+    "id": "c18",
+    "subtopics": [
+      "3E"
+    ],
+    "tasks": [
+      6,
+      18
+    ],
+    "objective": "Specify a monitoring rule with ground truth, uncertainty, response and protected evidence.",
+    "case": "Calder reviews 200 sampled maintenance recommendations weekly against resolved work orders, including subgroup counts. Two unauthorized tool attempts trigger immediate restriction; a rising false-alarm rate triggers investigation. Raw sensitive prompts are redacted and bounded by a 30-day example retention rule approved for the purpose, with scoped holds where required.",
+    "questions": [
+      "Is token probability a correctness score?",
+      "What does drift establish?",
+      "Why define denominators and sample selection?"
+    ],
+    "answers": [
+      "No. Establish calibration and task relevance independently; model self-confidence is not evidence by itself.",
+      "A monitored change, not its cause or the need for automatic retraining. Investigate before promoting a replacement.",
+      "They determine what the measure represents and whether comparisons, subgroup conclusions and responses are justified."
+    ],
+    "sources": [
+      "nist-rmf",
+      "nist-aml"
+    ]
+  },
+  {
+    "id": "c26",
+    "subtopics": [
+      "3E"
+    ],
+    "tasks": [
+      19,
+      12
+    ],
+    "objective": "Evaluate tool effectiveness, bypass paths and failure behaviour before purchase.",
+    "case": "Calder tests a gateway with 100 representative allowed requests and 100 held-out prohibited flows, including alternate endpoints. It records missed blocks, false blocks, p95 latency, fail-open/closed behaviour, data retention and evidence export. A registry signs versions but cannot replace runtime authorization or prove that model behaviour is safe.",
+    "questions": [
+      "Does a clean scan prove a model safe?",
+      "What makes a gateway bypass matter?",
+      "Must every security tool be AI?"
+    ],
+    "answers": [
+      "No. Scanners detect particular signatures or formats; behaviour, provenance and system integration need separate evidence.",
+      "Traffic outside the enforcement path escapes the claimed control; test and restrict alternate routes.",
+      "No. Apply due diligence to the actual tool and data processing, whether deterministic or learned."
+    ],
+    "sources": [
+      "owasp-injection",
+      "nist-aml"
+    ]
+  },
+  {
+    "id": "c19",
+    "subtopics": [
+      "1A",
+      "3D"
+    ],
+    "tasks": [
+      3,
+      8
+    ],
+    "objective": "Choose frameworks by purpose and determine law by scope, role and date.",
+    "case": "Calder uses NIST AI RMF to organize risk work, evaluates a supplier’s scoped ISO/IEC 42001 management-system certificate and separately assesses legal obligations. Its counsel records the relevant system/model role and application dates; certification is not treated as proof that the hiring use is lawful or each output correct.",
+    "questions": [
+      "What does ISO/IEC 42001 certification cover?",
+      "What must precede an Article 25 conclusion?",
+      "Why date a legal snapshot?"
+    ],
+    "answers": [
+      "The defined AI management-system scope, not a guarantee of every model’s safety, accuracy or legal use.",
+      "Identify the legal object, high-risk classification and facts of rebranding, substantial modification or changed intended purpose under the applicable provisions.",
+      "Application dates, amendments and transitions change; cite primary law and record the verification date."
+    ],
+    "sources": [
+      "nist-rmf",
+      "iso-aims",
+      "ai25",
+      "ai-timeline",
+      "csa",
+      "iso-risk",
+      "iso-trust"
+    ]
+  },
+  {
+    "id": "c27",
+    "subtopics": [
+      "1A",
+      "2B",
+      "3A"
+    ],
+    "tasks": [
+      3,
+      5,
+      6
+    ],
+    "objective": "Distinguish observed change, uncertain forecasts and durable controls.",
+    "case": "Calder pilots a local model to reduce some external processing, while tracking endpoint artifacts, updates and outbound tools. It tests whether that design meets its data and performance requirements. Its investment decision does not depend on an unannounced future exam domain or on provenance being proof of truth.",
+    "questions": [
+      "Does signed provenance prove truth?",
+      "What should change a forecast?",
+      "Do agents replace model/data risks?"
+    ],
+    "answers": [
+      "No. It can support origin and modification claims within its trust model, not factual accuracy or action authority.",
+      "New evidence, changed adoption, measured failure or a regulatory decision; record assumptions and review date.",
+      "No. Agent identity and workflow risks add to existing data, model, application and supplier risks."
+    ],
+    "sources": [
+      "nist-rmf",
+      "atlas"
+    ]
+  },
+  {
+    "id": "c20",
+    "subtopics": [
+      "1D",
+      "2A",
+      "3B"
+    ],
+    "tasks": [
+      4,
+      22
+    ],
+    "objective": "Allocate measurable study hours and review reasoning errors with delayed recall.",
+    "case": "Calder’s study group plans 60 hours: six for foundations, 42 across domains in roughly 13/13/16 hours and twelve for practice/review. It uses the diagnostic to adjust those hours and schedules delayed explanations of missed decisions. The single 90-question form is a practice resource, not an independent pass prediction after repeated exposure.",
+    "questions": [
+      "How should weights inform time?",
+      "How should a repeated high score be interpreted?",
+      "What makes an error log useful?"
+    ],
+    "answers": [
+      "As a baseline modified by demonstrated gaps and prerequisite needs, not proof each topic needs identical effort.",
+      "Familiarity can inflate results; explain the reasoning and use later transfer examples rather than relying on recall of letters.",
+      "Record the missed fact, authority/obligation, rejected alternative, chapter and a later retrieval date."
+    ],
+    "sources": [
+      "isaca-outline",
+      "isaca-cert"
+    ]
+  },
+  {
+    "id": "c21",
+    "subtopics": [
+      "1D",
+      "2A",
+      "3E"
+    ],
+    "tasks": [
+      7,
+      18,
+      22
+    ],
+    "objective": "Use feedback to identify transfer gaps without treating a practice score as certification evidence.",
+    "case": "Calder’s study group completes the practice form, writes explanations before revealing solutions and reviews its weakest mapped subtopics. It retests missed concepts with a changed assumption, such as active harm or already-approved policy. This distinguishes understanding from memory of the answer’s position.",
+    "questions": [
+      "When should answers be revealed?",
+      "What does domain feedback show?",
+      "Why is one question bank insufficient to predict a pass?"
+    ],
+    "answers": [
+      "After recording a choice and the decision rationale; choices remain visible while the solution is hidden.",
+      "Performance on this author-created sample, including omissions and exposure effects; it is not a calibrated exam estimate.",
+      "Coverage, difficulty and repeated exposure differ; validate understanding through explanations, scenarios and official materials."
+    ],
+    "sources": [
+      "isaca-outline"
+    ]
+  }
+]

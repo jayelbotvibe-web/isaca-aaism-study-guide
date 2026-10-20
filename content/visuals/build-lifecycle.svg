@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 630" role="img" aria-labelledby="build-lifecycle-title build-lifecycle-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="build-lifecycle-title">Follow the artifacts through the lifecycle</title>
+<desc id="build-lifecycle-desc">Source data with rights and provenance, prepare and label it with integrity checks, train or tune reproducibly, and evaluate against independent evidence. Deploy a signed and versioned release with a fallback. Operate with quality, harm and drift monitoring. Reassess whether to retrain, restrict or retire. Retraining uses curated feedback and repeats affected sourcing, preparation, training, evaluation and release evidence. Production output must not become trusted training data automatically. Retirement also handles credentials, retained copies, indexes, logs and the process that replaces the AI system.</desc>
+<defs><marker id="build-lifecycle-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="630" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Follow the artifacts through the lifecycle</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">A changed dataset, model or configuration reopens affected evidence.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="115" width="188" height="120" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M40,136 C40,128 70,128 70,136 C70,144 40,144 40,136 v20 C40,164 70,164 70,156 V136" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="144" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">1 · Source</text>
+<text x="42" y="173" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Rights and</text>
+<text x="42" y="198" font-size="17" fill="#182633" font-weight="400" text-anchor="start">provenance</text>
+<rect x="266" y="115" width="188" height="120" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M282,130 h18 l7,7 v23 h-25 Z M300,130 v8 h7 M287,144 h14 M287,151 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="318" y="144" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">2 · Prepare</text>
+<text x="282" y="173" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Labels and integrity</text>
+<rect x="506" y="115" width="188" height="120" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M524,133 L544,134 L535,156 Z M524,133 L535,156 M524,133 L547,150 L544,134 M547,150 L535,156" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="558" y="144" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">3 · Train / tune</text>
+<text x="522" y="173" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Versions and isolation</text>
+<rect x="746" y="115" width="188" height="120" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M775,130 l14,6 v10 q-1,10 -14,17 q-13,-7 -14,-17 V136 Z M768,146 l5,5 l10,-12" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="798" y="144" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">4 · Evaluate</text>
+<text x="762" y="173" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Independent evidence</text>
+<rect x="746" y="315" width="188" height="120" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M760,330 h30 v12 h-30 Z M760,347 h30 v12 h-30 Z M765,336 h5 M765,353 h5" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="798" y="344" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">5 · Deploy</text>
+<text x="762" y="373" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Signed release;</text>
+<text x="762" y="398" font-size="17" fill="#182633" font-weight="400" text-anchor="start">fallback</text>
+<rect x="506" y="315" width="188" height="120" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M520,330 v30 h32 M525,352 l8,-11 l8,5 l10,-15" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="558" y="344" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">6 · Operate</text>
+<text x="522" y="373" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Quality, harm and drift</text>
+<rect x="266" y="315" width="188" height="120" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M310,345 a15,15 0 1,0 -30,0 a15,15 0 1,0 30,0 M295,334 v12 l8,5" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="318" y="344" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">7 · Reassess</text>
+<text x="282" y="373" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Retrain or retire</text>
+<path d="M214,177 L261,177" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#build-lifecycle-arrow)"/>
+<path d="M454,177 L501,177" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#build-lifecycle-arrow)"/>
+<path d="M694,177 L741,177" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#build-lifecycle-arrow)"/>
+<path d="M840,238 L840,311" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#build-lifecycle-arrow)"/>
+<path d="M743,377 L698,377" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#build-lifecycle-arrow)"/>
+<path d="M503,377 L458,377" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#build-lifecycle-arrow)"/>
+<path d="M360,438 V490 H120 V239" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#build-lifecycle-arrow)" stroke-dasharray="6 5"/>
+<text x="28" y="517" font-size="18" fill="#6E3B7E" font-weight="700" text-anchor="start">Retraining: curate feedback and repeat affected stages.</text>
+<rect x="506" y="480" width="428" height="114" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M538,501 a8,8 0 1,0 0,1 M533,507 l-13,14 l4,4 l5,-5 l-3,-3" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="558" y="509" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Retirement is a controlled exit</text>
+<text x="522" y="538" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Revoke credentials; handle copies,</text>
+<text x="522" y="563" font-size="17" fill="#182633" font-weight="400" text-anchor="start">indexes, logs and the fallback process.</text>
+<path d="M454,425 L501,490" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#build-lifecycle-arrow)"/>
+</svg>

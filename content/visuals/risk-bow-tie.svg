@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 665" role="img" aria-labelledby="risk-bow-tie-title risk-bow-tie-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="risk-bow-tie-title">Write the event between causes and consequences</title>
+<desc id="risk-bow-tie-desc">The scoped event is restricted contract terms reaching an unauthorized audience. Causes include a broad retrieval identity that fails to enforce caller rights and a response cache shared across audiences. Preventive controls include caller-entitlement checks and cache isolation. Consequences include privacy or contract harm and business response, claims and trust impacts. Controls on the consequence side restrict access, investigate, notify where required and provide redress. They can limit harm and support recovery without undoing the original disclosure. Assess inherent exposure, implement and test treatment, assess residual exposure, then decide and monitor. Acceptance requires evidence, expiry and lawful residual exposure within delegated limits.</desc>
+<defs><marker id="risk-bow-tie-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="665" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Write the event between causes and consequences</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Calder risk R-07: unauthorized disclosure of restricted contract terms.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="126" width="244" height="91" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="42" y="155" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Broad retrieval identity</text>
+<text x="42" y="184" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Caller rights not enforced</text>
+<rect x="26" y="294" width="244" height="91" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="42" y="323" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Shared response cache</text>
+<text x="42" y="352" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Audience not partitioned</text>
+<circle cx="480" cy="255" r="94" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="480" y="228" font-size="19" fill="#9C3226" font-weight="700" text-anchor="middle">Restricted terms</text>
+<text x="480" y="256" font-size="18" fill="#9C3226" font-weight="600" text-anchor="middle">reach the</text>
+<text x="480" y="284" font-size="19" fill="#9C3226" font-weight="700" text-anchor="middle">wrong audience</text>
+<rect x="690" y="126" width="244" height="91" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="706" y="155" font-size="19" fill="#955017" font-weight="700" text-anchor="start">People / contract harm</text>
+<text x="706" y="184" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Unauthorized disclosure</text>
+<rect x="690" y="294" width="244" height="91" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="706" y="323" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Business exposure</text>
+<text x="706" y="352" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Response, claims, trust</text>
+<path d="M272,172 L388,255" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#risk-bow-tie-arrow)"/>
+<path d="M574,255 L684,172" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#risk-bow-tie-arrow)"/>
+<path d="M272,340 L388,255" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#risk-bow-tie-arrow)"/>
+<path d="M574,255 L684,340" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#risk-bow-tie-arrow)"/>
+<rect x="308" y="181" width="12" height="152" rx="3" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<rect x="632" y="181" width="12" height="152" rx="3" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="296" y="405" font-size="18" fill="#286151" font-weight="700" text-anchor="start">Prevent</text>
+<text x="26" y="438" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Entitlement checks; cache isolation</text>
+<text x="616" y="405" font-size="18" fill="#286151" font-weight="700" text-anchor="start">Limit harm / recover</text>
+<text x="539" y="438" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Restrict, investigate, notify, redress</text>
+<path d="M26,466 L934,466" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="502" width="209" height="71" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="42" y="531" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Assess inherent</text>
+<rect x="259" y="502" width="209" height="71" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="275" y="531" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Treat + test</text>
+<rect x="492" y="502" width="209" height="71" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="508" y="531" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Assess residual</text>
+<rect x="725" y="502" width="209" height="71" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="741" y="531" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Decide + monitor</text>
+<path d="M237,537 L253,537" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#risk-bow-tie-arrow)"/>
+<path d="M470,537 L486,537" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#risk-bow-tie-arrow)"/>
+<path d="M703,537 L719,537" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#risk-bow-tie-arrow)"/>
+<text x="26" y="625" font-size="18" fill="#26557A" font-weight="700" text-anchor="start">Acceptance requires lawful exposure within delegated limits, with evidence and expiry.</text>
+</svg>

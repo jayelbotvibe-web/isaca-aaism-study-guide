@@ -1,0 +1,317 @@
+[
+  {
+    "id": "isaca-outline",
+    "title": "ISACA AAISM public exam content outline",
+    "url": "https://www.isaca.org/credentialing/aaism/aaism-exam-content-outline",
+    "edition": "Checked 20 October 2026",
+    "note": "Domain/subtopic structure and supporting tasks; detailed learning mappings are the author's interpretation."
+  },
+  {
+    "id": "isaca-cert",
+    "title": "ISACA Advanced in AI Security Management",
+    "url": "https://www.isaca.org/credentialing/aaism",
+    "edition": "Checked 20 October 2026",
+    "note": "Credential name and current eligibility/logistics. Verify candidate requirements before booking."
+  },
+  {
+    "id": "nist-rmf",
+    "title": "NIST AI Risk Management Framework 1.0",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+    "edition": "2023",
+    "note": "Primary framework for risk work and trustworthiness; examples in this book are author-created."
+  },
+  {
+    "id": "nist-genai",
+    "title": "NIST Generative AI Profile",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "edition": "2024",
+    "note": "Companion profile for generative-AI risk management."
+  },
+  {
+    "id": "nist-aml",
+    "title": "NIST Adversarial Machine Learning taxonomy",
+    "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+    "edition": "2025",
+    "note": "Attack terminology and mitigation context; no single technique is a universal guarantee."
+  },
+  {
+    "id": "nist-ir",
+    "title": "NIST SP 800-61 Rev. 3 incident response",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+    "edition": "2025",
+    "note": "Incident coordination, response and reporting within cybersecurity risk management."
+  },
+  {
+    "id": "zero-trust",
+    "title": "NIST SP 800-207 Zero Trust Architecture",
+    "url": "https://csrc.nist.gov/pubs/sp/800/207/final",
+    "edition": "2020",
+    "note": "Resource-focused access, explicit authentication/authorization and no implicit network-location trust."
+  },
+  {
+    "id": "unlearning",
+    "title": "Bourtoule et al., Machine Unlearning",
+    "url": "https://arxiv.org/abs/1912.03817",
+    "edition": "IEEE S&P 2021; preprint revised 2020",
+    "note": "Primary research illustrating specialized unlearning; not a guarantee for arbitrary deployed models or legal erasure."
+  },
+  {
+    "id": "hierarchy",
+    "title": "Wallace et al., The Instruction Hierarchy",
+    "url": "https://arxiv.org/abs/2404.13208",
+    "edition": "2024",
+    "note": "Primary research on learning instruction priorities; improved robustness does not replace independent authorization."
+  },
+  {
+    "id": "ico-law",
+    "title": "ICO: lawfulness in AI",
+    "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-lawfulness-in-ai/",
+    "edition": "Checked 20 October 2026; guidance notes ongoing review",
+    "note": "UK-specific lawful-basis guidance. Do not substitute it for an applicability analysis in another jurisdiction."
+  },
+  {
+    "id": "ico-rights",
+    "title": "ICO: engineering individual rights into generative AI",
+    "url": "https://ico.org.uk/about-the-ico/what-we-do/our-work-on-artificial-intelligence/generative-ai-fourth-call-for-evidence/",
+    "edition": "2024 consultation",
+    "note": "A consultation discussing practical rights and unlearning questions, not a universal final compliance rule."
+  },
+  {
+    "id": "ai25",
+    "title": "EU AI Act Article 25: responsibilities along the value chain",
+    "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-25",
+    "edition": "Consolidated-text service; checked 20 October 2026",
+    "note": "Read the high-risk conditions and statutory text. Hosting or adaptation labels alone do not determine role."
+  },
+  {
+    "id": "ai27",
+    "title": "EU AI Act Article 27: fundamental rights impact assessment",
+    "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
+    "edition": "Consolidated-text service; checked 20 October 2026",
+    "note": "Qualifying uses/deployers, exceptions, assessment content and authority notification."
+  },
+  {
+    "id": "ai-timeline",
+    "title": "European Commission: AI Act implementation",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "edition": "Checked 20 October 2026",
+    "note": "Dated application snapshot and links to the adopted amendments; verify transitions and scope."
+  },
+  {
+    "id": "fair",
+    "title": "FAIR Institute: loss magnitude and risk factors",
+    "url": "https://www.fairinstitute.org/blog/fair-risk-basics-what-is-loss-magnitude",
+    "edition": "2021",
+    "note": "Frequency/magnitude and primary/secondary-loss structure. Numerical examples here are fictional."
+  },
+  {
+    "id": "fairness",
+    "title": "Hardt, Price and Srebro: Equality of Opportunity in Supervised Learning",
+    "url": "https://papers.nips.cc/paper/6374-equality-of-opportunity-in-supervised-learning.pdf",
+    "edition": "2016",
+    "note": "Defines equalized odds and its equal-opportunity relaxation; claims of incompatibility need precise conditions."
+  },
+  {
+    "id": "rudin",
+    "title": "Rudin: use interpretable models for high-stakes decisions",
+    "url": "https://arxiv.org/abs/1811.10154",
+    "edition": "2018 preprint / 2019 publication",
+    "note": "Primary research perspective on interpretability and the assumed accuracy trade-off."
+  },
+  {
+    "id": "owasp-injection",
+    "title": "OWASP LLM01:2025 Prompt Injection",
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "edition": "2025 list",
+    "note": "Layered mitigations, including filtering, role/context separation, least privilege and approval."
+  },
+  {
+    "id": "owasp-list",
+    "title": "OWASP Top 10 for LLM Applications",
+    "url": "https://genai.owasp.org/llm-top-10/",
+    "edition": "2025 list referenced in this book",
+    "note": "A versioned weakness checklist; distinguish list edition from later project updates."
+  },
+  {
+    "id": "atlas",
+    "title": "MITRE ATLAS",
+    "url": "https://atlas.mitre.org/",
+    "edition": "Living knowledge base; accessed 20 October 2026",
+    "note": "Adversary tactics, techniques and case studies; it evolves rather than having a frozen exam edition."
+  },
+  {
+    "id": "iso-aims",
+    "title": "ISO/IEC 42001 AI management systems",
+    "url": "https://www.iso.org/standard/81230.html",
+    "edition": "2023",
+    "note": "Public catalogue/description used for overview. This book does not reproduce or claim a full clause-by-clause review of the paid standard."
+  },
+  {
+    "id": "iso-lifecycle",
+    "title": "ISO/IEC 5338 AI system lifecycle processes",
+    "url": "https://www.iso.org/standard/81118.html",
+    "edition": "2023",
+    "note": "Public catalogue reference; lifecycle gate examples here are author-created teaching aids."
+  },
+  {
+    "id": "iso-impact",
+    "title": "ISO/IEC 42005 AI system impact assessment",
+    "url": "https://committee.iso.org/standard/42005",
+    "edition": "2025",
+    "note": "Public description of impact-assessment guidance; avoid treating it as legislation."
+  },
+  {
+    "id": "fed-vendors",
+    "title": "US agencies: Interagency Guidance on Third-Party Relationships",
+    "url": "https://www.federalreserve.gov/frrs/guidance/interagency-guidance-on-third-party-relationships.htm",
+    "edition": "2023 guidance",
+    "note": "Primary example of direct third-party and subcontractor relationships, evidence and lifecycle responsibilities; sector scope matters."
+  },
+  {
+    "id": "zillow",
+    "title": "Zillow Q3 2021 shareholder letter",
+    "url": "https://s24.q4cdn.com/723050407/files/doc_financials/2021/q3/Zillow-Group-Q3%2721-Shareholder-Letter.pdf",
+    "edition": "2 November 2021",
+    "note": "Company account of forecasting uncertainty and the Offers wind-down; does not prove a single isolated technical cause."
+  },
+  {
+    "id": "outage",
+    "title": "OpenAI: March 20 ChatGPT outage report",
+    "url": "https://openai.com/index/march-20-chatgpt-outage/",
+    "edition": "March 2023",
+    "note": "Provider's historical incident account; its sequence is not a universal notification rule."
+  },
+  {
+    "id": "apple",
+    "title": "New York DFS: Apple Card investigation report",
+    "url": "https://www.dfs.ny.gov/reports_and_publications/202103_report_apple_card_investigation",
+    "edition": "March 2021",
+    "note": "Regulator report distinguishing allegations, findings and communication concerns."
+  },
+  {
+    "id": "worm",
+    "title": "Cohen et al.: Here Comes the AI Worm",
+    "url": "https://arxiv.org/abs/2403.02817",
+    "edition": "2024",
+    "note": "Morris II laboratory proof of concept, not a report of a production outbreak."
+  },
+  {
+    "id": "pytorch",
+    "title": "PyTorch: compromised nightly dependency",
+    "url": "https://pytorch.org/blog/compromised-nightly-dependency/",
+    "edition": "December 2022 incident",
+    "note": "Primary incident account of the torchtriton dependency-confusion event."
+  },
+  {
+    "id": "jfrog",
+    "title": "JFrog security research discoveries in 2024",
+    "url": "https://jfrog.com/blog/top-jfrog-security-research-discoveries-of-2024/",
+    "edition": "2024 research summarized in 2025",
+    "note": "Researcher account of malicious model artifacts; scanning has defined scope and limitations."
+  },
+  {
+    "id": "dutch",
+    "title": "Dutch DPA: discriminatory Tax Administration processing",
+    "url": "https://autoriteitpersoonsgegevens.nl/en/current/tax-administration-fined-for-discriminatory-and-unlawful-data-processing",
+    "edition": "7 December 2021",
+    "note": "Historical enforcement announcement about nationality data; the broader scandal had multiple institutional and legal causes."
+  },
+  {
+    "id": "aircanada",
+    "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
+    "url": "https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+    "edition": "2024 tribunal decision",
+    "note": "Read the actual jurisdiction-specific decision rather than assuming every chatbot statement creates a binding contract."
+  },
+  {
+    "id": "italy",
+    "title": "Italian DPA: ChatGPT processing restriction",
+    "url": "https://garanteprivacy.it/home/docweb/-/docweb-display/docweb/9870847",
+    "edition": "31 March 2023",
+    "note": "Historical regulatory action; later proceedings or appeals should not be inferred from this snapshot."
+  },
+  {
+    "id": "slack",
+    "title": "Slack privacy principles: data management",
+    "url": "https://slack.com/trust/data-management/privacy-principles",
+    "edition": "Living provider statement",
+    "note": "Assess current actual terms and product scope; historical controversy is not a claim of current training practice."
+  },
+  {
+    "id": "zoom",
+    "title": "Zoom: terms of service and AI practices",
+    "url": "https://blog.zoom.us/zooms-term-service-ai/",
+    "edition": "August 2023 historical clarification",
+    "note": "Provider clarification; current contracting must use current applicable terms."
+  },
+  {
+    "id": "echoleak",
+    "title": "Microsoft MSRC: CVE-2025-32711",
+    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711",
+    "edition": "2025 vulnerability record",
+    "note": "Vulnerability evidence is distinct from proof of a production exploitation event or a specific local ACL failure."
+  },
+  {
+    "id": "arup",
+    "title": "UNODC: cyber-enabled fraud and deepfake case",
+    "url": "https://www.unodc.org/roseap/uploads/documents/Publications/2024/TOC_Convergence_Report_2024.pdf",
+    "edition": "2024 institutional report",
+    "note": "Corroborates the reported Arup event; use it as a historical illustration, not proof no detection control could work."
+  },
+  {
+    "id": "samsung",
+    "title": "Bloomberg: Samsung restriction after sensitive-code upload",
+    "url": "https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak",
+    "edition": "2 May 2023 original reporting; may be paywalled",
+    "note": "Historical reporting, not a statement of Samsung's current policy."
+  },
+  {
+    "id": "amazon",
+    "title": "Reuters: Amazon's experimental recruiting tool",
+    "url": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G/",
+    "edition": "10 October 2018 original reporting",
+    "note": "Reported experimental-system issues; do not infer that every internal use or downstream decision was independently assessed here."
+  },
+  {
+    "id": "dpd",
+    "title": "TIME: DPD chatbot incident and company response",
+    "url": "https://time.com/6564726/ai-chatbot-dpd-curses-criticizes-company/",
+    "edition": "January 2024 original reporting",
+    "note": "Historical report of manipulated output and company response; a case illustration, not proof of every internal detection control."
+  },
+  {
+    "id": "clearview",
+    "title": "ICO: Clearview AI enforcement announcement",
+    "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2022/05/ico-fines-facial-recognition-database-company-clearview-ai-inc/",
+    "edition": "May 2022 historical announcement",
+    "note": "Historical enforcement statement. Appeals and jurisdictional outcomes require current legal verification; this is not a final-status claim."
+  },
+  {
+    "id": "candidate",
+    "title": "ISACA AAISM Exam Candidate Guide",
+    "url": "https://www.isaca.org/-/media/files/isacadp/project/isaca/certification/aaism/aaism-exam-candidate-guide.pdf",
+    "edition": "Version 1.26; checked 20 October 2026",
+    "note": "Official logistics/scoring reference. This version uses AI Risk and Opportunity Management for Domain 2; the public web outline uses AI Risk Management."
+  },
+  {
+    "id": "csa",
+    "title": "CSA AI Model Risk Management Framework",
+    "url": "https://cloudsecurityalliance.org/artifacts/ai-model-risk-management-framework",
+    "edition": "2024 publication",
+    "note": "Primary source for the model-card, data-sheet, risk-card and scenario-planning framing."
+  },
+  {
+    "id": "iso-risk",
+    "title": "ISO/IEC 23894 AI risk-management guidance",
+    "url": "https://www.iso.org/standard/77304.html",
+    "edition": "2023",
+    "note": "Public catalogue description, not a reproduced or exhaustive clause review."
+  },
+  {
+    "id": "iso-trust",
+    "title": "ISO/IEC TR 24028 trustworthiness overview",
+    "url": "https://www.iso.org/standard/77608.html",
+    "edition": "2020 technical report",
+    "note": "Public catalogue description; distinguish technical reports, guidance, certifiable standards and legislation."
+  }
+]

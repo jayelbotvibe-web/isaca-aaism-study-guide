@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 655" role="img" aria-labelledby="tool-evaluation-title tool-evaluation-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="tool-evaluation-title">Compare protection against the same test pack</title>
+<desc id="tool-evaluation-desc">Create a versioned test pack containing allowed requests, attack attempts, bypass paths and failure or outage cases. Run the same task and cases through the baseline architecture and the proposed protected architecture. Keep other relevant conditions comparable and document the scope. Compare harmful outputs, false blocks, latency, cost, data exposure, coverage gaps and failure behavior. A vendor demonstration alone does not show local effectiveness. Use agreed criteria to approve a bounded use, request remediation or reject the tool. Record residual gaps and ownership.</desc>
+<defs><marker id="tool-evaluation-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="655" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Compare protection against the same test pack</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Illustrative proof-of-value design: document scope and measure trade-offs.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="127" width="252" height="170" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M42,142 h18 l7,7 v23 h-25 Z M60,142 v8 h7 M47,156 h14 M47,163 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="156" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Versioned test pack</text>
+<text x="42" y="185" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Allowed requests</text>
+<text x="42" y="210" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Attack attempts</text>
+<text x="42" y="235" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Bypass paths</text>
+<text x="42" y="260" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Failure / outage cases</text>
+<rect x="390" y="127" width="242" height="110" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M404,142 h30 v12 h-30 Z M404,159 h30 v12 h-30 Z M409,148 h5 M409,165 h5" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="442" y="156" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Baseline path</text>
+<text x="406" y="185" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Current architecture</text>
+<text x="406" y="210" font-size="17" fill="#182633" font-weight="400" text-anchor="start">without the proposed tool</text>
+<rect x="390" y="367" width="242" height="110" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M419,382 l14,6 v10 q-1,10 -14,17 q-13,-7 -14,-17 V388 Z M412,398 l5,5 l10,-12" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="442" y="396" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Protected path</text>
+<text x="406" y="425" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Same task and cases;</text>
+<text x="406" y="450" font-size="17" fill="#182633" font-weight="400" text-anchor="start">proposed tool enabled</text>
+<path d="M280,208 H330 V181 H384" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#tool-evaluation-arrow)"/>
+<path d="M330,208 V421 H384" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#tool-evaluation-arrow)"/>
+<rect x="734" y="190" width="200" height="264" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M748,205 v30 h32 M753,227 l8,-11 l8,5 l10,-15" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="786" y="219" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Compare</text>
+<text x="750" y="248" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Harmful outputs</text>
+<text x="750" y="273" font-size="17" fill="#182633" font-weight="400" text-anchor="start">False blocks</text>
+<text x="750" y="298" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Latency and cost</text>
+<text x="750" y="323" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Data exposure</text>
+<text x="750" y="348" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Coverage gaps</text>
+<text x="750" y="373" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Failure behavior</text>
+<path d="M634,181 L728,261" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#tool-evaluation-arrow)"/>
+<path d="M634,421 L728,388" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#tool-evaluation-arrow)"/>
+<rect x="26" y="536" width="908" height="82" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="46" y="566" font-size="21" fill="#26557A" font-weight="700" text-anchor="start">Decide against agreed criteria</text>
+<text x="46" y="595" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Approve a bounded use, request remediation or reject; record residual gaps and ownership.</text>
+<path d="M834,457 V530" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#tool-evaluation-arrow)"/>
+</svg>

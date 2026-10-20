@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="monitoring-loop-title monitoring-loop-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="monitoring-loop-title">Monitoring needs a consequence</title>
+<desc id="monitoring-loop-desc">The chart is schematic, not observed performance. It shows quality falling below an illustrative action threshold across evaluation windows. Verify ground truth, sample size, subgroup coverage and uncertainty. A signal alone does not identify drift, an attack or the correct remedy. A named owner responds; impact may require restriction or a safe fallback. Investigate data, model, configuration, possible attack and changes in the world. Review the proposed change, curate any retraining data, test and authorize promotion, preserve evidence and rollback, and continue monitoring. Do not retrain automatically on potentially poisoned or unsuitable data.</desc>
+<defs><marker id="monitoring-loop-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="720" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Monitoring needs a consequence</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Schematic quality trend: shape illustrates a trigger, not measured performance.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="112" width="908" height="237" rx="12" fill="#FFFFFF" stroke="#BBCAD6" stroke-width="1.7"/>
+<path d="M88,298 L876,298" fill="none" stroke="#526273" stroke-width="2"/>
+<path d="M88,135 L88,298" fill="none" stroke="#526273" stroke-width="2"/>
+<text x="102" y="145" font-size="17" fill="#182633" font-weight="600" text-anchor="start">Quality against an approved baseline</text>
+<path d="M90,234 L875,234" fill="none" stroke="#9C3226" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="632" y="222" font-size="16" fill="#9C3226" font-weight="600" text-anchor="start">Illustrative action threshold</text>
+<path d="M104,175 L220,163 L335,184 L450,179 L565,209 L680,254 L794,276 L871,284" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="680" cy="254" r="6" fill="#FFFFFF" stroke="#9C3226" stroke-width="1.7"/>
+<text x="102" y="328" font-size="16" fill="#526273" font-weight="400" text-anchor="start">Time / evaluation windows →</text>
+<path d="M680,262 V366 H170 V390" fill="none" stroke="#9C3226" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#monitoring-loop-arrow)"/>
+<rect x="26" y="395" width="260" height="124" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M63,421 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M60,430 l12,12" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="424" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Check the signal</text>
+<text x="42" y="453" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Ground truth, sample size,</text>
+<text x="42" y="478" font-size="17" fill="#182633" font-weight="400" text-anchor="start">subgroups and uncertainty</text>
+<rect x="350" y="395" width="260" height="124" rx="12" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<path d="M384,417 a6,6 0 1,0 -12,0 a6,6 0 1,0 12,0 M365,439 v-5 q1,-10 13,-10 q12,0 13,10 v5" fill="none" stroke="#9C3226" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="402" y="424" font-size="19" fill="#9C3226" font-weight="700" text-anchor="start">Assign and respond</text>
+<text x="366" y="453" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Owner; restrict / fall back</text>
+<text x="366" y="478" font-size="17" fill="#182633" font-weight="400" text-anchor="start">when impact requires</text>
+<rect x="674" y="395" width="260" height="124" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M711,421 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M708,430 l12,12" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="726" y="424" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Investigate cause</text>
+<text x="690" y="453" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Data, model, configuration,</text>
+<text x="690" y="478" font-size="17" fill="#182633" font-weight="400" text-anchor="start">attack or real-world change</text>
+<path d="M288,456 L344,456" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#monitoring-loop-arrow)"/>
+<path d="M612,456 L668,456" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#monitoring-loop-arrow)"/>
+<rect x="350" y="581" width="584" height="104" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M379,596 l14,6 v10 q-1,10 -14,17 q-13,-7 -14,-17 V602 Z M372,612 l5,5 l10,-12" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="402" y="610" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Review change, test and authorize promotion</text>
+<text x="366" y="639" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Curate retraining data; preserve the evidence and rollback path.</text>
+<path d="M804,522 V575" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#monitoring-loop-arrow)"/>
+<path d="M347,633 H156 V525" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#monitoring-loop-arrow)" stroke-dasharray="6 5"/>
+<text x="26" y="563" font-size="17" fill="#286151" font-weight="700" text-anchor="start">Repeat monitoring</text>
+</svg>

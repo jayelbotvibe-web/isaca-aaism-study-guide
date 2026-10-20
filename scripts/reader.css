@@ -1,0 +1,67 @@
+/* The downloadable book includes this CSS inline; no runtime assets are fetched. */
+.page{display:block}
+.reader-ready .page{display:none}
+.reader-ready .page.on,.reader-ready.flow .page{display:block}
+a{color:#174f78;text-underline-offset:.17em}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #936000;outline-offset:4px}
+.learning-goal{font-family:var(--sans);font-size:.94em;border-left:3px solid var(--d1);padding:12px 16px;background:#eef3f7;max-width:80ch;margin:18px auto 28px}
+.source-note{font-family:var(--sans);font-size:.87em;color:#45515e;overflow-wrap:anywhere}
+.figure-open{position:static;margin-top:15px;border:1px solid #26557a;background:white;color:#183d5a;padding:9px 14px;border-radius:5px;cursor:pointer}
+.figure-text{font-family:var(--sans);font-size:.9em;margin:12px 0 30px}
+.figure-text summary,.answer-guide summary{display:list-item;list-style:revert}
+.figure-text ul{padding:0 28px 18px 42px}
+.visual-viewport{overflow-x:auto;overscroll-behavior-x:contain;border-radius:6px}
+.visual-viewport:focus-visible{outline:3px solid #936000;outline-offset:3px}
+.study-visual svg{min-width:720px}
+.study-visual{cursor:default}
+.visual-help{font-family:var(--sans);font-size:13px;line-height:1.5;color:#45515e;margin:14px 0 0;display:none}
+#lb.big #lbInner{width:max(100%,1100px);max-width:2600px}
+@media(max-width:1000px){.visual-help{display:block}}
+.answer-guide{color:#24313d;background:white;margin:12px 0;max-width:80ch}
+.answer-guide summary{font-size:14px;padding:10px 14px}
+.answer-guide p{padding:12px 16px;margin:0}
+.practice-controls{font-family:var(--sans);padding:20px;border:1px solid var(--rule);border-radius:8px;background:#eef3f7}
+.practice-controls select,.practice-controls button{font:inherit;margin:6px;padding:9px 12px;max-width:100%;white-space:normal;border:1px solid #627587;border-radius:4px;background:white;color:#183d5a}
+.practice-controls button{cursor:pointer}
+#practice-results p,#practice-status{margin:12px 0 0}
+#practice-timer{font-family:var(--mono);font-weight:bold}
+.practice-question{font-family:var(--sans);border:1px solid var(--rule);border-radius:8px;padding:20px;margin:24px 0;scroll-margin-top:20px}
+.practice-question[hidden]{display:none!important}
+.practice-question fieldset{border:0;padding:0;margin:0;min-width:0}
+.practice-question legend{font-size:17px;line-height:1.6;padding:0 0 12px;width:100%;font-weight:600}
+.practice-option{display:flex;gap:12px;align-items:flex-start;padding:10px 12px;margin:6px 0;border:1px solid #c6d2dd;border-radius:5px;cursor:pointer;font-size:15px;line-height:1.6}
+.practice-option:has(input:checked){background:#e5f0f7;border-color:#26557a}
+.practice-option input{margin-top:6px;flex:none;width:17px;height:17px;accent-color:#26557a}
+.practice-solution summary{display:list-item;list-style:revert;font-size:14px}
+.practice-solution summary[aria-disabled=true]{color:#526273}
+.practice-explanation{padding:14px 18px;font-size:15px}
+.practice-explanation ul{padding-left:22px}
+.skip-link{position:absolute;left:12px;top:-80px;z-index:300;background:white;padding:12px}
+.skip-link:focus{top:12px}
+.mobile-toc-toggle{display:none}
+table{display:block;overflow-x:auto;max-width:100%}
+thead,tbody{min-width:0}
+th[scope=row]{background:#eef3f7;color:var(--ink);text-transform:none;letter-spacing:normal;font-family:var(--sans);font-size:14px}
+.box a{color:#174f78}.box.chk a{color:#d9ecff}
+@media(max-width:700px){.practice-controls{padding:12px}.practice-controls button{margin:4px 0;display:block;width:100%}.practice-question{padding:14px}.practice-question legend{font-size:16px}.practice-option{padding:9px;font-size:14px}.cover .in{gap:10px}}
+@media(max-width:1000px){
+ .reader-ready nav.toc{display:none}
+ .reader-ready.toc-open nav.toc{display:block}
+ .reader-ready .mobile-toc-toggle{display:block;position:sticky;top:3px;z-index:75;width:100%;padding:12px 20px;border:0;border-bottom:1px solid var(--rule);background:white;color:#183d5a;font-family:var(--sans);text-align:left;cursor:pointer}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+@media print{
+ .reader-ready .page{display:block!important}
+ .figure-open,.practice-controls,.skip-link,.mobile-toc-toggle{display:none!important}
+ .page{animation:none!important}
+ .practice-question{break-inside:avoid;font-size:10pt}
+ .practice-question[hidden]{display:block!important}
+ table{display:table;overflow:visible;font-size:9pt}
+ figure{break-inside:avoid} figure svg{max-height:220mm;object-fit:contain} .figure-text{display:none}
+ .study-visual svg{min-width:0}.visual-viewport{overflow:visible}.visual-help{display:none}
+ .print-questions .page{display:none!important}
+ .print-questions .page:has(#c21){display:block!important}
+ .print-questions .practice-solution,.print-questions #c21 .lesson-case,.print-questions #c21 .box.chk,.print-questions #c21 .source-note,.print-questions footer{display:none!important}
+ .print-questions #c21{break-before:auto}
+ .print-questions #c21 .study-visual{display:none!important}
+}

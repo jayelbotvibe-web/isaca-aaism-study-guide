@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 670" role="img" aria-labelledby="agent-transaction-title agent-transaction-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="agent-transaction-title">Bind approval to the transaction that executes</title>
+<desc id="agent-transaction-desc">The agent proposes a target, action, parameters and budget. A policy check precedes supervisor approval that binds the specific scope and expiry. The execution gate rechecks identity, delegated authority and the exact request. A changed or expired request returns for approval; approval of an earlier proposal is insufficient. A matching authorized request reaches the tool with an idempotency key and recorded outcome. If the API result is uncertain, query status and reconcile side effects before retrying. The whole workflow needs a short-lived identity, step and spend limits, cancellation and protected logs. Cancellation stops queued work and verifies already-performed actions.</desc>
+<defs><marker id="agent-transaction-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="670" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Bind approval to the transaction that executes</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Calder WO-17: a work-order proposal is lower trust than an authorized action.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="123" width="220" height="130" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M44,141 L64,142 L55,164 Z M44,141 L55,164 M44,141 L67,158 L64,142 M67,158 L55,164" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="152" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Agent proposal</text>
+<text x="42" y="181" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Target + action +</text>
+<text x="42" y="206" font-size="17" fill="#182633" font-weight="400" text-anchor="start">parameters + budget</text>
+<rect x="370" y="123" width="220" height="130" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M404,145 a6,6 0 1,0 -12,0 a6,6 0 1,0 12,0 M385,167 v-5 q1,-10 13,-10 q12,0 13,10 v5" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="422" y="152" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Bound approval</text>
+<text x="386" y="181" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Scope + expiry +</text>
+<text x="386" y="206" font-size="17" fill="#182633" font-weight="400" text-anchor="start">supervisor decision</text>
+<rect x="714" y="123" width="220" height="130" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M743,138 l14,6 v10 q-1,10 -14,17 q-13,-7 -14,-17 V144 Z M736,154 l5,5 l10,-12" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="766" y="152" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Execution gate</text>
+<text x="730" y="181" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Recheck identity, scope</text>
+<text x="730" y="206" font-size="17" fill="#182633" font-weight="400" text-anchor="start">and exact request</text>
+<path d="M249,187 L365,187" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#agent-transaction-arrow)"/>
+<text x="307" y="170" font-size="16" fill="#26557A" font-weight="600" text-anchor="middle">Check policy</text>
+<path d="M593,187 L708,187" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#agent-transaction-arrow)"/>
+<text x="650" y="170" font-size="16" fill="#6E3B7E" font-weight="600" text-anchor="middle">Approved</text>
+<rect x="714" y="382" width="220" height="112" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M746,403 a8,8 0 1,0 0,1 M741,409 l-13,14 l4,4 l5,-5 l-3,-3" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="766" y="411" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Tool execution</text>
+<text x="730" y="440" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Idempotency key;</text>
+<text x="730" y="465" font-size="17" fill="#182633" font-weight="400" text-anchor="start">record outcome</text>
+<path d="M824,255 L824,376" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#agent-transaction-arrow)"/>
+<text x="840" y="320" font-size="16" fill="#955017" font-weight="600" text-anchor="start">Matches</text>
+<rect x="370" y="382" width="220" height="112" rx="12" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<path d="M407,408 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M404,417 l12,12" fill="none" stroke="#9C3226" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="422" y="411" font-size="19" fill="#9C3226" font-weight="700" text-anchor="start">Uncertain result?</text>
+<text x="386" y="440" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Query status before retry;</text>
+<text x="386" y="465" font-size="17" fill="#182633" font-weight="400" text-anchor="start">reconcile side effects</text>
+<path d="M711,438 L595,438" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#agent-transaction-arrow)"/>
+<path d="M714,222 H658 V290 H480 V257" fill="none" stroke="#9C3226" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#agent-transaction-arrow)" stroke-dasharray="6 5"/>
+<text x="490" y="325" font-size="17" fill="#9C3226" font-weight="700" text-anchor="start">Changed or expired? Reapprove.</text>
+<rect x="26" y="382" width="276" height="112" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="43" y="413" font-size="20" fill="#26557A" font-weight="700" text-anchor="start">Always bounded</text>
+<text x="43" y="444" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Short-lived identity; step / spend</text>
+<text x="43" y="469" font-size="17" fill="#182633" font-weight="400" text-anchor="start">limits; cancellation and logging</text>
+<text x="26" y="575" font-size="18" fill="#182633" font-weight="700" text-anchor="start">A cancel request must stop queued work and verify actions already performed.</text>
+<text x="26" y="616" font-size="18" fill="#9C3226" font-weight="700" text-anchor="start">Never turn an uncertain API response into a blind duplicate action.</text>
+</svg>

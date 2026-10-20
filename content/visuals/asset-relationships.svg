@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="asset-relationships-title asset-relationships-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="asset-relationships-title">Inventory the connected system</title>
+<desc id="asset-relationships-desc">The MA-01 use-case record connects the accountable owner, classification, status and reassessment triggers to the system’s component records. Source manuals feed a corpus and index, which feed the application. The application can call a work-order tool. Record source rights and versions, chunks, vectors, access-control lists, prompts, policy and permitted actions. Connect model and provider versions, terms and dependencies to the application. Connect invoking-user, service and agent identities and permissions to tool access. Logs, caches and evaluation records are linked assets with their own protections. A material change to any dependency can reopen the use-case approval and risk evidence.</desc>
+<defs><marker id="asset-relationships-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="620" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Inventory the connected system</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Illustrative MA-01 record: the assistant is more than its model.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="108" width="906" height="70" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M46,126 h18 l7,7 v23 h-25 Z M64,126 v8 h7 M51,140 h14 M51,147 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="88" y="137" font-size="21" fill="#26557A" font-weight="700" text-anchor="start">MA-01 · Maintenance assistant</text>
+<text x="88" y="163" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Use, accountable owner, classification, status and reassessment triggers</text>
+<rect x="26" y="254" width="208" height="102" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M42,269 h18 l7,7 v23 h-25 Z M60,269 v8 h7 M47,283 h14 M47,290 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="283" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Source manuals</text>
+<text x="42" y="312" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Owner, rights, version</text>
+<rect x="274" y="254" width="208" height="102" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M288,275 C288,267 318,267 318,275 C318,283 288,283 288,275 v20 C288,303 318,303 318,295 V275" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="326" y="283" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Corpus / index</text>
+<text x="290" y="312" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Chunks, vectors, ACLs</text>
+<rect x="522" y="254" width="178" height="102" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M536,269 h30 v12 h-30 Z M536,286 h30 v12 h-30 Z M541,275 h5 M541,292 h5" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="574" y="283" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Application</text>
+<text x="538" y="312" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Prompts and policy</text>
+<rect x="740" y="254" width="192" height="102" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M772,275 a8,8 0 1,0 0,1 M767,281 l-13,14 l4,4 l5,-5 l-3,-3" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="792" y="283" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Action tool</text>
+<text x="756" y="312" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Actions and outputs</text>
+<path d="M236,307 L268,307" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#asset-relationships-arrow)"/>
+<path d="M484,307 L516,307" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#asset-relationships-arrow)"/>
+<path d="M702,307 L734,307" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#asset-relationships-arrow)"/>
+<rect x="26" y="457" width="242" height="100" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M44,475 L64,476 L55,498 Z M44,475 L55,498 M44,475 L67,492 L64,476 M67,492 L55,498" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="486" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Provider / model</text>
+<text x="42" y="515" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Version, terms,</text>
+<text x="42" y="540" font-size="17" fill="#182633" font-weight="400" text-anchor="start">dependencies</text>
+<rect x="332" y="457" width="286" height="100" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M366,479 a6,6 0 1,0 -12,0 a6,6 0 1,0 12,0 M347,501 v-5 q1,-10 13,-10 q12,0 13,10 v5" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="384" y="486" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Identity and permissions</text>
+<text x="348" y="515" font-size="17" fill="#182633" font-weight="400" text-anchor="start">User, service and agent scopes</text>
+<rect x="682" y="457" width="250" height="100" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M698,472 h18 l7,7 v23 h-25 Z M716,472 v8 h7 M703,486 h14 M703,493 h14" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="734" y="486" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Evidence and copies</text>
+<text x="698" y="515" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Logs, caches, evaluations</text>
+<path d="M147,455 V400 H568 V359" fill="none" stroke="#6E3B7E" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#asset-relationships-arrow)"/>
+<path d="M474,455 V413 H802 V359" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#asset-relationships-arrow)"/>
+<path d="M645,359 V397 H807 V453" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#asset-relationships-arrow)"/>
+<path d="M611,178 L611,248" fill="none" stroke="#26557A" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="28" y="598" font-size="18" fill="#26557A" font-weight="700" text-anchor="start">A change to a linked asset may reopen the use case’s approval and risk evidence.</text>
+</svg>

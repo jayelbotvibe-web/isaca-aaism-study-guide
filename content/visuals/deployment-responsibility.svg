@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" role="img" aria-labelledby="deployment-responsibility-title deployment-responsibility-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="deployment-responsibility-title">Read the responsibility stack</title>
+<desc id="deployment-responsibility-desc">These are illustrative arrangements, not a universal legal or contractual allocation. C means customer operation; P means provider operation or origin. In the embedded SaaS example, the provider operates the application and serving infrastructure and supplies the base model. With a consumed API, the customer operates its application while the provider supplies serving and the model. Neither example shows fine-tuning for this use case. For a provider-hosted fine-tune, the customer operates its application, serving is provider-operated, and the adaptation workflow is shared: customer tuning data and choices combine with provider training infrastructure. The base model has provider origin. For a self-hosted unchanged base model, the customer operates the application and serving infrastructure. The base has third-party origin and is not fine-tuned for this use case. Other arrangements are possible; hosting does not determine adaptation. Customer access decisions, data handling, local evaluation and verification of supplier evidence remain relevant across all arrangements. Determine hosting, origin, adaptation and legal role separately.</desc>
+<defs><marker id="deployment-responsibility-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="660" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Read the responsibility stack</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Illustrative operating arrangements; verify the actual service and contract.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<text x="332" y="126" font-size="17" fill="#26557A" font-weight="700" text-anchor="middle">Embedded SaaS</text>
+<rect x="252" y="151" width="156" height="62" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="330" y="190" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">P</text>
+<rect x="252" y="231" width="156" height="62" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="330" y="270" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">P</text>
+<rect x="252" y="311" width="156" height="62" rx="8" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="330" y="350" font-size="22" fill="#955017" font-weight="700" text-anchor="middle">—</text>
+<rect x="252" y="391" width="156" height="62" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="330" y="430" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">P</text>
+<text x="504" y="126" font-size="17" fill="#26557A" font-weight="700" text-anchor="middle">Consumed API</text>
+<rect x="424" y="151" width="156" height="62" rx="8" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="502" y="190" font-size="22" fill="#286151" font-weight="700" text-anchor="middle">C</text>
+<rect x="424" y="231" width="156" height="62" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="502" y="270" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">P</text>
+<rect x="424" y="311" width="156" height="62" rx="8" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="502" y="350" font-size="22" fill="#955017" font-weight="700" text-anchor="middle">—</text>
+<rect x="424" y="391" width="156" height="62" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="502" y="430" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">P</text>
+<text x="676" y="126" font-size="17" fill="#26557A" font-weight="700" text-anchor="middle">Hosted fine-tune</text>
+<rect x="596" y="151" width="156" height="62" rx="8" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="674" y="190" font-size="22" fill="#286151" font-weight="700" text-anchor="middle">C</text>
+<rect x="596" y="231" width="156" height="62" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="674" y="270" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">P</text>
+<rect x="596" y="311" width="156" height="62" rx="8" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="674" y="350" font-size="22" fill="#955017" font-weight="700" text-anchor="middle">C + P</text>
+<rect x="596" y="391" width="156" height="62" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="674" y="430" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">P</text>
+<text x="848" y="126" font-size="17" fill="#26557A" font-weight="700" text-anchor="middle">Self-hosted base</text>
+<rect x="768" y="151" width="156" height="62" rx="8" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="846" y="190" font-size="22" fill="#286151" font-weight="700" text-anchor="middle">C</text>
+<rect x="768" y="231" width="156" height="62" rx="8" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="846" y="270" font-size="22" fill="#286151" font-weight="700" text-anchor="middle">C</text>
+<rect x="768" y="311" width="156" height="62" rx="8" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="846" y="350" font-size="22" fill="#955017" font-weight="700" text-anchor="middle">—</text>
+<rect x="768" y="391" width="156" height="62" rx="8" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="846" y="430" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">P</text>
+<text x="26" y="190" font-size="17" fill="#182633" font-weight="600" text-anchor="start">Application / integration</text>
+<text x="26" y="270" font-size="17" fill="#182633" font-weight="600" text-anchor="start">Serving infrastructure</text>
+<text x="26" y="350" font-size="17" fill="#182633" font-weight="600" text-anchor="start">Use-case fine-tuning</text>
+<text x="26" y="430" font-size="17" fill="#182633" font-weight="600" text-anchor="start">Base model origin</text>
+<rect x="26" y="496" width="200" height="34" rx="17" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="126.0" y="519" font-size="16" fill="#286151" font-weight="700" text-anchor="middle">C · Customer</text>
+<rect x="244" y="496" width="200" height="34" rx="17" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="344.0" y="519" font-size="16" fill="#6E3B7E" font-weight="700" text-anchor="middle">P · Provider</text>
+<text x="26" y="563" font-size="17" fill="#526273" font-weight="400" text-anchor="start">— No fine-tuning for this use case in these examples; other arrangements are possible.</text>
+<text x="26" y="592" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Customer duties span every column: access, data handling, local evaluation and supplier evidence.</text>
+<text x="26" y="623" font-size="18" fill="#26557A" font-weight="700" text-anchor="start">Hosting, model origin, adaptation and legal role require separate decisions.</text>
+</svg>

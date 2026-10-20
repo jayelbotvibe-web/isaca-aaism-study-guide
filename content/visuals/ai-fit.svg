@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-labelledby="ai-fit-title ai-fit-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="ai-fit-title">Choose the simplest approach that meets the need</title>
+<desc id="ai-fit-desc">First define the task, measured success, harm from error, oversight and stop conditions. High-impact or irreversible outcomes need suitable evidence and authority before a method is chosen. If explicit rules meet the requirement, use deterministic logic. If the need is answers from permissioned documents, consider retrieval with validation. If a pattern must be learned from examples, consider a model with evaluation. These are starting questions, not mutually exclusive system categories. If no approach meets the requirement, reframe the task or retain a human process. An agent adds action across systems only where justified, with delegated authority, approvals, budgets and cancellation.</desc>
+<defs><marker id="ai-fit-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="680" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Choose the simplest approach that meets the need</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Start with the task, the evidence and the cost of a wrong result.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="28" y="111" width="904" height="66" rx="12" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="44" y="140" font-size="19" fill="#9C3226" font-weight="700" text-anchor="start">High-impact or hard-to-reverse outcome?</text>
+<text x="44" y="169" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Set evidence, oversight and stop conditions before choosing a method.</text>
+<rect x="28" y="212" width="524" height="76" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="44" y="241" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Can explicit rules meet the requirement?</text>
+<path d="M554,248 L640,248" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ai-fit-arrow)"/>
+<text x="593" y="236" font-size="16" fill="#26557A" font-weight="600" text-anchor="middle">Yes</text>
+<rect x="646" y="212" width="286" height="76" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M662,243 l8,9 l20,-23" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="698" y="241" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Deterministic logic</text>
+<path d="M270,289 L270,322" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ai-fit-arrow)"/>
+<text x="284" y="312" font-size="15" fill="#526273" font-weight="400" text-anchor="start">Otherwise</text>
+<rect x="28" y="324" width="524" height="76" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="44" y="353" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Need answers from controlled documents?</text>
+<path d="M554,360 L640,360" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ai-fit-arrow)"/>
+<text x="593" y="348" font-size="16" fill="#26557A" font-weight="600" text-anchor="middle">Yes</text>
+<rect x="646" y="324" width="286" height="76" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M662,355 l8,9 l20,-23" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="698" y="353" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Retrieval + validation</text>
+<path d="M270,401 L270,434" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ai-fit-arrow)"/>
+<text x="284" y="424" font-size="15" fill="#526273" font-weight="400" text-anchor="start">Otherwise</text>
+<rect x="28" y="436" width="524" height="76" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="44" y="465" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Need to learn a pattern from examples?</text>
+<path d="M554,472 L640,472" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ai-fit-arrow)"/>
+<text x="593" y="460" font-size="16" fill="#26557A" font-weight="600" text-anchor="middle">Yes</text>
+<rect x="646" y="436" width="286" height="76" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M662,467 l8,9 l20,-23" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="698" y="465" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Model + evaluation</text>
+<text x="30" y="551" font-size="18" fill="#9C3226" font-weight="700" text-anchor="start">If none fits: reframe the task or keep a human process.</text>
+<rect x="28" y="577" width="904" height="75" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="45" y="605" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Need actions across systems?</text>
+<text x="45" y="631" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Add an agent only with delegated authority, approvals, budgets and a cancellation path.</text>
+</svg>

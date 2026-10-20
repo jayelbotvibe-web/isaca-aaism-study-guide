@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="program-evidence-title program-evidence-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="program-evidence-title">Three questions for a program report</title>
+<desc id="program-evidence-desc">Coverage asks whether relevant AI systems are inventoried and assigned owners. Control operation asks whether tests and review logs show the control functioning. Outcomes ask about incidents, harm and affected people. These measures complement each other: a system can be in scope while a control fails, and a clean incident count alone does not prove effective control. Material findings require a named owner, funded action, a due date, and retesting and reporting. Include denominators, blind spots and unresolved exceptions.</desc>
+<defs><marker id="program-evidence-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="600" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Three questions for a program report</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Use complementary measures; a covered system can still have a failing control.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<circle cx="62" cy="139" r="26" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="62" y="147" font-size="22" fill="#26557A" font-weight="700" text-anchor="middle">1</text>
+<rect x="26" y="190" width="284" height="150" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M63,216 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M60,225 l12,12" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="219" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Coverage</text>
+<text x="42" y="248" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Is the system in scope?</text>
+<text x="42" y="273" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Inventory and owner records</text>
+<path d="M62,168 L62,185" fill="none" stroke="#26557A" stroke-width="2"/>
+<circle cx="374" cy="139" r="26" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<text x="374" y="147" font-size="22" fill="#6E3B7E" font-weight="700" text-anchor="middle">2</text>
+<rect x="338" y="190" width="284" height="150" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M367,205 l14,6 v10 q-1,10 -14,17 q-13,-7 -14,-17 V211 Z M360,221 l5,5 l10,-12" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="390" y="219" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Control operation</text>
+<text x="354" y="248" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Does the control work?</text>
+<text x="354" y="273" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Negative tests and review logs</text>
+<path d="M374,168 L374,185" fill="none" stroke="#6E3B7E" stroke-width="2"/>
+<circle cx="686" cy="139" r="26" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="686" y="147" font-size="22" fill="#955017" font-weight="700" text-anchor="middle">3</text>
+<rect x="650" y="190" width="284" height="150" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M664,205 v30 h32 M669,227 l8,-11 l8,5 l10,-15" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="702" y="219" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Outcomes</text>
+<text x="666" y="248" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Is harm being controlled?</text>
+<text x="666" y="273" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Incidents and affected people</text>
+<path d="M686,168 L686,185" fill="none" stroke="#955017" stroke-width="2"/>
+<rect x="26" y="386" width="908" height="174" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="46" y="417" font-size="21" fill="#286151" font-weight="700" text-anchor="start">Every material finding needs a route to closure</text>
+<rect x="46" y="449" width="185" height="34" rx="17" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="138.5" y="472" font-size="16" fill="#286151" font-weight="700" text-anchor="middle">Named owner</text>
+<rect x="269" y="449" width="185" height="34" rx="17" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="361.5" y="472" font-size="16" fill="#286151" font-weight="700" text-anchor="middle">Funded action</text>
+<rect x="492" y="449" width="185" height="34" rx="17" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="584.5" y="472" font-size="16" fill="#286151" font-weight="700" text-anchor="middle">Due date</text>
+<rect x="715" y="449" width="185" height="34" rx="17" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="807.5" y="472" font-size="16" fill="#286151" font-weight="700" text-anchor="middle">Retest / report</text>
+<path d="M233,466 L264,466" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#program-evidence-arrow)"/>
+<path d="M456,466 L487,466" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#program-evidence-arrow)"/>
+<path d="M679,466 L710,466" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#program-evidence-arrow)"/>
+<text x="46" y="526" font-size="18" fill="#182633" font-weight="400" text-anchor="start">Report denominators, blind spots and unresolved exceptions with the result.</text>
+</svg>

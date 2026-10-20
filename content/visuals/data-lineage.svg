@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 715" role="img" aria-labelledby="data-lineage-title data-lineage-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="data-lineage-title">A source document can leave several kinds of trace</title>
+<desc id="data-lineage-desc">The retrieval path can leave source documents, chunks, embeddings, index metadata, prompt context, generated responses, caches, logs and backups. Trace the actual architecture rather than assuming every listed store exists. A training path can retain a versioned data snapshot and produce weights that retain influence or information from the source. Source deletion does not prove this influence has been removed. A deletion or correction request follows both branches. Check rights, lawful retention, propagation and verification for each actual copy and derived store. Separately assess trained-model influence and evidence for suitable remedies, which may include model-specific unlearning, retraining, restriction or another lawful action. Output filtering alone is not evidence of deletion.</desc>
+<defs><marker id="data-lineage-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="715" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">A source document can leave several kinds of trace</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Trace actual stores and duties; deleting one object does not settle the whole request.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="124" width="200" height="110" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M42,139 h18 l7,7 v23 h-25 Z M60,139 v8 h7 M47,153 h14 M47,160 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="153" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">Source record</text>
+<text x="42" y="182" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Rights, purpose,</text>
+<text x="42" y="207" font-size="17" fill="#182633" font-weight="400" text-anchor="start">owner, retention</text>
+<rect x="310" y="124" width="244" height="110" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M324,145 C324,137 354,137 354,145 C354,153 324,153 324,145 v20 C324,173 354,173 354,165 V145" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="362" y="153" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Retrieval copies</text>
+<text x="326" y="182" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Chunks, embeddings,</text>
+<text x="326" y="207" font-size="17" fill="#182633" font-weight="400" text-anchor="start">index and metadata</text>
+<rect x="650" y="124" width="284" height="110" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M666,139 h18 l7,7 v23 h-25 Z M684,139 v8 h7 M671,153 h14 M671,160 h14" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="702" y="153" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">Use-time copies</text>
+<text x="666" y="182" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Prompt context, responses,</text>
+<text x="666" y="207" font-size="17" fill="#182633" font-weight="400" text-anchor="start">cache, logs and backups</text>
+<path d="M229,180 L304,180" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#data-lineage-arrow)"/>
+<path d="M557,180 L644,180" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#data-lineage-arrow)"/>
+<rect x="310" y="351" width="244" height="110" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M324,372 C324,364 354,364 354,372 C354,380 324,380 324,372 v20 C324,400 354,400 354,392 V372" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="362" y="380" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Training snapshot</text>
+<text x="326" y="409" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Permitted data and</text>
+<text x="326" y="434" font-size="17" fill="#182633" font-weight="400" text-anchor="start">versioned lineage</text>
+<rect x="650" y="351" width="284" height="110" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M668,369 L688,370 L679,392 Z M668,369 L679,392 M668,369 L691,386 L688,370 M691,386 L679,392" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="702" y="380" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Trained artifact</text>
+<text x="666" y="409" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Weights may retain</text>
+<text x="666" y="434" font-size="17" fill="#182633" font-weight="400" text-anchor="start">influence or information</text>
+<path d="M128,237 V406 H304" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#data-lineage-arrow)"/>
+<path d="M557,406 L644,406" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#data-lineage-arrow)"/>
+<rect x="26" y="496" width="908" height="34" rx="17" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="480.0" y="519" font-size="16" fill="#9C3226" font-weight="700" text-anchor="middle">Deletion / correction request: follow both branches</text>
+<rect x="26" y="565" width="438" height="111" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M63,591 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M60,600 l12,12" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="594" font-size="19" fill="#286151" font-weight="700" text-anchor="start">Copies and derived stores</text>
+<text x="42" y="623" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Apply rights, lawful retention, propagation</text>
+<text x="42" y="648" font-size="17" fill="#182633" font-weight="400" text-anchor="start">and verification at each actual store.</text>
+<rect x="496" y="565" width="438" height="111" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M533,591 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M530,600 l12,12" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="548" y="594" font-size="19" fill="#955017" font-weight="700" text-anchor="start">Model influence</text>
+<text x="512" y="623" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Assess evidence and remedies: unlearning,</text>
+<text x="512" y="648" font-size="17" fill="#182633" font-weight="400" text-anchor="start">retraining, restriction or other lawful action.</text>
+<path d="M245,532 L245,560" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#data-lineage-arrow)" stroke-dasharray="6 5"/>
+<path d="M715,532 L715,560" fill="none" stroke="#955017" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#data-lineage-arrow)" stroke-dasharray="6 5"/>
+<text x="30" y="310" font-size="18" fill="#6E3B7E" font-weight="700" text-anchor="start">Retrieval path</text>
+<text x="30" y="440" font-size="18" fill="#955017" font-weight="700" text-anchor="start">Training path</text>
+</svg>

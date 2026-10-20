@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" role="img" aria-labelledby="fairness-rates-title fairness-rates-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="fairness-rates-title">The same true-positive rate can hide different errors</title>
+<desc id="fairness-rates-desc">The counts are a fictional teaching example, not a real dataset. Each group has 100 actual positives and 100 actual negatives. Group A has 80 true positives, 20 false negatives, 10 false positives and 90 true negatives. Group B has 80 true positives, 20 false negatives, 30 false positives and 70 true negatives. Both groups have a true-positive rate of 80 out of 100, or 80 percent. Equal opportunity is satisfied in this example. Their false-positive rates differ: 10 percent versus 30 percent, so equalized odds is not satisfied. Equalized odds requires parity of both rates and therefore satisfies equal opportunity. This example does not establish a universal conflict among fairness measures. Select relevant harms, definitions, uncertainty and legal constraints before interpreting a metric.</desc>
+<defs><marker id="fairness-rates-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="660" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">The same true-positive rate can hide different errors</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Fictional classifier: each group has 100 actual positives and 100 actual negatives.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<text x="26" y="126" font-size="22" fill="#26557A" font-weight="700" text-anchor="start">Group A</text>
+<text x="193" y="160" font-size="16" fill="#526273" font-weight="600" text-anchor="middle">Actual +</text>
+<text x="361" y="160" font-size="16" fill="#526273" font-weight="600" text-anchor="middle">Actual −</text>
+<text x="26" y="216" font-size="16" fill="#526273" font-weight="600" text-anchor="start">Predict +</text>
+<text x="26" y="303" font-size="16" fill="#526273" font-weight="600" text-anchor="start">Predict −</text>
+<rect x="122" y="177" width="158" height="78" rx="7" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="201" y="208" font-size="25" fill="#286151" font-weight="700" text-anchor="middle">80</text>
+<text x="201" y="236" font-size="15" fill="#286151" font-weight="400" text-anchor="middle">true positive</text>
+<rect x="290" y="177" width="158" height="78" rx="7" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="369" y="208" font-size="25" fill="#9C3226" font-weight="700" text-anchor="middle">10</text>
+<text x="369" y="236" font-size="15" fill="#9C3226" font-weight="400" text-anchor="middle">false positive</text>
+<rect x="122" y="266" width="158" height="78" rx="7" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="201" y="297" font-size="25" fill="#9C3226" font-weight="700" text-anchor="middle">20</text>
+<text x="201" y="325" font-size="15" fill="#9C3226" font-weight="400" text-anchor="middle">false negative</text>
+<rect x="290" y="266" width="158" height="78" rx="7" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="369" y="297" font-size="25" fill="#286151" font-weight="700" text-anchor="middle">90</text>
+<text x="369" y="325" font-size="15" fill="#286151" font-weight="400" text-anchor="middle">true negative</text>
+<text x="26" y="394" font-size="18" fill="#286151" font-weight="700" text-anchor="start">True-positive rate: 80 / 100 = 80%</text>
+<text x="26" y="426" font-size="18" fill="#9C3226" font-weight="700" text-anchor="start">False-positive rate: 10 / 100 = 10%</text>
+<text x="514" y="126" font-size="22" fill="#26557A" font-weight="700" text-anchor="start">Group B</text>
+<text x="681" y="160" font-size="16" fill="#526273" font-weight="600" text-anchor="middle">Actual +</text>
+<text x="849" y="160" font-size="16" fill="#526273" font-weight="600" text-anchor="middle">Actual −</text>
+<text x="514" y="216" font-size="16" fill="#526273" font-weight="600" text-anchor="start">Predict +</text>
+<text x="514" y="303" font-size="16" fill="#526273" font-weight="600" text-anchor="start">Predict −</text>
+<rect x="610" y="177" width="158" height="78" rx="7" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="689" y="208" font-size="25" fill="#286151" font-weight="700" text-anchor="middle">80</text>
+<text x="689" y="236" font-size="15" fill="#286151" font-weight="400" text-anchor="middle">true positive</text>
+<rect x="778" y="177" width="158" height="78" rx="7" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="857" y="208" font-size="25" fill="#9C3226" font-weight="700" text-anchor="middle">30</text>
+<text x="857" y="236" font-size="15" fill="#9C3226" font-weight="400" text-anchor="middle">false positive</text>
+<rect x="610" y="266" width="158" height="78" rx="7" fill="#FBF0ED" stroke="#9C3226" stroke-width="1.7"/>
+<text x="689" y="297" font-size="25" fill="#9C3226" font-weight="700" text-anchor="middle">20</text>
+<text x="689" y="325" font-size="15" fill="#9C3226" font-weight="400" text-anchor="middle">false negative</text>
+<rect x="778" y="266" width="158" height="78" rx="7" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<text x="857" y="297" font-size="25" fill="#286151" font-weight="700" text-anchor="middle">70</text>
+<text x="857" y="325" font-size="15" fill="#286151" font-weight="400" text-anchor="middle">true negative</text>
+<text x="514" y="394" font-size="18" fill="#286151" font-weight="700" text-anchor="start">True-positive rate: 80 / 100 = 80%</text>
+<text x="514" y="426" font-size="18" fill="#9C3226" font-weight="700" text-anchor="start">False-positive rate: 30 / 100 = 30%</text>
+<rect x="26" y="466" width="908" height="156" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="46" y="499" font-size="21" fill="#26557A" font-weight="700" text-anchor="start">Equal opportunity: satisfied in this example</text>
+<text x="46" y="531" font-size="18" fill="#182633" font-weight="400" text-anchor="start">Both groups have the same true-positive rate.</text>
+<text x="46" y="570" font-size="21" fill="#9C3226" font-weight="700" text-anchor="start">Equalized odds: not satisfied</text>
+<text x="46" y="602" font-size="18" fill="#182633" font-weight="400" text-anchor="start">It requires parity of both true-positive and false-positive rates.</text>
+</svg>

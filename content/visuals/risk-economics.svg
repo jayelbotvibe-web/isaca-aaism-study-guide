@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 570" role="img" aria-labelledby="risk-economics-title risk-economics-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="risk-economics-title">Compare the cost of the risk and the treatment</title>
+<desc id="risk-economics-desc">This fictional example uses mean estimates rather than observed annual results. Baseline frequency of 0.2 events per year times $500,000 mean loss per event gives roughly $100,000 annual expected loss. The treatment scenario assumes 0.05 events per year at unchanged mean severity: roughly $25,000 residual annual expected loss. Adding $40,000 annual treatment cost gives a $65,000 total and $35,000 simple net mean benefit relative to the baseline. The bars compare these means only; they do not represent a confidence interval or a guarantee. Investigate uncertainty, correlated events, severe tails and legal or safety constraints before deciding.</desc>
+<defs><marker id="risk-economics-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="570" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Compare the cost of the risk and the treatment</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Fictional mean estimates from the worked example; not observed annual results.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<path d="M280,141 L280,366" fill="none" stroke="#BBCAD6" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="280" y="398" font-size="17" fill="#526273" font-weight="400" text-anchor="middle">$0k</text>
+<path d="M430,141 L430,366" fill="none" stroke="#BBCAD6" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="430" y="398" font-size="17" fill="#526273" font-weight="400" text-anchor="middle">$25k</text>
+<path d="M580,141 L580,366" fill="none" stroke="#BBCAD6" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="580" y="398" font-size="17" fill="#526273" font-weight="400" text-anchor="middle">$50k</text>
+<path d="M730,141 L730,366" fill="none" stroke="#BBCAD6" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="730" y="398" font-size="17" fill="#526273" font-weight="400" text-anchor="middle">$75k</text>
+<path d="M880,141 L880,366" fill="none" stroke="#BBCAD6" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="880" y="398" font-size="17" fill="#526273" font-weight="400" text-anchor="middle">$100k</text>
+<text x="26" y="189" font-size="19" fill="#182633" font-weight="700" text-anchor="start">Baseline mean loss</text>
+<rect x="280" y="157" width="600" height="54" rx="3" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<text x="580" y="191" font-size="21" fill="#26557A" font-weight="700" text-anchor="middle">$100k</text>
+<text x="26" y="293" font-size="19" fill="#182633" font-weight="700" text-anchor="start">With treatment</text>
+<rect x="280" y="260" width="150" height="70" rx="3" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<rect x="430" y="260" width="240" height="70" rx="3" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<text x="355" y="287" font-size="20" fill="#6E3B7E" font-weight="700" text-anchor="middle">$25k</text>
+<text x="355" y="313" font-size="16" fill="#6E3B7E" font-weight="400" text-anchor="middle">residual loss</text>
+<text x="550" y="287" font-size="20" fill="#955017" font-weight="700" text-anchor="middle">$40k</text>
+<text x="550" y="313" font-size="16" fill="#955017" font-weight="400" text-anchor="middle">treatment cost</text>
+<path d="M671,343 V357 H880 V343" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="775" y="378" font-size="17" fill="#286151" font-weight="700" text-anchor="middle">$35k net mean benefit</text>
+<text x="26" y="448" font-size="18" fill="#182633" font-weight="400" text-anchor="start">Baseline: 0.2 events/year × $500k/event = $100k annual mean.</text>
+<text x="26" y="480" font-size="18" fill="#182633" font-weight="400" text-anchor="start">Treatment: 0.05 × $500k = $25k; add $40k annual control cost.</text>
+<text x="26" y="530" font-size="18" fill="#9C3226" font-weight="700" text-anchor="start">Test uncertainty, severe tails and legal / safety constraints before deciding.</text>
+</svg>

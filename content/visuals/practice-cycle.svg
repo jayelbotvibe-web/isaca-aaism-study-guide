@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" role="img" aria-labelledby="practice-cycle-title practice-cycle-desc" font-family="Arial, Helvetica, sans-serif">
+<title id="practice-cycle-title">Turn a practice answer into learning</title>
+<desc id="practice-cycle-desc">Attempt the question before revealing its explanation. State the decisive assumption and explain why the alternatives are weaker. Check reasoning even when the selected answer is correct: a correct guess can hide a gap. Use the coverage map, linked chapter and Calder case to repair that gap. Change a fact such as active harm, authority or a completed prerequisite and explain whether the decision changes. Retrieve the explanation from memory after a delay. Repeated scores describe performance on this author-created practice form; they do not predict certification results.</desc>
+<defs><marker id="practice-cycle-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8"><path d="M0,1 L7,4 L0,7" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="590" fill="#FBFCFD"/>
+<text x="26" y="35" font-size="25" fill="#182633" font-weight="700" text-anchor="start">Turn a practice answer into learning</text>
+<text x="26" y="65" font-size="17" fill="#526273" font-weight="400" text-anchor="start">Use the coverage map to repair a specific gap, then test transfer.</text>
+<path d="M26,86 L934,86" fill="none" stroke="#BBCAD6" stroke-width="2"/>
+<rect x="26" y="125" width="260" height="132" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M42,140 h18 l7,7 v23 h-25 Z M60,140 v8 h7 M47,154 h14 M47,161 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="154" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">1 · Attempt</text>
+<text x="42" y="183" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Choose before revealing</text>
+<text x="42" y="208" font-size="17" fill="#182633" font-weight="400" text-anchor="start">the suggested reasoning.</text>
+<rect x="350" y="125" width="260" height="132" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M384,147 a6,6 0 1,0 -12,0 a6,6 0 1,0 12,0 M365,169 v-5 q1,-10 13,-10 q12,0 13,10 v5" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="402" y="154" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">2 · Explain</text>
+<text x="366" y="183" font-size="17" fill="#182633" font-weight="400" text-anchor="start">State the key assumption;</text>
+<text x="366" y="208" font-size="17" fill="#182633" font-weight="400" text-anchor="start">reject each alternative.</text>
+<rect x="674" y="125" width="260" height="132" rx="12" fill="#FAF1E7" stroke="#955017" stroke-width="1.7"/>
+<path d="M711,151 a11,11 0 1,0 -22,0 a11,11 0 1,0 22,0 M708,160 l12,12" fill="none" stroke="#955017" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="726" y="154" font-size="19" fill="#955017" font-weight="700" text-anchor="start">3 · Check</text>
+<text x="690" y="183" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Compare reasoning,</text>
+<text x="690" y="208" font-size="17" fill="#182633" font-weight="400" text-anchor="start">including correct guesses.</text>
+<rect x="674" y="354" width="260" height="132" rx="12" fill="#EDF3F8" stroke="#26557A" stroke-width="1.7"/>
+<path d="M690,369 h18 l7,7 v23 h-25 Z M708,369 v8 h7 M695,383 h14 M695,390 h14" fill="none" stroke="#26557A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="726" y="383" font-size="19" fill="#26557A" font-weight="700" text-anchor="start">4 · Repair</text>
+<text x="690" y="412" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Use the mapped chapter</text>
+<text x="690" y="437" font-size="17" fill="#182633" font-weight="400" text-anchor="start">and its Calder case.</text>
+<rect x="350" y="354" width="260" height="132" rx="12" fill="#F4EDF6" stroke="#6E3B7E" stroke-width="1.7"/>
+<path d="M368,372 L388,373 L379,395 Z M368,372 L379,395 M368,372 L391,389 L388,373 M391,389 L379,395" fill="none" stroke="#6E3B7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="402" y="383" font-size="19" fill="#6E3B7E" font-weight="700" text-anchor="start">5 · Change a fact</text>
+<text x="366" y="412" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Would harm, authority or</text>
+<text x="366" y="437" font-size="17" fill="#182633" font-weight="400" text-anchor="start">a prerequisite change it?</text>
+<rect x="26" y="354" width="260" height="132" rx="12" fill="#EDF6F2" stroke="#286151" stroke-width="1.7"/>
+<path d="M70,384 a15,15 0 1,0 -30,0 a15,15 0 1,0 30,0 M55,373 v12 l8,5" fill="none" stroke="#286151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="383" font-size="19" fill="#286151" font-weight="700" text-anchor="start">6 · Retrieve later</text>
+<text x="42" y="412" font-size="17" fill="#182633" font-weight="400" text-anchor="start">Explain from memory</text>
+<text x="42" y="437" font-size="17" fill="#182633" font-weight="400" text-anchor="start">after a delay.</text>
+<path d="M288,191 L344,191" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#practice-cycle-arrow)"/>
+<path d="M612,191 L668,191" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#practice-cycle-arrow)"/>
+<path d="M804,259 L804,348" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#practice-cycle-arrow)"/>
+<path d="M671,420 L616,420" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#practice-cycle-arrow)"/>
+<path d="M347,420 L292,420" fill="none" stroke="#26557A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#practice-cycle-arrow)"/>
+<path d="M156,351 V263" fill="none" stroke="#286151" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#practice-cycle-arrow)"/>
+<text x="26" y="551" font-size="18" fill="#182633" font-weight="700" text-anchor="start">A repeated score measures this practice form; changed scenarios test understanding.</text>
+</svg>
