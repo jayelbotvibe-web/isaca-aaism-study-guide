@@ -8,6 +8,7 @@
 - Added editable SVG sources and a caption/placement/transcript manifest; the build numbers all figures and their text alternatives while preserving existing anchors.
 - Corrected SVG accessible-name references when enlarging a diagram and made the Larger control useful on narrow screens.
 - Extended validation to cover chapter visual coverage, placement, offline SVG safety, captions, label bounds, mobile interaction and printing.
+- Fixed the Pages workflow's missing `github-pages` deployment environment and linked its deployment URL; verified the published guide serves v3.1 with all 42 diagrams.
 
 ## 3.0 · 20 October 2026
 
